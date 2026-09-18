@@ -1,0 +1,72 @@
+{{- /* Una carátula + su ventana de detalle. Recibe: i (título), estado (viendo|visto|pend), series, pelis, hoy */ -}}
+{{- $i := .i -}}
+{{- $serie := eq $i.tipo "serie" -}}
+{{- $d := (cond $serie (index .series $i.t) (index .pelis $i.t)) | default dict -}}
+{{- $slug := urlize $i.t -}}
+{{- $eps := slice -}}
+{{- if and $serie $d -}}
+  {{- $eps = sort (sort (sort $d.eps "n") "s") "d" -}}
+{{- end -}}
+{{- $aired := 0 -}}
+{{- $next := "" -}}
+{{- range $eps -}}
+  {{- if le .d $.hoy -}}{{- $aired = add $aired 1 -}}{{- else if not $next -}}{{- $next = . -}}{{- end -}}
+{{- end -}}
+{{- /* capítulos vistos: en "vistas" todos los estrenados; con al_dia también; si no, el número indicado */ -}}
+{{- $vistos := $i.vistos | default 0 -}}
+{{- if or $i.al_dia (eq .estado "visto") -}}{{- $vistos = $aired -}}{{- end -}}
+
+<a class="carta {{ $i.tipo }} {{ .estado }}" href="#m-{{ $slug }}" title="{{ $i.t }}">
+  <div class="poster">
+    {{- with $d.poster }}<img loading="lazy" src="{{ . }}" alt="Carátula de {{ $i.t }}">
+    {{- else }}<div class="sinposter" style="--h: {{ mod (mul (len $i.t) 47) 360 }}"><span>{{ $i.t }}</span></div>{{ end }}
+    <span class="tipo">{{ if $serie }}serie{{ else }}peli{{ end }}</span>
+    {{- if eq .estado "visto" }}<span class="estado v-{{ $i.donde }}">✓ {{ $i.donde }}</span>
+    {{- else if eq .estado "viendo" }}<span class="estado v-viendo">▶ viendo</span>{{ end }}
+    {{- if and $serie (gt (len $eps) 0) }}<span class="caps">{{ $aired }}/{{ len $eps }} caps</span>{{ end }}
+  </div>
+  <div class="pie">
+    <strong>{{ $i.t }}</strong>
+    <small>
+      {{- if $i.fecha }}visto {{ partial "fecha.html" (dict "d" $i.fecha "fmt" "corta") }}
+      {{- else if $i.estreno }}{{ partial "fecha.html" (dict "d" $i.estreno "fmt" "corta") }}{{ end -}}
+      {{- with $i.via }} · {{ . }}{{ end -}}
+    </small>
+  </div>
+</a>
+
+<div class="modal" id="m-{{ $slug }}">
+  <a class="fondo" href="#!" aria-label="Cerrar"></a>
+  <div class="ventana">
+    <a class="cerrar" href="#!" aria-label="Cerrar">×</a>
+    <div class="cab">
+      {{ with $d.poster }}<img src="{{ . }}" alt="">{{ end }}
+      <div>
+        <h3>{{ $i.t }}</h3>
+        {{ with $i.o }}<p class="orig">{{ . }}</p>{{ end }}
+        <p class="meta">
+          {{- if $serie }}Serie{{ else }}Película{{ end -}}
+          {{- with $i.via }} · {{ . }}{{ end -}}
+          {{- with $i.estreno }} · {{ if $serie }}estreno{{ else }}estreno en México{{ end }} {{ partial "fecha.html" (dict "d" . "fmt" "corta") }}{{ end -}}
+          {{- with $i.fecha }} · visto el {{ partial "fecha.html" (dict "d" . "fmt" "corta") }}{{ end -}}
+          {{- with $i.nota }} · {{ . }}/10{{ end -}}
+        </p>
+        {{ if $next }}<p class="meta prox">Próximo capítulo: {{ $next.s }}x{{ printf "%02d" (int $next.n) }} · {{ partial "fecha.html" (dict "d" $next.d "fmt" "corta") }}</p>{{ end }}
+      </div>
+    </div>
+    {{ if $eps }}
+    <ul class="eps">
+      {{- $ps := 0 -}}
+      {{- range $idx, $e := $eps }}
+        {{- if ne $e.s $ps }}<li class="temp">Temporada {{ $e.s }}</li>{{ $ps = $e.s }}{{ end }}
+        <li class="ep{{ if gt $e.d $.hoy }} futuro{{ end }}{{ if lt $idx $vistos }} hecho{{ end }}">
+          <span class="chk">{{ if lt $idx $vistos }}✓{{ end }}</span>
+          <span class="num">{{ $e.n }}</span>
+          <span class="tit">{{ $e.t }}</span>
+          <span class="fec">{{ partial "fecha.html" (dict "d" $e.d "fmt" "corta") }}</span>
+        </li>
+      {{- end }}
+    </ul>
+    {{ else if $serie }}<p class="meta">Sin capítulos en TVmaze todavía.</p>{{ end }}
+  </div>
+</div>

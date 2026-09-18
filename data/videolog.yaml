@@ -1,0 +1,144 @@
+# Videolog — un solo archivo, tres listas. Para registrar algo:
+#   1. Borra la línea de `pendientes`.
+#   2. Pégala en `vistas` (o `viendo`) con los campos de abajo.
+#
+# viendo:    - {t: "Título", tipo: serie, via: "HBO Max", estreno: "2026-08-16", vistos: 3}   # vistos: capítulos vistos, en orden
+#             o  al_dia: true  = ya viste todos los capítulos estrenados hasta hoy
+# vistas:    - {t: "Título", tipo: pelicula|serie, donde: cine|streaming, estreno: "2026-03-08", fecha: "2026-03-10", nota: 9}
+#             (fecha = cuándo la viste y nota son opcionales; en series, "vistas" = todos los capítulos)
+# pendientes: - {t: "Título", o: "Título original", tipo: pelicula|serie, estreno: "2026-03-05", via: "Netflix"}
+#
+# Fechas de películas: estreno en cines de México (Cinemex/Cinépolis/Excélsior/Milenio).
+# Fechas de series: fecha de la plataforma (global). No verifiqué que cada plataforma tenga
+# el título disponible en México.
+# Estrenos en miércoles pueden ser preestreno; el oficial suele ser el jueves.
+
+viendo:
+  - {t: "Lanterns", tipo: serie, estreno: "2026-08-16", via: "HBO Max", al_dia: true}
+
+vistas:
+  - {t: "Exterminio: El templo de huesos", o: "28 Years Later: The Bone Temple", tipo: pelicula, estreno: "2026-01-15", donde: streaming}
+  - {t: "¡Ayuda!", o: "Send Help", tipo: pelicula, estreno: "2026-01-29", donde: streaming}
+  - {t: "El día del fin del mundo: Migración", o: "Greenland 2: Migration", tipo: pelicula, estreno: "2026-02-05", donde: streaming}
+  - {t: "Cumbres borrascosas", o: "Wuthering Heights", tipo: pelicula, estreno: "2026-02-12", donde: cine}
+  - {t: "¡La Novia!", o: "The Bride!", tipo: pelicula, estreno: "2026-03-05", donde: streaming}
+  - {t: "Proyecto Fin del Mundo", o: "Project Hail Mary", tipo: pelicula, estreno: "2026-03-19", donde: streaming}
+  - {t: "Boda sangrienta 2", o: "Ready or Not 2", tipo: pelicula, estreno: "2026-03-26", donde: streaming}
+  - {t: "El drama", o: "The Drama", tipo: pelicula, estreno: "2026-04-09", donde: streaming}
+  - {t: "El diablo viste a la moda 2", o: "The Devil Wears Prada 2", tipo: pelicula, estreno: "2026-04-30", donde: cine}
+  - {t: "Obsesión", o: "Obsession", tipo: pelicula, estreno: "2026-05-14", donde: streaming}
+  - {t: "Backrooms", tipo: pelicula, estreno: "2026-05-28", donde: streaming}
+  - {t: "Scary Movie 6", tipo: pelicula, estreno: "2026-06-04", donde: streaming}
+  - {t: "El día de la revelación", o: "Disclosure Day", tipo: pelicula, estreno: "2026-06-11", donde: cine}
+  - {t: "Evil Dead: En llamas", o: "Evil Dead Burn", tipo: pelicula, estreno: "2026-07-09", donde: cine}
+  - {t: "La Odisea", o: "The Odyssey", tipo: pelicula, estreno: "2026-07-16", donde: cine}
+  - {t: "A Knight of the Seven Kingdoms", tipo: serie, estreno: "2026-01-18", via: "HBO Max", donde: streaming}
+  - {t: "Love Story: John F. Kennedy Jr. & Carolyn Bessette", tipo: serie, estreno: "2026-02-12", via: "FX / Disney+", donde: streaming}
+  - {t: "DTF St. Louis", tipo: serie, estreno: "2026-03-01", via: "HBO Max", donde: streaming}
+  - {t: "Rooster", tipo: serie, estreno: "2026-03-08", via: "HBO Max", donde: streaming}
+  - {t: "Scarpetta", tipo: serie, estreno: "2026-03-11", via: "Prime Video", donde: streaming}
+  - {t: "Margo's Got Money Troubles", tipo: serie, estreno: "2026-04-15", via: "Apple TV", donde: streaming}
+  - {t: "Widow's Bay", tipo: serie, estreno: "2026-04-29", via: "Apple TV", donde: streaming}
+  - {t: "Cape Fear", tipo: serie, estreno: "2026-06-05", via: "Apple TV", donde: streaming}
+
+pendientes:
+  # ---- Películas · enero ----
+  - {t: "Primate", tipo: pelicula, estreno: "2026-01-08"}
+  - {t: "Marty Supremo", o: "Marty Supreme", tipo: pelicula, estreno: "2026-01-15"}
+  - {t: "Tom y Jerry: La brújula mágica", tipo: pelicula, estreno: "2026-01-15"}
+  - {t: "Hamnet", tipo: pelicula, estreno: "2026-01-22"}
+  - {t: "Terror en Silent Hill: Regreso al infierno", o: "Return to Silent Hill", tipo: pelicula, estreno: "2026-01-22"}
+  - {t: "Sin piedad", o: "Mercy", tipo: pelicula, estreno: "2026-01-22"}
+  - {t: "Sirat: Trance en el desierto", o: "Sirāt", tipo: pelicula, estreno: "2026-01-29"}
+  # ---- Películas · febrero ----
+  - {t: "La cabra que cambió el juego", o: "Goat", tipo: pelicula, estreno: "2026-02-12"}
+  - {t: "¿Está funcionando esto?", o: "Is This Thing On?", tipo: pelicula, estreno: "2026-02-19"}
+  - {t: "Scream 7", tipo: pelicula, estreno: "2026-02-26"}
+  - {t: "Nuremberg: El juicio del siglo", o: "Nuremberg", tipo: pelicula, estreno: "2026-02-26"}
+  - {t: "El agente secreto", o: "The Secret Agent", tipo: pelicula, estreno: "2026-02-26"}
+  # ---- Películas · marzo ----
+  - {t: "Hoppers: Operación Castor", o: "Hoppers", tipo: pelicula, estreno: "2026-03-05"}
+  # ---- Películas · abril ----
+  - {t: "Super Mario Galaxy: La película", o: "The Super Mario Galaxy Movie", tipo: pelicula, estreno: "2026-04-01"}
+  - {t: "Buena suerte, diviértete, no mueras", o: "Good Luck, Have Fun, Don't Die", tipo: pelicula, estreno: "2026-04-09"}
+  - {t: "Michael", o: "Michael", tipo: pelicula, estreno: "2026-04-23"}
+  # ---- Películas · mayo ----
+  - {t: "Mortal Kombat II", tipo: pelicula, estreno: "2026-05-07"}
+  - {t: "Star Wars: The Mandalorian and Grogu", tipo: pelicula, estreno: "2026-05-21"}
+  - {t: "Ballena asesina", o: "Killer Whale", tipo: pelicula, estreno: "2026-05-28"}
+  # ---- Películas · junio ----
+  - {t: "Amos del Universo", o: "Masters of the Universe", tipo: pelicula, estreno: "2026-06-04"}
+  - {t: "Toy Story 5", tipo: pelicula, estreno: "2026-06-18"}
+  - {t: "Supergirl", o: "Supergirl", tipo: pelicula, estreno: "2026-06-25"}
+  - {t: "Jackass: La última y nos vamos", tipo: pelicula, estreno: "2026-06-25"}
+  # ---- Películas · julio ----
+  - {t: "Minions & Monstruos", o: "Minions & Monsters", tipo: pelicula, estreno: "2026-07-01"}
+  - {t: "Moana", o: "Moana (live action)", tipo: pelicula, estreno: "2026-07-08"}
+  - {t: "La invitación", o: "The Invite", tipo: pelicula, estreno: "2026-07-08"}
+  - {t: "Spider-Man: Un nuevo día", o: "Spider-Man: Brand New Day", tipo: pelicula, estreno: "2026-07-29"}
+  # ---- Películas · agosto ----
+  - {t: "El día D: Bajo presión", o: "Pressure", tipo: pelicula, estreno: "2026-08-06"}
+  - {t: "El final de la calle Oak", tipo: pelicula, estreno: "2026-08-13"}
+  - {t: "Paw Patrol: La dino película", o: "PAW Patrol: The Dino Movie", tipo: pelicula, estreno: "2026-08-13"}
+  - {t: "La noche del demonio: Están entre nosotros", o: "Insidious: Out of the Further", tipo: pelicula, estreno: "2026-08-20"}
+  - {t: "Coyote vs Acme", tipo: pelicula, estreno: "2026-08-27"}
+  - {t: "La guerra de los últimos", o: "The Dog Stars", tipo: pelicula, estreno: "2026-08-27"}
+  # ---- Películas · septiembre ----
+  - {t: "One Piece La Película", tipo: pelicula, estreno: "2026-09-17"}
+  - {t: "Hechizo de amor 2", o: "Practical Magic 2", tipo: pelicula, estreno: "2026-09-18"}
+
+  # ---- Series · enero ----
+  - {t: "Run Away", tipo: serie, estreno: "2026-01-01", via: "Netflix"}
+  - {t: "His & Hers", tipo: serie, estreno: "2026-01-08", via: "Netflix"}
+  - {t: "Seven Dials", tipo: serie, estreno: "2026-01-15", via: "Netflix"}
+  - {t: "Star Trek: Starfleet Academy", tipo: serie, estreno: "2026-01-15", via: "Paramount+"}
+  - {t: "The Beauty", tipo: serie, estreno: "2026-01-21", via: "FX / Disney+"}
+  - {t: "Steal", tipo: serie, estreno: "2026-01-21", via: "Prime Video"}
+  - {t: "Wonder Man", tipo: serie, estreno: "2026-01-27", via: "Disney+"}
+  # ---- Series · febrero ----
+  - {t: "56 Days", tipo: serie, estreno: "2026-02-18", via: "Prime Video"}
+  - {t: "The Gray House", tipo: serie, estreno: "2026-02-26", via: "Prime Video"}
+  # ---- Series · marzo ----
+  - {t: "Young Sherlock", tipo: serie, estreno: "2026-03-04", via: "Prime Video"}
+  - {t: "Vladimir", tipo: serie, estreno: "2026-03-05", via: "Netflix"}
+  - {t: "The Madison", tipo: serie, estreno: "2026-03-14", via: "Paramount+"}
+  - {t: "Imperfect Women", tipo: serie, estreno: "2026-03-18", via: "Apple TV"}
+  - {t: "Bait", tipo: serie, estreno: "2026-03-25", via: "Prime Video"}
+  - {t: "Something Very Bad Is Going to Happen", tipo: serie, estreno: "2026-03-26", via: "Netflix"}
+  # ---- Series · abril ----
+  - {t: "The Testaments", tipo: serie, estreno: "2026-04-08", via: "Hulu / Disney+"}
+  - {t: "Big Mistakes", tipo: serie, estreno: "2026-04-09", via: "Netflix"}
+  - {t: "Half Man", tipo: serie, estreno: "2026-04-23", via: "HBO Max"}
+  - {t: "Man on Fire", tipo: serie, estreno: "2026-04-30", via: "Netflix"}
+  # ---- Series · mayo ----
+  - {t: "Off Campus", tipo: serie, estreno: "2026-05-13", via: "Prime Video"}
+  - {t: "Nemesis", tipo: serie, estreno: "2026-05-14", via: "Netflix"}
+  - {t: "Dutton Ranch", tipo: serie, estreno: "2026-05-15", via: "Paramount+"}
+  - {t: "Maximum Pleasure Guaranteed", tipo: serie, estreno: "2026-05-20", via: "Apple TV"}
+  - {t: "The Boroughs", tipo: serie, estreno: "2026-05-21", via: "Netflix"}
+  - {t: "Spider-Noir", tipo: serie, estreno: "2026-05-27", via: "Prime Video"}
+  - {t: "Star City", tipo: serie, estreno: "2026-05-29", via: "Apple TV"}
+  # ---- Series · junio ----
+  - {t: "Every Year After", tipo: serie, estreno: "2026-06-10", via: "Prime Video"}
+  - {t: "I Will Find You", tipo: serie, estreno: "2026-06-18", via: "Netflix"}
+  - {t: "Life, Larry and the Pursuit of Unhappiness", tipo: serie, estreno: "2026-06-26", via: "HBO Max"}
+  # ---- Series · julio ----
+  - {t: "Elle", tipo: serie, estreno: "2026-07-01", via: "Prime Video"}
+  - {t: "Little House on the Prairie", tipo: serie, estreno: "2026-07-09", via: "Netflix"}
+  - {t: "Lucky", tipo: serie, estreno: "2026-07-15", via: "Apple TV"}
+  - {t: "Ride or Die", tipo: serie, estreno: "2026-07-15", via: "Prime Video"}
+  - {t: "The Hawk", tipo: serie, estreno: "2026-07-16", via: "Netflix"}
+  - {t: "Stuart Fails to Save the Universe", tipo: serie, estreno: "2026-07-23", via: "HBO Max"}
+  - {t: "Furious", tipo: serie, estreno: "2026-07-27", via: "Hulu / Disney+"}
+  - {t: "The Bombing of Pan Am 103", tipo: serie, estreno: "2026-07-30", via: "Netflix"}
+  # ---- Series · agosto ----
+  - {t: "Sterling Point", tipo: serie, estreno: "2026-08-05", via: "Prime Video"}
+  # ---- Series · septiembre ----
+  - {t: "The Drop: A Snowfall Saga", tipo: serie, estreno: "2026-09-08", via: "FX / Disney+"}
+  - {t: "Last Seen", tipo: serie, estreno: "2026-09-09", via: "Apple TV"}
+  - {t: "Crew Girl", tipo: serie, estreno: "2026-09-10", via: "Netflix"}
+  - {t: "Neagley", tipo: serie, estreno: "2026-09-16", via: "Prime Video"}
+  - {t: "Route 187", tipo: serie, estreno: "2026-09-16", via: "Paramount+"}
+  - {t: "Youth", tipo: serie, estreno: "2026-09-20", via: "HBO Max"}
+  - {t: "Brothers", tipo: serie, estreno: "2026-09-23", via: "Apple TV"}
+  - {t: "A Different World", tipo: serie, estreno: "2026-09-24", via: "Netflix"}

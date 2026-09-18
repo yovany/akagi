@@ -1,0 +1,7 @@
+baseURL = 'https://videolog.yiolabs.com'
+locale = 'es'
+defaultContentLanguage = 'es'
+title = 'Videolog | Yiolabs.com'
+theme = 'hugo-changelog-theme'
+
+disableKinds = ['taxonomy', 'term', 'RSS', 'sitemap']

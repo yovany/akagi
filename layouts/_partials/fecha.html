@@ -1,0 +1,9 @@
+{{- /* Fecha en español. Recibe (dict "d" "2026-03-05" "fmt" "corta"|"mes"). */ -}}
+{{- $t := time.AsTime .d -}}
+{{- $meses := slice "enero" "febrero" "marzo" "abril" "mayo" "junio" "julio" "agosto" "septiembre" "octubre" "noviembre" "diciembre" -}}
+{{- $m := index $meses (sub (int $t.Month) 1) -}}
+{{- if eq .fmt "mes" -}}
+  {{- return (printf "%s %d" ($m | strings.FirstUpper) $t.Year) -}}
+{{- else -}}
+  {{- return (printf "%d %s" $t.Day (substr $m 0 3)) -}}
+{{- end -}}
