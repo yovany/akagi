@@ -1,0 +1,84 @@
+{{ partial "head.html" . }}
+{{ $viendo := hugo.Data.videolog.viendo | default slice }}
+{{ $vistas := hugo.Data.videolog.vistas | default slice }}
+{{ $pend := hugo.Data.videolog.pendientes | default slice }}
+
+<div class="section text-left">
+    {{ partial "logo.html" . }}
+    <p><a href="{{ "/" | relURL }}">← Ver carteles</a></p>
+    <p>
+        <span class="label label-rounded text-light tag-cine">cine</span> {{ len (where $vistas "donde" "cine") }}
+        &nbsp;<span class="label label-rounded text-light tag-streaming">streaming</span> {{ len (where $vistas "donde" "streaming") }}
+        &nbsp;<span class="label label-rounded text-light tag-pendiente">por ver</span> {{ len $pend }}
+    </p>
+</div>
+
+<div class="content">
+    <div class="container grid-lg">
+        <div class="columns">
+            <div class="column col-10 col-sm-12 col-mx-auto text-left">
+                <div class="section timeline">
+
+                    {{ if $viendo }}
+                    <div class="timeline-item">
+                        <div class="timeline-left"><div class="timeline-icon"></div></div>
+                        <div class="changes timeline-content">
+                            <h4>Viendo</h4>
+                            <div class="changes-entry"><ul>
+                                {{ range $viendo }}{{ partial "videolog-item.html" (dict "i" . "modo" "viendo") }}{{ end }}
+                            </ul></div>
+                        </div>
+                    </div>
+                    {{ end }}
+
+                    {{ if $vistas }}
+                    {{ $conFecha := slice }}{{ $sinFecha := slice }}
+                    {{ range $vistas }}{{ if .fecha }}{{ $conFecha = $conFecha | append . }}{{ else }}{{ $sinFecha = $sinFecha | append . }}{{ end }}{{ end }}
+                    {{ if $sinFecha }}
+                    <div class="timeline-item">
+                        <div class="timeline-left"><div class="timeline-icon"></div></div>
+                        <div class="changes timeline-content">
+                            <h4>Vistas</h4>
+                            <div class="changes-entry"><ul>
+                                {{ range sort $sinFecha "estreno" "desc" }}{{ partial "videolog-item.html" (dict "i" . "modo" "visto") }}{{ end }}
+                            </ul></div>
+                        </div>
+                    </div>
+                    {{ end }}
+                    {{ $meses := slice }}
+                    {{ range sort $conFecha "fecha" "desc" }}{{ $meses = $meses | append (substr .fecha 0 7) }}{{ end }}
+                    {{ range $meses | uniq }}{{ $m := . }}
+                    <div class="timeline-item">
+                        <div class="timeline-left"><div class="timeline-icon"></div></div>
+                        <div class="changes timeline-content">
+                            <h4>Visto · {{ partial "fecha.html" (dict "d" (printf "%s-01" .) "fmt" "mes") }}</h4>
+                            <div class="changes-entry"><ul>
+                                {{ range sort $conFecha "fecha" "desc" }}{{ if eq (substr .fecha 0 7) $m }}{{ partial "videolog-item.html" (dict "i" . "modo" "visto") }}{{ end }}{{ end }}
+                            </ul></div>
+                        </div>
+                    </div>
+                    {{ end }}
+                    {{ end }}
+
+                    {{ if $pend }}
+                                        {{ $meses := slice }}
+                    {{ range sort $pend "estreno" "desc" }}{{ $meses = $meses | append (substr .estreno 0 7) }}{{ end }}
+                    {{ range $meses | uniq }}{{ $m := . }}
+                    <div class="timeline-item">
+                        <div class="timeline-left"><div class="timeline-icon"></div></div>
+                        <div class="changes timeline-content">
+                            <h4>Por ver · {{ partial "fecha.html" (dict "d" (printf "%s-01" .) "fmt" "mes") }}</h4>
+                            <div class="changes-entry"><ul>
+                                {{ range sort $pend "estreno" }}{{ if eq (substr .estreno 0 7) $m }}{{ partial "videolog-item.html" (dict "i" . "modo" "pend") }}{{ end }}{{ end }}
+                            </ul></div>
+                        </div>
+                    </div>
+                    {{ end }}
+                    {{ end }}
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ partial "footer.html" . }}
