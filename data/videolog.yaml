@@ -17,6 +17,8 @@ viendo:
   - {t: "Lanterns", tipo: serie, estreno: "2026-08-16", via: "HBO Max", al_dia: true}
 
 vistas:
+  - {t: "The Testaments", tipo: serie, estreno: "2026-04-08", via: "Hulu / Disney+", donde: streaming}
+  - {t: "Silo", tipo: serie, estreno: "2023-05-05", via: "Apple TV", donde: streaming}
   - {t: "Exterminio: El templo de huesos", o: "28 Years Later: The Bone Temple", tipo: pelicula, estreno: "2026-01-15", donde: streaming}
   - {t: "¡Ayuda!", o: "Send Help", tipo: pelicula, estreno: "2026-01-29", donde: streaming}
   - {t: "El día del fin del mundo: Migración", o: "Greenland 2: Migration", tipo: pelicula, estreno: "2026-02-05", donde: streaming}
@@ -106,7 +108,6 @@ pendientes:
   - {t: "Bait", tipo: serie, estreno: "2026-03-25", via: "Prime Video"}
   - {t: "Something Very Bad Is Going to Happen", tipo: serie, estreno: "2026-03-26", via: "Netflix"}
   # ---- Series · abril ----
-  - {t: "The Testaments", tipo: serie, estreno: "2026-04-08", via: "Hulu / Disney+"}
   - {t: "Big Mistakes", tipo: serie, estreno: "2026-04-09", via: "Netflix"}
   - {t: "Half Man", tipo: serie, estreno: "2026-04-23", via: "HBO Max"}
   - {t: "Man on Fire", tipo: serie, estreno: "2026-04-30", via: "Netflix"}

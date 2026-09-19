@@ -5,5 +5,7 @@
 {{- if eq .fmt "mes" -}}
   {{- return (printf "%s %d" ($m | strings.FirstUpper) $t.Year) -}}
 {{- else -}}
-  {{- return (printf "%d %s" $t.Day (substr $m 0 3)) -}}
+  {{- $anio := "" -}}
+  {{- if ne $t.Year now.Year -}}{{- $anio = printf " %d" $t.Year -}}{{- end -}}
+  {{- return (printf "%d %s%s" $t.Day (substr $m 0 3) $anio) -}}
 {{- end -}}
