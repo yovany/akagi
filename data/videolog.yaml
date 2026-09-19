@@ -40,6 +40,7 @@ vistas:
   - {t: "Margo's Got Money Troubles", tipo: serie, estreno: "2026-04-15", via: "Apple TV", donde: streaming}
   - {t: "Widow's Bay", tipo: serie, estreno: "2026-04-29", via: "Apple TV", donde: streaming}
   - {t: "Cape Fear", tipo: serie, estreno: "2026-06-05", via: "Apple TV", donde: streaming}
+  - {t: "Lanterns", tipo: serie, estreno: "2026-08-16", via: "HBO Max", donde: streaming, al_dia: true}
   - {t: "House of the Dragon", tipo: serie, estreno: "2026-06-21", via: "HBO Max", tvmaze: 44778, temp: 3, donde: streaming}
   - {t: "Hacks", tipo: serie, estreno: "2026-04-09", via: "HBO Max", tvmaze: 54914, temp: 5, donde: streaming}
   - {t: "Your Friends & Neighbors", tipo: serie, estreno: "2026-04-03", via: "Apple TV", tvmaze: 73484, temp: 2, donde: streaming}
@@ -52,7 +53,6 @@ vistas:
   - {t: "La Oficina", tipo: serie, estreno: "2026-03-13", via: "Prime Video", tvmaze: 90738, temp: 1, donde: streaming}
 
 esperando:
-  - {t: "Lanterns", tipo: serie, estreno: "2026-08-16", via: "HBO Max", al_dia: true}
   - {t: "Scream 7", tipo: pelicula, estreno: "2026-02-26"}
   - {t: "Super Mario Galaxy: La película", o: "The Super Mario Galaxy Movie", tipo: pelicula, estreno: "2026-04-01"}
   - {t: "Star Wars: The Mandalorian and Grogu", tipo: pelicula, estreno: "2026-05-21"}
@@ -62,6 +62,7 @@ esperando:
   - {t: "Hechizo de amor 2", o: "Practical Magic 2", tipo: pelicula, estreno: "2026-09-18"}
   - {t: "The Pitt", tipo: serie, estreno: "2026-01-08", via: "HBO Max", tvmaze: 75632, temp: 2}
   - {t: "Criminal Minds", tipo: serie, estreno: "2026-05-28", via: "Paramount+", tvmaze: 81, temp: 19}
+  - {t: "Lioness", tipo: serie, estreno: "2026-08-02", via: "Paramount+", tvmaze: 50415, temp: 3}
   - {t: "American Horror Story", tipo: serie, estreno: "2026-09-24", via: "FX / Disney+", tvmaze: 30, temp: 13}
   - {t: "For All Mankind", tipo: serie, estreno: "2026-03-27", via: "Apple TV", tvmaze: 41414, temp: 5}
   - {t: "Monarch: Legacy of Monsters", tipo: serie, estreno: "2026-02-27", via: "Apple TV", tvmaze: 60090, temp: 2}
@@ -69,8 +70,6 @@ esperando:
   - {t: "Spider-Noir", tipo: serie, estreno: "2026-05-27", via: "Prime Video"}
   - {t: "Dutton Ranch", tipo: serie, estreno: "2026-05-15", via: "Paramount+"}
   - {t: "Avatar: The Last Airbender", tipo: serie, estreno: "2026-06-25", via: "Netflix", tvmaze: 38753, temp: 2}
-  - {t: "Stranger Things: Tales from '85", tipo: serie, estreno: "2026-04-23", via: "Netflix", tvmaze: 85214, temp: 1}
-  - {t: "Stranger Things: Tales from '85", tipo: serie, estreno: "2026-09-17", via: "Netflix", tvmaze: 85214, temp: 2}
   - {t: "Monster: The Lizzie Borden Story", tipo: serie, estreno: "2026-09-17", via: "Netflix", tvmaze: 87597, temp: 1}
 
 algun_dia:
@@ -101,10 +100,12 @@ algun_dia:
   - {t: "Sterling Point", tipo: serie, estreno: "2026-08-05", via: "Prime Video"}
   - {t: "Bridgerton", tipo: serie, estreno: "2026-01-29", via: "Netflix", tvmaze: 42966, temp: 4}
   - {t: "Young Sherlock", tipo: serie, estreno: "2026-03-04", via: "Prime Video"}
-  - {t: "Ride or Die", tipo: serie, estreno: "2026-07-15", via: "Prime Video"}
   - {t: "Industry", tipo: serie, estreno: "2026-01-11", via: "HBO Max", tvmaze: 45501, temp: 4}
+  - {t: "Stranger Things: Tales from '85", tipo: serie, estreno: "2026-04-23", via: "Netflix", tvmaze: 85214, temp: 1}
+  - {t: "Stranger Things: Tales from '85", tipo: serie, estreno: "2026-09-17", via: "Netflix", tvmaze: 85214, temp: 2}
   - {t: "The Last Thing He Told Me", tipo: serie, estreno: "2026-02-20", via: "Apple TV", tvmaze: 52331, temp: 2}
   - {t: "Cien años de soledad", tipo: serie, estreno: "2026-08-05", via: "Netflix", tvmaze: 41256, temp: 2}
+  - {t: "School Spirits", tipo: serie, estreno: "2026-01-28", via: "Paramount+", tvmaze: 62556, temp: 3}
   - {t: "56 Days", tipo: serie, estreno: "2026-02-18", via: "Prime Video"}
   - {t: "Adventure Time: Side Quests", tipo: serie, estreno: "2026-06-29", via: "Disney+", tvmaze: 92003, temp: 1}
   - {t: "La casa de los espíritus", tipo: serie, estreno: "2026-04-29", via: "Prime Video", tvmaze: 78605, temp: 1}
@@ -133,7 +134,6 @@ no_se:
   - {t: "The Lincoln Lawyer", tipo: serie, estreno: "2026-02-05", via: "Netflix", tvmaze: 52910, temp: 4}
   - {t: "Shrinking", tipo: serie, estreno: "2026-01-28", via: "Apple TV", tvmaze: 58323, temp: 3}
   - {t: "The Night Agent", tipo: serie, estreno: "2026-02-19", via: "Netflix", tvmaze: 56512, temp: 3}
-  - {t: "Lioness", tipo: serie, estreno: "2026-08-02", via: "Paramount+", tvmaze: 50415, temp: 3}
   - {t: "The Gentlemen", tipo: serie, estreno: "2026-09-03", via: "Netflix", tvmaze: 64992, temp: 2}
   - {t: "Daredevil: Born Again", tipo: serie, estreno: "2026-03-24", via: "Disney+", tvmaze: 63234, temp: 2}
   - {t: "Hijack", tipo: serie, estreno: "2026-01-14", via: "Apple TV", tvmaze: 61739, temp: 2}
@@ -152,6 +152,7 @@ no_se:
   - {t: "Virgin River", tipo: serie, estreno: "2026-03-12", via: "Netflix", tvmaze: 38893, temp: 7}
   - {t: "I Will Find You", tipo: serie, estreno: "2026-06-18", via: "Netflix"}
   - {t: "Ransom Canyon", tipo: serie, estreno: "2026-07-23", via: "Netflix", tvmaze: 73223, temp: 2}
+  - {t: "Ride or Die", tipo: serie, estreno: "2026-07-15", via: "Prime Video"}
   - {t: "The Boroughs", tipo: serie, estreno: "2026-05-21", via: "Netflix"}
   - {t: "BEEF", tipo: serie, estreno: "2026-04-16", via: "Netflix", tvmaze: 54285, temp: 2}
   - {t: "Cross", tipo: serie, estreno: "2026-02-11", via: "Prime Video", tvmaze: 64834, temp: 2}
@@ -176,7 +177,6 @@ no_se:
   - {t: "King of the Hill", tipo: serie, estreno: "2026-07-20", via: "Hulu / Disney+", tvmaze: 115, temp: 15}
   - {t: "The Artful Dodger", tipo: serie, estreno: "2026-02-10", via: "Disney+", tvmaze: 62133, temp: 2}
   - {t: "Off Campus", tipo: serie, estreno: "2026-05-13", via: "Prime Video"}
-  - {t: "School Spirits", tipo: serie, estreno: "2026-01-28", via: "Paramount+", tvmaze: 62556, temp: 3}
   - {t: "Alice and Steve", tipo: serie, estreno: "2026-06-08", via: "Disney+", tvmaze: 86435, temp: 1}
   - {t: "Elle", tipo: serie, estreno: "2026-07-01", via: "Prime Video"}
   - {t: "His & Hers", tipo: serie, estreno: "2026-01-08", via: "Netflix"}
