@@ -53,7 +53,9 @@
     "t": "It Stays With Us",
     "d": "2026-01-01"
    }
-  ]
+  ],
+  "peso": 97,
+  "nota": 6.7
  },
  "His & Hers": {
   "id": 78610,
@@ -97,7 +99,9 @@
     "t": "Episode 6",
     "d": "2026-01-08"
    }
-  ]
+  ],
+  "peso": 98,
+  "nota": 6.9
  },
  "Seven Dials": {
   "id": 77725,
@@ -123,7 +127,9 @@
     "t": "The Finger Points",
     "d": "2026-01-15"
    }
-  ]
+  ],
+  "peso": 98,
+  "nota": 6.7
  },
  "Star Trek: Starfleet Academy": {
   "id": 60302,
@@ -191,7 +197,9 @@
     "t": "Rubincon",
     "d": "2026-03-12"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 5.2
  },
  "A Knight of the Seven Kingdoms": {
   "id": 53063,
@@ -235,7 +243,9 @@
     "t": "The Morrow",
     "d": "2026-02-22"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 8.2
  },
  "The Beauty": {
   "id": 79916,
@@ -309,7 +319,9 @@
     "t": "Beautiful Betrayal",
     "d": "2026-03-04"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 6.7
  },
  "Steal": {
   "id": 88441,
@@ -353,7 +365,9 @@
     "t": "Dead Cat Bounce",
     "d": "2026-01-21"
    }
-  ]
+  ],
+  "peso": 97,
+  "nota": 6.6
  },
  "Wonder Man": {
   "id": 62569,
@@ -409,7 +423,9 @@
     "t": "Yucca Valley",
     "d": "2026-01-27"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 6.4
  },
  "Love Story: John F. Kennedy Jr. & Carolyn Bessette": {
   "id": 56862,
@@ -471,7 +487,9 @@
     "t": "Search and Recovery",
     "d": "2026-03-26"
    }
-  ]
+  ],
+  "peso": 97,
+  "nota": 5.7
  },
  "56 Days": {
   "id": 73371,
@@ -527,7 +545,9 @@
     "t": "Chapter 8",
     "d": "2026-02-18"
    }
-  ]
+  ],
+  "peso": 97,
+  "nota": 6.3
  },
  "The Gray House": {
   "id": 78322,
@@ -583,7 +603,9 @@
     "t": "The Firestorm",
     "d": "2026-02-26"
    }
-  ]
+  ],
+  "peso": 91,
+  "nota": 5.9
  },
  "DTF St. Louis": {
   "id": 63268,
@@ -633,7 +655,9 @@
     "t": "No One's Normal. It Just Looks That Way from Across the Street",
     "d": "2026-04-12"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 5.8
  },
  "Young Sherlock": {
   "id": 77427,
@@ -689,7 +713,9 @@
     "t": "The Case of Beatrice Holmes",
     "d": "2026-03-04"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 7.3
  },
  "Vladimir": {
   "id": 83065,
@@ -745,7 +771,9 @@
     "t": "Against Interpretation",
     "d": "2026-03-05"
    }
-  ]
+  ],
+  "peso": 96,
+  "nota": 5.2
  },
  "Rooster": {
   "id": 88862,
@@ -813,7 +841,9 @@
     "t": "Songs for Raisa",
     "d": "2026-05-10"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 6.9
  },
  "Scarpetta": {
   "id": 67323,
@@ -869,7 +899,9 @@
     "t": "Bridge of Time, Part Two",
     "d": "2026-03-11"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 6.5
  },
  "The Madison": {
   "id": 73127,
@@ -913,7 +945,9 @@
     "t": "I Give Me Permission",
     "d": "2026-03-21"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 8
  },
  "Imperfect Women": {
   "id": 75637,
@@ -969,7 +1003,9 @@
     "t": "The Bridge",
     "d": "2026-04-29"
    }
-  ]
+  ],
+  "peso": 98,
+  "nota": 5.6
  },
  "Bait": {
   "id": 89995,
@@ -1013,7 +1049,9 @@
     "t": "The Subtle One",
     "d": "2026-03-25"
    }
-  ]
+  ],
+  "peso": 97,
+  "nota": 4.7
  },
  "Something Very Bad Is Going to Happen": {
   "id": 78442,
@@ -1069,7 +1107,9 @@
     "t": "I Do",
     "d": "2026-03-26"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 5.9
  },
  "The Testaments": {
   "id": 45531,
@@ -1137,7 +1177,9 @@
     "t": "Secateurs",
     "d": "2026-05-27"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 7.1
  },
  "Big Mistakes": {
   "id": 86488,
@@ -1193,7 +1235,9 @@
     "t": "Rock, Paper, Scissors",
     "d": "2026-04-09"
    }
-  ]
+  ],
+  "peso": 98,
+  "nota": 5.7
  },
  "Margo's Got Money Troubles": {
   "id": 74442,
@@ -1249,7 +1293,9 @@
     "t": "Lock and Load",
     "d": "2026-05-20"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 6.6
  },
  "Half Man": {
   "id": 74839,
@@ -1293,7 +1339,9 @@
     "t": "Episode 6",
     "d": "2026-05-28"
    }
-  ]
+  ],
+  "peso": 98,
+  "nota": 6.7
  },
  "Widow's Bay": {
   "id": 79390,
@@ -1361,7 +1409,9 @@
     "t": "We Hope You Enjoyed Your Time!",
     "d": "2026-06-17"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 7.5
  },
  "Man on Fire": {
   "id": 67765,
@@ -1411,7 +1461,9 @@
     "t": "Seven",
     "d": "2026-04-30"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 6
  },
  "Off Campus": {
   "id": 79932,
@@ -1467,7 +1519,9 @@
     "t": "The Line Change",
     "d": "2026-05-13"
    }
-  ]
+  ],
+  "peso": 98,
+  "nota": 7.4
  },
  "Nemesis": {
   "id": 83053,
@@ -1523,7 +1577,9 @@
     "t": "Zugzwang",
     "d": "2026-05-14"
    }
-  ]
+  ],
+  "peso": 98,
+  "nota": 5.2
  },
  "Dutton Ranch": {
   "id": 84539,
@@ -1585,7 +1641,9 @@
     "t": "El Padrino",
     "d": "2026-07-03"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 7.7
  },
  "Maximum Pleasure Guaranteed": {
   "id": 82915,
@@ -1653,7 +1711,9 @@
     "t": "Queens",
     "d": "2026-07-15"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 6.4
  },
  "The Boroughs": {
   "id": 68237,
@@ -1709,7 +1769,9 @@
     "t": "Triple Audible",
     "d": "2026-05-21"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 7.1
  },
  "Spider-Noir": {
   "id": 77003,
@@ -1765,7 +1827,9 @@
     "t": "The Man in the Mask",
     "d": "2026-05-25"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 7.2
  },
  "Star City": {
   "id": 76191,
@@ -1821,7 +1885,9 @@
     "t": "The Wolves",
     "d": "2026-07-10"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 6.8
  },
  "Cape Fear": {
   "id": 80946,
@@ -1889,7 +1955,9 @@
     "t": "The Executioners",
     "d": "2026-07-31"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 5.8
  },
  "Every Year After": {
   "id": 78706,
@@ -1945,7 +2013,9 @@
     "t": "Goodbye...",
     "d": "2026-06-10"
    }
-  ]
+  ],
+  "peso": 97,
+  "nota": 4.9
  },
  "I Will Find You": {
   "id": 81110,
@@ -2001,7 +2071,9 @@
     "t": "Episode 8",
     "d": "2026-06-18"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 7.1
  },
  "Life, Larry and the Pursuit of Unhappiness": {
   "id": 90796,
@@ -2051,7 +2123,9 @@
     "t": "Lawrence",
     "d": "2026-08-07"
    }
-  ]
+  ],
+  "peso": 98,
+  "nota": 5.7
  },
  "Elle": {
   "id": 77011,
@@ -2107,7 +2181,9 @@
     "t": "What, Like It's Hard",
     "d": "2026-07-01"
    }
-  ]
+  ],
+  "peso": 98,
+  "nota": 6.9
  },
  "Little House on the Prairie": {
   "id": 82345,
@@ -2163,7 +2239,9 @@
     "t": "This Is Now",
     "d": "2026-07-09"
    }
-  ]
+  ],
+  "peso": 98,
+  "nota": 6.9
  },
  "Lucky": {
   "id": 81228,
@@ -2213,7 +2291,9 @@
     "t": "All Good Things",
     "d": "2026-08-19"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 6.8
  },
  "Ride or Die": {
   "id": 91854,
@@ -2269,7 +2349,9 @@
     "t": "The Song of Deborah",
     "d": "2026-07-15"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 7.1
  },
  "The Hawk": {
   "id": 77059,
@@ -2337,7 +2419,9 @@
     "t": "Pickle",
     "d": "2026-07-16"
    }
-  ]
+  ],
+  "peso": 98,
+  "nota": 5.4
  },
  "Stuart Fails to Save the Universe": {
   "id": 83360,
@@ -2405,7 +2489,9 @@
     "t": "Spoiler: Filmed Before a Live Studio Audience",
     "d": "2026-09-24"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 6.9
  },
  "Furious": {
   "id": 87753,
@@ -2461,7 +2547,9 @@
     "t": "Hart Island",
     "d": "2026-08-31"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 7.3
  },
  "Sterling Point": {
   "id": 82911,
@@ -2517,7 +2605,9 @@
     "t": "I'm the Kid",
     "d": "2026-08-05"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 7.7
  },
  "Lanterns": {
   "id": 44776,
@@ -2573,7 +2663,9 @@
     "t": "TBA",
     "d": "2026-10-04"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 7
  },
  "The Drop: A Snowfall Saga": {
   "id": 92751,
@@ -2629,7 +2721,9 @@
     "t": "Episode 8",
     "d": "2026-10-27"
    }
-  ]
+  ],
+  "peso": 98,
+  "nota": 5
  },
  "Last Seen": {
   "id": 78183,
@@ -2673,7 +2767,9 @@
     "t": "The Choice",
     "d": "2026-10-07"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 6.6
  },
  "Crew Girl": {
   "id": 86983,
@@ -2729,7 +2825,9 @@
     "t": "O Coxswain, My Coxswain",
     "d": "2026-09-10"
    }
-  ]
+  ],
+  "peso": 98,
+  "nota": 6.1
  },
  "Neagley": {
   "id": 82707,
@@ -2785,7 +2883,9 @@
     "t": "Touched",
     "d": "2026-09-16"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 7
  },
  "Route 187": {
   "id": 93997,
@@ -2817,7 +2917,9 @@
     "t": "Rent, Pt. 2",
     "d": "2026-09-16"
    }
-  ]
+  ],
+  "peso": 97,
+  "nota": 4.6
  },
  "Youth": {
   "id": 93792,
@@ -2873,7 +2975,9 @@
     "t": "Episode 8",
     "d": "2026-11-01"
    }
-  ]
+  ],
+  "peso": 97,
+  "nota": null
  },
  "Brothers": {
   "id": 68625,
@@ -2929,7 +3033,9 @@
     "t": "Episode 8",
     "d": "2026-11-04"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": null
  },
  "A Different World": {
   "id": 91916,
@@ -2997,7 +3103,9 @@
     "t": "TBA",
     "d": "2026-09-24"
    }
-  ]
+  ],
+  "peso": 97,
+  "nota": null
  },
  "Silo": {
   "id": 38052,
@@ -3191,7 +3299,9 @@
     "t": "TBA",
     "d": "2027-07-09"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 8
  },
  "Amor de oficina T1": {
   "id": 89076,
@@ -3247,7 +3357,9 @@
     "t": "Classic Diva",
     "d": "2026-01-01"
    }
-  ]
+  ],
+  "peso": 84,
+  "nota": null
  },
  "Dr. Seuss's Red Fish, Blue Fish T2": {
   "id": 86362,
@@ -3345,7 +3457,9 @@
     "t": "Excited/Calm",
     "d": "2026-01-01"
    }
-  ]
+  ],
+  "peso": 63,
+  "nota": null
  },
  "El Tiempo de las Moscas T1": {
   "id": 89287,
@@ -3389,7 +3503,9 @@
     "t": "El tiempo de las moscas",
     "d": "2026-01-01"
    }
-  ]
+  ],
+  "peso": 38,
+  "nota": null
  },
  "Los Colorado T1": {
   "id": 89667,
@@ -3457,7 +3573,9 @@
     "t": "Não Há Clone Que Não Venha Para o Bem",
     "d": "2026-01-08"
    }
-  ]
+  ],
+  "peso": 27,
+  "nota": null
  },
  "Girl Taken T1": {
   "id": 85602,
@@ -3501,7 +3619,9 @@
     "t": "Manhunt",
     "d": "2026-01-08"
    }
-  ]
+  ],
+  "peso": 97,
+  "nota": 6.4
  },
  "The Pitt T2": {
   "id": 75632,
@@ -3599,7 +3719,9 @@
     "t": "9:00 P.M.",
     "d": "2026-04-16"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 8.5
  },
  "A Thousand Blows T2": {
   "id": 63786,
@@ -3643,7 +3765,9 @@
     "t": "Episode 6",
     "d": "2026-01-09"
    }
-  ]
+  ],
+  "peso": 98,
+  "nota": 6.6
  },
  "Machos Alfa T4": {
   "id": 65679,
@@ -3687,7 +3811,9 @@
     "t": "Caribe mágico",
     "d": "2026-01-09"
    }
-  ]
+  ],
+  "peso": 93,
+  "nota": 7.2
  },
  "Industry T4": {
   "id": 45501,
@@ -3743,7 +3869,9 @@
     "t": "Both, And",
     "d": "2026-03-01"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 6.5
  },
  "Tell Me Lies T3": {
   "id": 50062,
@@ -3799,7 +3927,9 @@
     "t": "Are You Happy Now, That I'm on My Knees?",
     "d": "2026-02-17"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 6
  },
  "Hijack T2": {
   "id": 61739,
@@ -3855,7 +3985,9 @@
     "t": "Terminal",
     "d": "2026-03-04"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 7.5
  },
  "The Upshaws T7": {
   "id": 43458,
@@ -3935,7 +4067,9 @@
     "t": "Bon Voyage",
     "d": "2026-01-15"
    }
-  ]
+  ],
+  "peso": 92,
+  "nota": 6.5
  },
  "Agent P Under C T1": {
   "id": 90171,
@@ -3991,7 +4125,9 @@
     "t": "Superhero Perry",
     "d": "2026-01-16"
    }
-  ]
+  ],
+  "peso": 75,
+  "nota": null
  },
  "Finding Her Edge T1": {
   "id": 88897,
@@ -4047,7 +4183,9 @@
     "t": "Medaling",
     "d": "2026-01-22"
    }
-  ]
+  ],
+  "peso": 94,
+  "nota": null
  },
  "Free Bert T1": {
   "id": 89153,
@@ -4091,7 +4229,9 @@
     "t": "Proper Descension",
     "d": "2026-01-22"
    }
-  ]
+  ],
+  "peso": 94,
+  "nota": 4.3
  },
  "It's Not Like That T1": {
   "id": 80978,
@@ -4147,7 +4287,9 @@
     "t": "Hope and Peace and Joy and Love",
     "d": "2026-03-08"
    }
-  ]
+  ],
+  "peso": 97,
+  "nota": 4.9
  },
  "School Spirits T3": {
   "id": 62556,
@@ -4203,7 +4345,9 @@
     "t": "Dawn of the Deb",
     "d": "2026-03-04"
    }
-  ]
+  ],
+  "peso": 98,
+  "nota": 7.3
  },
  "Shrinking T3": {
   "id": 58323,
@@ -4283,7 +4427,9 @@
     "t": "And That's Our Time",
     "d": "2026-04-08"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 7.9
  },
  "Bridgerton T4": {
   "id": 42966,
@@ -4339,7 +4485,9 @@
     "t": "Dance in the Country",
     "d": "2026-02-26"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 7.3
  },
  "The Lincoln Lawyer T4": {
   "id": 52910,
@@ -4407,7 +4555,9 @@
     "t": "The Law of Innocence",
     "d": "2026-02-05"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 8
  },
  "Salvador T1": {
   "id": 78634,
@@ -4463,7 +4613,9 @@
     "t": "Un padre",
     "d": "2026-02-06"
    }
-  ]
+  ],
+  "peso": 84,
+  "nota": 4.5
  },
  "The Artful Dodger T2": {
   "id": 62133,
@@ -4519,7 +4671,9 @@
     "t": "Change of Heart",
     "d": "2026-02-10"
    }
-  ]
+  ],
+  "peso": 98,
+  "nota": 7.5
  },
  "Cross T2": {
   "id": 64834,
@@ -4575,7 +4729,9 @@
     "t": "Quemar",
     "d": "2026-03-18"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 7
  },
  "How to Get to Heaven From Belfast T1": {
   "id": 76004,
@@ -4631,7 +4787,9 @@
     "t": "Anagnorisis",
     "d": "2026-02-12"
    }
-  ]
+  ],
+  "peso": 97,
+  "nota": 7.1
  },
  "En el barro T2": {
   "id": 85817,
@@ -4687,7 +4845,9 @@
     "t": "Episodio 8",
     "d": "2026-02-13"
    }
-  ]
+  ],
+  "peso": 89,
+  "nota": 6.8
  },
  "Locker Diaries: ZOMBIES T1": {
   "id": 90387,
@@ -4761,7 +4921,9 @@
     "t": "How to Vampire",
     "d": "2026-04-18"
    }
-  ]
+  ],
+  "peso": 74,
+  "nota": null
  },
  "Como Agua para Chocolate T2": {
   "id": 79842,
@@ -4805,7 +4967,9 @@
     "t": "Chiles en Nogada",
     "d": "2026-03-22"
    }
-  ]
+  ],
+  "peso": 92,
+  "nota": 6.5
  },
  "The Night Agent T3": {
   "id": 56512,
@@ -4873,7 +5037,9 @@
     "t": "Razzmatazz",
     "d": "2026-02-19"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 7.7
  },
  "The Last Thing He Told Me T2": {
   "id": 52331,
@@ -4929,7 +5095,9 @@
     "t": "Souvenirs d'enfance",
     "d": "2026-04-10"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 6.4
  },
  "Paradise T2": {
   "id": 75030,
@@ -4985,7 +5153,9 @@
     "t": "Exodus",
     "d": "2026-03-30"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 7.4
  },
  "Monarch: Legacy of Monsters T2": {
   "id": 60090,
@@ -5053,7 +5223,9 @@
     "t": "Where We Belong",
     "d": "2026-05-01"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 7.4
  },
  "Seeking Persephone T1": {
   "id": 90925,
@@ -5085,7 +5257,9 @@
     "t": "Part 4",
     "d": "2026-03-01"
    }
-  ]
+  ],
+  "peso": 95,
+  "nota": 7.2
  },
  "Doc T1": {
   "id": 92567,
@@ -5333,7 +5507,9 @@
     "t": "Episodio 40",
     "d": "2026-03-27"
    }
-  ]
+  ],
+  "peso": 27,
+  "nota": null
  },
  "El Asesino de TikTok T1": {
   "id": 90614,
@@ -5353,7 +5529,9 @@
     "t": "El ‘influencer’ del crimen",
     "d": "2026-03-06"
    }
-  ]
+  ],
+  "peso": 34,
+  "nota": null
  },
  "One Piece T2": {
   "id": 46065,
@@ -5409,7 +5587,9 @@
     "t": "Deer and Loathing in Drum Kingdom",
     "d": "2026-03-10"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 7.7
  },
  "Virgin River T7": {
   "id": 38893,
@@ -5477,7 +5657,9 @@
     "t": "David and Goliath",
     "d": "2026-03-12"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 7.2
  },
  "Day One T1": {
   "id": 90771,
@@ -5521,7 +5703,9 @@
     "t": "Anna",
     "d": "2026-03-13"
    }
-  ]
+  ],
+  "peso": 83,
+  "nota": 3.2
  },
  "Esa noche T1": {
   "id": 90067,
@@ -5565,7 +5749,9 @@
     "t": "Ane",
     "d": "2026-03-13"
    }
-  ]
+  ],
+  "peso": 89,
+  "nota": 5.4
  },
  "Fatal Seduction T3": {
   "id": 69144,
@@ -5639,7 +5825,9 @@
     "t": "Letting Go",
     "d": "2026-03-13"
    }
-  ]
+  ],
+  "peso": 86,
+  "nota": 5
  },
  "La Oficina T1": {
   "id": 90738,
@@ -5695,7 +5883,9 @@
     "t": "Lávate las manos",
     "d": "2026-03-13"
    }
-  ]
+  ],
+  "peso": 80,
+  "nota": null
  },
  "Invincible T4": {
   "id": 37196,
@@ -5751,7 +5941,9 @@
     "t": "Don't Leave Me Hanging Here",
     "d": "2026-04-22"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 7.9
  },
  "La primera vez T4": {
   "id": 66923,
@@ -5831,7 +6023,9 @@
     "t": "El atravesado",
     "d": "2026-03-18"
    }
-  ]
+  ],
+  "peso": 75,
+  "nota": 5.4
  },
  "O11CE: Nueva generación T1": {
   "id": 90856,
@@ -5959,7 +6153,9 @@
     "t": "A todo o nada",
     "d": "2026-03-18"
    }
-  ]
+  ],
+  "peso": 24,
+  "nota": null
  },
  "Deadloch T2": {
   "id": 60614,
@@ -6003,7 +6199,9 @@
     "t": "Curlew's Call",
     "d": "2026-03-19"
    }
-  ]
+  ],
+  "peso": 97,
+  "nota": 6.8
  },
  "Unicorn Academy: Secrets Revealed T1": {
   "id": 90874,
@@ -6059,7 +6257,9 @@
     "t": "The Fairy Tiara",
     "d": "2026-03-19"
    }
-  ]
+  ],
+  "peso": 64,
+  "nota": null
  },
  "Amor Animal T1": {
   "id": 90818,
@@ -6115,7 +6315,9 @@
     "t": "La traición",
     "d": "2026-03-20"
    }
-  ]
+  ],
+  "peso": 69,
+  "nota": null
  },
  "Jury Duty Presents: Company Retreat T1": {
   "id": 90105,
@@ -6171,7 +6373,9 @@
     "t": "Employee Review",
     "d": "2026-04-03"
    }
-  ]
+  ],
+  "peso": 96,
+  "nota": 4.7
  },
  "The Comeback T3": {
   "id": 144,
@@ -6227,7 +6431,9 @@
     "t": "Valerie Cherish",
     "d": "2026-05-10"
    }
-  ]
+  ],
+  "peso": 97,
+  "nota": 6.5
  },
  "Daredevil: Born Again T2": {
   "id": 63234,
@@ -6283,7 +6489,9 @@
     "t": "The Southern Cross",
     "d": "2026-05-05"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 7.5
  },
  "Heartbreak High T3": {
   "id": 52291,
@@ -6339,7 +6547,9 @@
     "t": "Destined",
     "d": "2026-03-25"
    }
-  ]
+  ],
+  "peso": 94,
+  "nota": 7.4
  },
  "For All Mankind T5": {
   "id": 41414,
@@ -6407,7 +6617,9 @@
     "t": "This Land Is Our Land",
     "d": "2026-05-29"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 7.4
  },
  "Vida perra T1": {
   "id": 90915,
@@ -6421,7 +6633,9 @@
     "t": "Episode 1",
     "d": "2026-03-27"
    }
-  ]
+  ],
+  "peso": 24,
+  "nota": null
  },
  "Si es martes, es asesinato T1": {
   "id": 90233,
@@ -6471,7 +6685,9 @@
     "t": "Liberdade",
     "d": "2026-03-31"
    }
-  ]
+  ],
+  "peso": 85,
+  "nota": 7
  },
  "Dear Killer Nannies: Criado por sicarios T1": {
   "id": 91107,
@@ -6527,7 +6743,9 @@
     "t": "No mirar atrás",
     "d": "2026-04-01"
    }
-  ]
+  ],
+  "peso": 81,
+  "nota": null
  },
  "Ninjago: Dragons Rising T4": {
   "id": 68439,
@@ -6655,7 +6873,9 @@
     "t": "Episode 20",
     "d": "2026-04-02"
    }
-  ]
+  ],
+  "peso": 90,
+  "nota": null
  },
  "XO, Kitty T3": {
   "id": 60509,
@@ -6711,7 +6931,9 @@
     "t": "Wish List",
     "d": "2026-04-02"
    }
-  ]
+  ],
+  "peso": 97,
+  "nota": 6.7
  },
  "Clanes T2": {
   "id": 68877,
@@ -6755,7 +6977,9 @@
     "t": "Episodio 6",
     "d": "2026-04-03"
    }
-  ]
+  ],
+  "peso": 93,
+  "nota": 7.4
  },
  "Your Friends & Neighbors T2": {
   "id": 73484,
@@ -6823,7 +7047,9 @@
     "t": "The Night of the Hunter",
     "d": "2026-06-05"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 7
  },
  "Star Wars: Maul - Shadow Lord T1": {
   "id": 84190,
@@ -6891,7 +7117,9 @@
     "t": "Chapter 10: The Dark Lord",
     "d": "2026-05-04"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 8.2
  },
  "The Boys T5": {
   "id": 15299,
@@ -6947,7 +7175,9 @@
     "t": "Blood and Bone",
     "d": "2026-05-20"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 8.3
  },
  "Hacks T5": {
   "id": 54914,
@@ -7015,7 +7245,9 @@
     "t": "Hacks",
     "d": "2026-05-28"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 7.4
  },
  "Malcolm in the Middle: Life's Still Unfair T1": {
   "id": 90782,
@@ -7047,7 +7279,9 @@
     "t": "Episode Four",
     "d": "2026-04-10"
    }
-  ]
+  ],
+  "peso": 97,
+  "nota": 6.8
  },
  "Euphoria T3": {
   "id": 28826,
@@ -7103,7 +7337,9 @@
     "t": "In God We Trust",
     "d": "2026-05-31"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 6.7
  },
  "Alguien Tiene Que Saber T1": {
   "id": 91349,
@@ -7159,7 +7395,9 @@
     "t": "El buen pastor",
     "d": "2026-04-15"
    }
-  ]
+  ],
+  "peso": 38,
+  "nota": null
  },
  "Perfil falso T3": {
   "id": 68680,
@@ -7227,7 +7465,9 @@
     "t": "Todo es fake",
     "d": "2026-04-15"
    }
-  ]
+  ],
+  "peso": 90,
+  "nota": 6.2
  },
  "BEEF T2": {
   "id": 54285,
@@ -7283,7 +7523,9 @@
     "t": "It Will Stay This Way and You Will Obey",
     "d": "2026-04-16"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 7
  },
  "Machos Alfa T5": {
   "id": 65679,
@@ -7327,7 +7569,9 @@
     "t": "El amor es el amor",
     "d": "2026-04-17"
    }
-  ]
+  ],
+  "peso": 93,
+  "nota": 7.2
  },
  "Punto Nemo T2": {
   "id": 83463,
@@ -7359,7 +7603,9 @@
     "t": "Guardar",
     "d": "2026-04-17"
    }
-  ]
+  ],
+  "peso": 44,
+  "nota": null
  },
  "Kevin T1": {
   "id": 77459,
@@ -7415,7 +7661,9 @@
     "t": "Opening Night",
     "d": "2026-04-20"
    }
-  ]
+  ],
+  "peso": 93,
+  "nota": 4.5
  },
  "Unchosen T1": {
   "id": 81032,
@@ -7459,7 +7707,9 @@
     "t": "Episode 6",
     "d": "2026-04-21"
    }
-  ]
+  ],
+  "peso": 92,
+  "nota": 5.8
  },
  "Criminal Record T2": {
   "id": 62628,
@@ -7515,7 +7765,9 @@
     "t": "Nobody Dies",
     "d": "2026-06-10"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 6.9
  },
  "Santita T1": {
   "id": 91458,
@@ -7565,7 +7817,9 @@
     "t": "Suerte, doctora",
     "d": "2026-04-22"
    }
-  ]
+  ],
+  "peso": 52,
+  "nota": null
  },
  "Running Point T2": {
   "id": 77064,
@@ -7633,7 +7887,9 @@
     "t": "Chicago-Style",
     "d": "2026-04-23"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 6.5
  },
  "Stranger Things: Tales from '85 T1": {
   "id": 85214,
@@ -7701,7 +7957,9 @@
     "t": "Chapter Ten: Countdown",
     "d": "2026-04-23"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 6.5
  },
  "Cochinas T1": {
   "id": 79360,
@@ -7757,7 +8015,9 @@
     "t": "Devórame otra vez",
     "d": "2026-04-24"
    }
-  ]
+  ],
+  "peso": 41,
+  "nota": null
  },
  "Envidiosa T4": {
   "id": 78971,
@@ -7825,7 +8085,9 @@
     "t": "Una familia real",
     "d": "2026-04-29"
    }
-  ]
+  ],
+  "peso": 90,
+  "nota": null
  },
  "La casa de los espíritus T1": {
   "id": 78605,
@@ -7881,7 +8143,9 @@
     "t": "La hora de la verdad",
     "d": "2026-05-13"
    }
-  ]
+  ],
+  "peso": 90,
+  "nota": null
  },
  "El Encargado T4": {
   "id": 64574,
@@ -7931,7 +8195,9 @@
     "t": "El cielito de los encargados",
     "d": "2026-05-01"
    }
-  ]
+  ],
+  "peso": 52,
+  "nota": 7.6
  },
  "Margarita T2": {
   "id": 79222,
@@ -8059,7 +8325,9 @@
     "t": "Quién Cuenta la Historia",
     "d": "2026-05-25"
    }
-  ]
+  ],
+  "peso": 82,
+  "nota": null
  },
  "Citadel T2": {
   "id": 45834,
@@ -8109,7 +8377,9 @@
     "t": "Chin Chin",
     "d": "2026-05-06"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 6.4
  },
  "Legends T1": {
   "id": 91311,
@@ -8153,7 +8423,9 @@
     "t": "Legends Never Die",
     "d": "2026-05-07"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 6.9
  },
  "Everyone Is Doing Great T2": {
   "id": 52480,
@@ -8209,7 +8481,9 @@
     "t": "Commit",
     "d": "2026-05-11"
    }
-  ]
+  ],
+  "peso": 92,
+  "nota": 3.9
  },
  "Devil May Cry T2": {
   "id": 71529,
@@ -8265,7 +8539,9 @@
     "t": "Vexilla Regis Prodeunt Inferni",
     "d": "2026-05-12"
    }
-  ]
+  ],
+  "peso": 92,
+  "nota": 7.4
  },
  "Marvel Television Special Presentation T2026": {
   "id": 64044,
@@ -8279,7 +8555,9 @@
     "t": "A Marvel Television Special Presentation: The Punisher: One Last Kill",
     "d": "2026-05-12"
    }
-  ]
+  ],
+  "peso": 97,
+  "nota": 7.9
  },
  "Entre padre e hijo T1": {
   "id": 91827,
@@ -8407,7 +8685,9 @@
     "t": "Desde Las Entrañas",
     "d": "2026-05-13"
    }
-  ]
+  ],
+  "peso": 81,
+  "nota": null
  },
  "Good Omens T3": {
   "id": 28717,
@@ -8421,7 +8701,9 @@
     "t": "The Finale",
     "d": "2026-05-13"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 7.8
  },
  "The Old Stories: Moses T1": {
   "id": 91978,
@@ -8447,7 +8729,9 @@
     "t": "The Deliverance",
     "d": "2026-05-31"
    }
-  ]
+  ],
+  "peso": 57,
+  "nota": null
  },
  "Berlín y la dama del armiño T1": {
   "id": 88894,
@@ -8503,7 +8787,9 @@
     "t": "La felicidad es del que ama",
     "d": "2026-05-15"
    }
-  ]
+  ],
+  "peso": 96,
+  "nota": 7.3
  },
  "Rivals T2": {
   "id": 64087,
@@ -8547,7 +8833,9 @@
     "t": "Episode 6",
     "d": "2026-06-05"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 6.4
  },
  "Carísima T1": {
   "id": 91988,
@@ -8615,7 +8903,9 @@
     "t": "Carísima",
     "d": "2026-05-20"
    }
-  ]
+  ],
+  "peso": 27,
+  "nota": null
  },
  "SkyMed T4": {
   "id": 57682,
@@ -8671,7 +8961,9 @@
     "t": "Stick the Landing",
     "d": "2026-05-21"
    }
-  ]
+  ],
+  "peso": 98,
+  "nota": 6.6
  },
  "Barrabrava T2": {
   "id": 69033,
@@ -8727,7 +9019,9 @@
     "t": "El principio del fin",
     "d": "2026-05-22"
    }
-  ]
+  ],
+  "peso": 61,
+  "nota": null
  },
  "Futuro Desierto T1": {
   "id": 61201,
@@ -8771,7 +9065,9 @@
     "t": "Isla de Refugio",
     "d": "2026-05-22"
    }
-  ]
+  ],
+  "peso": 48,
+  "nota": null
  },
  "Ravalejar T1": {
   "id": 90797,
@@ -8815,7 +9111,9 @@
     "t": "42 Landmarks",
     "d": "2026-06-26"
    }
-  ]
+  ],
+  "peso": 36,
+  "nota": 6.8
  },
  "The Chi T8": {
   "id": 24371,
@@ -8883,7 +9181,9 @@
     "t": "The Last Dance",
     "d": "2026-07-24"
    }
-  ]
+  ],
+  "peso": 98,
+  "nota": 5.3
  },
  "Bad Thoughts T2": {
   "id": 83618,
@@ -8927,7 +9227,9 @@
     "t": "Bad Decisions",
     "d": "2026-05-24"
    }
-  ]
+  ],
+  "peso": 97,
+  "nota": 3.8
  },
  "Sofia the First: Royal Magic T1": {
   "id": 86382,
@@ -9085,7 +9387,9 @@
     "t": "Costume Clash",
     "d": "2026-08-21"
    }
-  ]
+  ],
+  "peso": 77,
+  "nota": null
  },
  "Criminal Minds T19": {
   "id": 81,
@@ -9153,7 +9457,9 @@
     "t": "Bad Blood",
     "d": "2026-07-23"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 8.1
  },
  "Deli Boys T2": {
   "id": 68689,
@@ -9197,7 +9503,9 @@
     "t": "Manly Boys",
     "d": "2026-05-28"
    }
-  ]
+  ],
+  "peso": 97,
+  "nota": 6.2
  },
  "The Four Seasons T2": {
   "id": 73889,
@@ -9253,7 +9561,9 @@
     "t": "Maratona",
     "d": "2026-05-28"
    }
-  ]
+  ],
+  "peso": 98,
+  "nota": 6.3
  },
  "Not Suitable for Work T1": {
   "id": 83015,
@@ -9315,7 +9625,9 @@
     "t": "A Birthday Party For the Whole World",
     "d": "2026-06-23"
    }
-  ]
+  ],
+  "peso": 98,
+  "nota": 5.5
  },
  "The Legend of Vox Machina T4": {
   "id": 44885,
@@ -9395,7 +9707,9 @@
     "t": "The Ascension",
     "d": "2026-06-24"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 7.9
  },
  "The Witness T1": {
   "id": 91633,
@@ -9421,7 +9735,9 @@
     "t": "Episode 3",
     "d": "2026-06-04"
    }
-  ]
+  ],
+  "peso": 97,
+  "nota": 6.2
  },
  "Two Years Later T1": {
   "id": 85699,
@@ -9477,7 +9793,9 @@
     "t": "Eighth Date",
     "d": "2026-06-04"
    }
-  ]
+  ],
+  "peso": 95,
+  "nota": 6.2
  },
  "Among Us T1": {
   "id": 78622,
@@ -9545,7 +9863,9 @@
     "t": "Everyone Is Still Alive. No One Is Dead.",
     "d": "2026-06-05"
    }
-  ]
+  ],
+  "peso": 94,
+  "nota": 5.2
  },
  "Locker Diaries: Phineas and Ferb T1": {
   "id": 92765,
@@ -9601,7 +9921,9 @@
     "t": "The Stink Sandwich",
     "d": "2026-06-27"
    }
-  ]
+  ],
+  "peso": 58,
+  "nota": null
  },
  "Alice and Steve T1": {
   "id": 86435,
@@ -9645,7 +9967,9 @@
     "t": "Episode 6",
     "d": "2026-06-08"
    }
-  ]
+  ],
+  "peso": 98,
+  "nota": 7.1
  },
  "Rosario Tijeras T5": {
   "id": 31918,
@@ -9659,7 +9983,9 @@
     "t": "TBA",
     "d": "2026-06-10"
    }
-  ]
+  ],
+  "peso": 51,
+  "nota": null
  },
  "Sweet Magnolias T5": {
   "id": 38894,
@@ -9727,7 +10053,9 @@
     "t": "Come Home",
     "d": "2026-06-11"
    }
-  ]
+  ],
+  "peso": 93,
+  "nota": 7.1
  },
  "Atasco T4": {
   "id": 78649,
@@ -9771,7 +10099,9 @@
     "t": "Papamóvil",
     "d": "2026-06-12"
    }
-  ]
+  ],
+  "peso": 67,
+  "nota": null
  },
  "Hypersonic T1": {
   "id": 93220,
@@ -9809,7 +10139,9 @@
     "t": "Cello Suite No. 1",
     "d": "2026-06-12"
    }
-  ]
+  ],
+  "peso": 85,
+  "nota": null
  },
  "Culpables: London T2026": {
   "id": 82098,
@@ -9823,7 +10155,9 @@
     "t": "Your Fault: London",
     "d": "2026-06-17"
    }
-  ]
+  ],
+  "peso": 88,
+  "nota": 5.8
  },
  "The Season T1": {
   "id": 92448,
@@ -9867,7 +10201,9 @@
     "t": "Collision Course",
     "d": "2026-06-17"
    }
-  ]
+  ],
+  "peso": 95,
+  "nota": 4.2
  },
  "The Simpsons Specials T2026": {
   "id": 56220,
@@ -9893,7 +10229,9 @@
     "t": "Yellow Mirror",
     "d": "2026-08-26"
    }
-  ]
+  ],
+  "peso": 97,
+  "nota": 7.3
  },
  "Oasis T1": {
   "id": 92001,
@@ -9949,7 +10287,9 @@
     "t": "Episodio 8",
     "d": "2026-06-19"
    }
-  ]
+  ],
+  "peso": 77,
+  "nota": 6.8
  },
  "Sugar T2": {
   "id": 62463,
@@ -10005,7 +10345,9 @@
     "t": "Like Sugar",
     "d": "2026-08-07"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 7.4
  },
  "House of the Dragon T3": {
   "id": 44778,
@@ -10061,7 +10403,9 @@
     "t": "The Treasons at Tumbleton",
     "d": "2026-08-09"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 7.6
  },
  "The Agency T2": {
   "id": 66840,
@@ -10129,7 +10473,9 @@
     "t": "King Sacrifice",
     "d": "2026-06-21"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 7.2
  },
  "Avatar: The Last Airbender T2": {
   "id": 38753,
@@ -10179,7 +10525,9 @@
     "t": "Something Broken",
     "d": "2026-06-25"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 7.4
  },
  "The Bear T5": {
   "id": 54198,
@@ -10235,7 +10583,9 @@
     "t": "The Original Beef of Chicagoland",
     "d": "2026-06-25"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 7.4
  },
  "The Doomies T1": {
   "id": 69283,
@@ -10375,7 +10725,9 @@
     "t": "Grand Designs",
     "d": "2026-06-26"
    }
-  ]
+  ],
+  "peso": 87,
+  "nota": null
  },
  "Kraken. El libro negro de las horas T1": {
   "id": 93572,
@@ -10419,7 +10771,9 @@
     "t": "El último trazo",
     "d": "2026-06-27"
    }
-  ]
+  ],
+  "peso": 27,
+  "nota": null
  },
  "Adventure Time: Side Quests T1": {
   "id": 92003,
@@ -10547,7 +10901,9 @@
     "t": "Car Wars",
     "d": "2026-06-29"
    }
-  ]
+  ],
+  "peso": 95,
+  "nota": null
  },
  "Tyler Perry's Ruthless T6": {
   "id": 46668,
@@ -10615,7 +10971,9 @@
     "t": "Fire and Desire",
     "d": "2026-08-25"
    }
-  ]
+  ],
+  "peso": 91,
+  "nota": 5.5
  },
  "Enola Holmes T2026": {
   "id": 55261,
@@ -10629,7 +10987,9 @@
     "t": "Enola Holmes 3",
     "d": "2026-07-01"
    }
-  ]
+  ],
+  "peso": 96,
+  "nota": 7.6
  },
  "X-Men '97 T2": {
   "id": 58951,
@@ -10691,7 +11051,9 @@
     "t": "Survival of the Fittest",
     "d": "2026-08-12"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 8.1
  },
  "Survival of the Thickest T3": {
   "id": 60155,
@@ -10747,7 +11109,9 @@
     "t": "It's Survival of the Thickest, Bitch.",
     "d": "2026-07-02"
    }
-  ]
+  ],
+  "peso": 95,
+  "nota": 7.1
  },
  "No tengo miedo T1": {
   "id": 92863,
@@ -10791,7 +11155,9 @@
     "t": "Bosque de niebla",
     "d": "2026-07-08"
    }
-  ]
+  ],
+  "peso": 71,
+  "nota": null
  },
  "Salcedo, cuero y boogaloo T1": {
   "id": 92864,
@@ -10871,7 +11237,9 @@
     "t": "La leyenda del Quiebra Canto",
     "d": "2026-07-08"
    }
-  ]
+  ],
+  "peso": 51,
+  "nota": null
  },
  "Trying T5": {
   "id": 45928,
@@ -10927,7 +11295,9 @@
     "t": "WoodScott",
     "d": "2026-08-26"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 6.5
  },
  "El mapa de los anhelos T1": {
   "id": 92430,
@@ -10971,7 +11341,9 @@
     "t": "Vuelve a la casilla de salida",
     "d": "2026-07-17"
    }
-  ]
+  ],
+  "peso": 72,
+  "nota": 6.8
  },
  "King of the Hill T15": {
   "id": 115,
@@ -11039,7 +11411,9 @@
     "t": "Propane Recall",
     "d": "2026-07-20"
    }
-  ]
+  ],
+  "peso": 98,
+  "nota": 7.6
  },
  "The Crow Girl T2": {
   "id": 76694,
@@ -11083,7 +11457,9 @@
     "t": "Alma Mater",
     "d": "2026-07-20"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 6.9
  },
  "El otro padre T1": {
   "id": 93219,
@@ -11151,7 +11527,9 @@
     "t": "Los límites del perdón",
     "d": "2026-07-22"
    }
-  ]
+  ],
+  "peso": 81,
+  "nota": null
  },
  "Ransom Canyon T2": {
   "id": 73223,
@@ -11207,7 +11585,9 @@
     "t": "Love Is a Canyon",
     "d": "2026-07-23"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 7.1
  },
  "Star Trek: Strange New Worlds T4": {
   "id": 48090,
@@ -11275,7 +11655,9 @@
     "t": "Tomorrow's Enterprise",
     "d": "2026-09-24"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 7.8
  },
  "Soy Luna: Volver a Rodar T1": {
   "id": 93281,
@@ -11355,7 +11737,9 @@
     "t": "Wings on My Feet and a Bursting Heart",
     "d": "2026-07-24"
    }
-  ]
+  ],
+  "peso": 27,
+  "nota": null
  },
  "Locker Diaries: Descendants T1": {
   "id": 93304,
@@ -11423,7 +11807,9 @@
     "t": "Loose Lips",
     "d": "2026-08-29"
    }
-  ]
+  ],
+  "peso": 78,
+  "nota": null
  },
  "Diarra from Detroit T2": {
   "id": 69170,
@@ -11479,7 +11865,9 @@
     "t": "A Cold Ass Wedding",
     "d": "2026-09-09"
    }
-  ]
+  ],
+  "peso": 95,
+  "nota": 5.8
  },
  "La mujer prohibida T1": {
   "id": 93636,
@@ -11853,7 +12241,9 @@
     "t": "Episodio 61",
     "d": "2026-07-29"
    }
-  ]
+  ],
+  "peso": 7,
+  "nota": null
  },
  "Proyecto Final T1": {
   "id": 93275,
@@ -11981,7 +12371,9 @@
     "t": "El video nunca miente",
     "d": "2026-07-29"
    }
-  ]
+  ],
+  "peso": 63,
+  "nota": null
  },
  "The Proud Family: Louder and Prouder T4": {
   "id": 46457,
@@ -12049,7 +12441,9 @@
     "t": "Who Killed Mr. Chips, Part II",
     "d": "2026-07-29"
    }
-  ]
+  ],
+  "peso": 79,
+  "nota": 8
  },
  "Batman: Caped Crusader T2": {
   "id": 55415,
@@ -12117,7 +12511,9 @@
     "t": "The Laughing Death",
     "d": "2026-07-31"
    }
-  ]
+  ],
+  "peso": 98,
+  "nota": 6.5
  },
  "Lioness T3": {
   "id": 50415,
@@ -12173,7 +12569,9 @@
     "t": "The Unraveling",
     "d": "2026-09-20"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 7.6
  },
  "Futurama T14": {
   "id": 538,
@@ -12241,7 +12639,9 @@
     "t": "Final Ending: The Last Conclusion",
     "d": "2026-09-28"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 8.6
  },
  "Cien años de soledad T2": {
   "id": 41256,
@@ -12297,7 +12697,9 @@
     "t": "Cien años de soledad",
     "d": "2026-08-26"
    }
-  ]
+  ],
+  "peso": 98,
+  "nota": 7.3
  },
  "Ted Lasso T4": {
   "id": 44458,
@@ -12365,7 +12767,9 @@
     "t": "Episode 10",
     "d": "2026-10-07"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 8.1
  },
  "The Shards T1": {
   "id": 68193,
@@ -12427,7 +12831,9 @@
     "t": "Stairway to Heaven",
     "d": "2026-09-09"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 5.1
  },
  "My Life With the Walter Boys T3": {
   "id": 60523,
@@ -12495,7 +12901,9 @@
     "t": "The Beautiful and the Damned",
     "d": "2026-08-06"
    }
-  ]
+  ],
+  "peso": 98,
+  "nota": 6.7
  },
  "Nadie nos va a extrañar T2": {
   "id": 78900,
@@ -12551,7 +12959,9 @@
     "t": "Todos nos vamos a extrañar",
     "d": "2026-08-07"
    }
-  ]
+  ],
+  "peso": 81,
+  "nota": null
  },
  "Ricky Gervais Alley Cats T1": {
   "id": 91116,
@@ -12595,7 +13005,9 @@
     "t": "Home",
     "d": "2026-08-07"
    }
-  ]
+  ],
+  "peso": 97,
+  "nota": 6.2
  },
  "Dr. Seuss's Red Fish, Blue Fish T3": {
   "id": 86362,
@@ -12693,7 +13105,9 @@
     "t": "Neat/Messy",
     "d": "2026-08-10"
    }
-  ]
+  ],
+  "peso": 63,
+  "nota": null
  },
  "Las Azules T2": {
   "id": 62238,
@@ -12749,7 +13163,9 @@
     "t": "Episode 8",
     "d": "2026-09-30"
    }
-  ]
+  ],
+  "peso": 97,
+  "nota": 5.5
  },
  "Reacher T4": {
   "id": 43031,
@@ -12805,7 +13221,9 @@
     "t": "Cut",
     "d": "2026-09-16"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 8.1
  },
  "My Brilliant Career T1": {
   "id": 85474,
@@ -12849,7 +13267,9 @@
     "t": "TA TA",
     "d": "2026-08-13"
    }
-  ]
+  ],
+  "peso": 97,
+  "nota": 5.7
  },
  "Tires T3": {
   "id": 74979,
@@ -12929,7 +13349,9 @@
     "t": "It's a Good Day, West Chester",
     "d": "2026-08-13"
    }
-  ]
+  ],
+  "peso": 98,
+  "nota": 5.6
  },
  "Moria T1": {
   "id": 93358,
@@ -12985,7 +13407,9 @@
     "t": "Sabrán de mí todo el tiempo",
     "d": "2026-08-14"
    }
-  ]
+  ],
+  "peso": 84,
+  "nota": null
  },
  "It's Always Sunny in Philadelphia T18": {
   "id": 347,
@@ -13053,7 +13477,9 @@
     "t": "The Guys Have a Sleepover",
     "d": "2026-10-12"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 8.1
  },
  "Average Joe T2": {
   "id": 68788,
@@ -13121,7 +13547,9 @@
     "t": "That's What I Said",
     "d": "2026-10-14"
    }
-  ]
+  ],
+  "peso": 98,
+  "nota": 6.7
  },
  "Outer Banks T5": {
   "id": 42062,
@@ -13189,7 +13617,9 @@
     "t": "The Storm and What Came After",
     "d": "2026-08-20"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 6.9
  },
  "Lego Disney Princess T2026": {
   "id": 93597,
@@ -13203,7 +13633,9 @@
     "t": "Lego Disney Princess: Magical Mayhem",
     "d": "2026-08-21"
    }
-  ]
+  ],
+  "peso": 56,
+  "nota": null
  },
  "Margarita T3": {
   "id": 79222,
@@ -13331,7 +13763,9 @@
     "t": "Episode 20",
     "d": "2026-09-21"
    }
-  ]
+  ],
+  "peso": 82,
+  "nota": null
  },
  "Gutierrez is mai neim T1": {
   "id": 93774,
@@ -13387,7 +13821,9 @@
     "t": "Higos nuestros",
     "d": "2026-08-26"
    }
-  ]
+  ],
+  "peso": 43,
+  "nota": null
  },
  "Adults T2": {
   "id": 83946,
@@ -13443,7 +13879,9 @@
     "t": "Vote for Paul Baker",
     "d": "2026-08-27"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 5.6
  },
  "Dalliance T1": {
   "id": 93506,
@@ -13487,7 +13925,9 @@
     "t": "Episode 6",
     "d": "2026-08-27"
    }
-  ]
+  ],
+  "peso": 96,
+  "nota": 5.2
  },
  "Leanne T2": {
   "id": 82914,
@@ -13555,7 +13995,9 @@
     "t": "Bang Me",
     "d": "2026-08-27"
    }
-  ]
+  ],
+  "peso": 98,
+  "nota": 6.7
  },
  "Tyler Perry's Beauty in Black T3": {
   "id": 74706,
@@ -13611,7 +14053,9 @@
     "t": "Dancing In The Rain",
     "d": "2026-08-27"
    }
-  ]
+  ],
+  "peso": 96,
+  "nota": 6.2
  },
  "Betty La Fea, La Historia Continúa T3": {
   "id": 76788,
@@ -13679,7 +14123,9 @@
     "t": "El Día Menos Pensado",
     "d": "2026-08-28"
    }
-  ]
+  ],
+  "peso": 83,
+  "nota": null
  },
  "Dark Matter T2": {
   "id": 61315,
@@ -13747,7 +14193,9 @@
     "t": "No Quiet Life",
     "d": "2026-10-30"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 7.4
  },
  "Toda la verdad de mis mentiras T1": {
   "id": 92337,
@@ -13785,7 +14233,9 @@
     "t": "La vuelta",
     "d": "2026-08-28"
    }
-  ]
+  ],
+  "peso": 86,
+  "nota": null
  },
  "The Varnell Hill Show T1": {
   "id": 93446,
@@ -13841,7 +14291,9 @@
     "t": "Episode 8",
     "d": "2026-10-13"
    }
-  ]
+  ],
+  "peso": 92,
+  "nota": null
  },
  "Mal de Amores T1": {
   "id": 93815,
@@ -13891,7 +14343,9 @@
     "t": "La doctora Sauri",
     "d": "2026-09-02"
    }
-  ]
+  ],
+  "peso": 86,
+  "nota": null
  },
  "Chad Powers T2": {
   "id": 74865,
@@ -13935,7 +14389,9 @@
     "t": "12th Quarter",
     "d": "2026-09-03"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 6.6
  },
  "The Gentlemen T2": {
   "id": 64992,
@@ -13991,7 +14447,9 @@
     "t": "Bring Me the Head",
     "d": "2026-09-03"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 7.6
  },
  "Colisión T1": {
   "id": 93921,
@@ -14233,7 +14691,9 @@
     "t": "Capítulo 39",
     "d": "2026-10-26"
    }
-  ]
+  ],
+  "peso": 87,
+  "nota": null
  },
  "DANG! T1": {
   "id": 90434,
@@ -14289,7 +14749,9 @@
     "t": "Westerham",
     "d": "2026-09-08"
    }
-  ]
+  ],
+  "peso": 94,
+  "nota": 6
  },
  "El Juicio T1": {
   "id": 81031,
@@ -14345,7 +14807,9 @@
     "t": "Miguel vs Huerta",
     "d": "2026-09-10"
    }
-  ]
+  ],
+  "peso": 73,
+  "nota": null
  },
  "Catedrales T1": {
   "id": 94502,
@@ -14389,7 +14853,9 @@
     "t": "SEIS",
     "d": "2026-09-16"
    }
-  ]
+  ],
+  "peso": 65,
+  "nota": null
  },
  "Golden Axe T1": {
   "id": 76188,
@@ -14457,7 +14923,9 @@
     "t": "For Yuria",
     "d": "2026-09-16"
    }
-  ]
+  ],
+  "peso": 97,
+  "nota": null
  },
  "Slow Horses T6": {
   "id": 45039,
@@ -14501,7 +14969,9 @@
     "t": "Judgment Day",
     "d": "2026-10-21"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 8.1
  },
  "Monster: The Lizzie Borden Story T1": {
   "id": 87597,
@@ -14557,7 +15027,9 @@
     "t": "Carnival",
     "d": "2026-09-17"
    }
-  ]
+  ],
+  "peso": 98,
+  "nota": null
  },
  "Stranger Things: Tales from '85 T2": {
   "id": 85214,
@@ -14613,7 +15085,9 @@
     "t": "Chapter Eight: Count to Five",
     "d": "2026-09-17"
    }
-  ]
+  ],
+  "peso": 99,
+  "nota": 6.5
  },
  "MobLand T2": {
   "id": 75026,
@@ -14681,7 +15155,9 @@
     "t": "Episode 10",
     "d": "2026-11-20"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 8.1
  },
  "American Horror Story T13": {
   "id": 30,
@@ -14767,7 +15243,9 @@
     "t": "Devil of a Good Time",
     "d": "2026-10-29"
    }
-  ]
+  ],
+  "peso": 100,
+  "nota": 7.4
  },
  "Mis muertos tristes T1": {
   "id": 85163,
@@ -14781,7 +15259,9 @@
     "t": "Episodio 1",
     "d": "2026-09-24"
    }
-  ]
+  ],
+  "peso": 91,
+  "nota": null
  },
  "El problema final T1": {
   "id": 92984,
@@ -14819,7 +15299,9 @@
     "t": "Episodio 5",
     "d": "2026-09-25"
    }
-  ]
+  ],
+  "peso": 93,
+  "nota": null
  },
  "Medusa T2": {
   "id": 82905,
@@ -14833,7 +15315,9 @@
     "t": "Episode 1",
     "d": "2026-09-30"
    }
-  ]
+  ],
+  "peso": 95,
+  "nota": 7.2
  },
  "Sacrifice T2": {
   "id": 50786,
@@ -14859,7 +15343,9 @@
     "t": "Episode 3",
     "d": "2026-10-07"
    }
-  ]
+  ],
+  "peso": 95,
+  "nota": null
  },
  "The Ghost in the Shell T1": {
   "id": 90589,
@@ -14927,6 +15413,8 @@
     "t": "Brain Drain III + Ghost Coast + Epilogue",
     "d": "2026-09-08"
    }
-  ]
+  ],
+  "peso": 98,
+  "nota": 6.5
  }
 }

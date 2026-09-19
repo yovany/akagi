@@ -10,6 +10,7 @@ Campos opcionales por título en videolog.yaml: `tvmaze: <id>` (evita la búsque
 
 Uso:  python3 scripts/fetch_media.py            # solo lo que falta
       python3 scripts/fetch_media.py --all      # vuelve a bajar todo
+      python3 scripts/fetch_media.py --pesos    # actualiza popularidad y nota de las series
 Solo usa la librería estándar.
 """
 import json, re, sys, time, unicodedata, urllib.error, urllib.parse, urllib.request
@@ -78,6 +79,8 @@ def detalle_serie(s, temp=None):
         "nombre": s["name"],
         "poster": (s.get("image") or {}).get("medium"),
         "estado": s.get("status"),
+        "peso": s.get("weight"),                          # índice de popularidad de TVmaze (0-100)
+        "nota": (s.get("rating") or {}).get("average"),   # calificación promedio en TVmaze
         "eps": [
             {"s": e["season"], "n": e["number"], "t": e["name"], "d": e["airdate"]}
             for e in eps
@@ -143,7 +146,25 @@ def buscar_pelicula(item):
     return None
 
 
+def rellenar_pesos():
+    """Agrega peso y nota a las series que ya estaban en series.json sin ellos."""
+    p = ROOT / "data/series.json"
+    series = json.loads(p.read_text())
+    cache = {}
+    for k, v in series.items():
+        if v.get("peso") is not None or "peso" in v and v["id"] in cache:
+            continue
+        if v["id"] not in cache:
+            s = get(f"https://api.tvmaze.com/shows/{v['id']}") or {}
+            cache[v["id"]] = (s.get("weight"), (s.get("rating") or {}).get("average"))
+        v["peso"], v["nota"] = cache[v["id"]]
+    p.write_text(json.dumps(series, ensure_ascii=False, indent=1))
+    print(f"pesos actualizados en {len(series)} entradas ({len(cache)} series distintas)")
+
+
 def main():
+    if "--pesos" in sys.argv:
+        return rellenar_pesos()
     todo = "--all" in sys.argv
     items = leer_items()
     series_p, pelis_p = ROOT / "data/series.json", ROOT / "data/peliculas.json"
