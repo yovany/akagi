@@ -2,7 +2,7 @@
 <li>
     <span class="label label-rounded text-light tag-{{ $i.tipo }}">{{ if eq $i.tipo "pelicula" }}peli{{ else }}serie{{ end }}</span>
     {{- with $i.donde }} <span class="label label-rounded text-light tag-{{ . }}">{{ . }}</span>{{ end }}
-    <strong>{{ $i.t }}</strong>
+    <strong>{{ $i.t }}{{ if gt (int $i.temp) 1 }} · T{{ $i.temp }}{{ end }}</strong>
     <small class="text-gray">
         {{- with $i.o }} · {{ . }}{{ end -}}
         {{- with $i.via }} · {{ . }}{{ end -}}

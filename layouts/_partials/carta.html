@@ -1,8 +1,10 @@
 {{- /* Una carátula + su ventana de detalle. Recibe: i (título), estado (viendo|visto|pend), series, pelis, hoy */ -}}
 {{- $i := .i -}}
 {{- $serie := eq $i.tipo "serie" -}}
-{{- $d := (cond $serie (index .series $i.t) (index .pelis $i.t)) | default dict -}}
-{{- $slug := urlize $i.t -}}
+{{- $k := $i.t -}}
+{{- with $i.temp }}{{ $k = printf "%s T%d" $i.t (int .) }}{{ end -}}
+{{- $d := (cond $serie (index .series $k) (index .pelis $i.t)) | default dict -}}
+{{- $slug := urlize $k -}}
 {{- $eps := slice -}}
 {{- if and $serie $d -}}
   {{- $eps = sort (sort (sort $d.eps "n") "s") "d" -}}
@@ -16,7 +18,7 @@
 {{- $vistos := $i.vistos | default 0 -}}
 {{- if or $i.al_dia (eq .estado "visto") -}}{{- $vistos = $aired -}}{{- end -}}
 
-<a class="carta {{ $i.tipo }} {{ .estado }}" href="#m-{{ $slug }}" title="{{ $i.t }}">
+<a class="carta {{ $i.tipo }} {{ .estado }}" href="#m-{{ $slug }}" title="{{ $i.t }}{{ if gt (int $i.temp) 1 }} T{{ $i.temp }}{{ end }}">
   <div class="poster">
     {{- with $d.poster }}<img loading="lazy" src="{{ . }}" alt="Carátula de {{ $i.t }}">
     {{- else }}<div class="sinposter" style="--h: {{ mod (mul (len $i.t) 47) 360 }}"><span>{{ $i.t }}</span></div>{{ end }}
@@ -26,7 +28,7 @@
     {{- if and $serie (gt (len $eps) 0) }}<span class="caps">{{ $aired }}/{{ len $eps }} caps</span>{{ end }}
   </div>
   <div class="pie">
-    <strong>{{ $i.t }}</strong>
+    <strong>{{ $i.t }}{{ if gt (int $i.temp) 1 }} · T{{ $i.temp }}{{ end }}</strong>
     <small>
       {{- if $i.fecha }}visto {{ partial "fecha.html" (dict "d" $i.fecha "fmt" "corta") }}
       {{- else if $i.estreno }}{{ partial "fecha.html" (dict "d" $i.estreno "fmt" "corta") }}{{ end -}}
@@ -42,7 +44,7 @@
     <div class="cab">
       {{ with $d.poster }}<img src="{{ . }}" alt="">{{ end }}
       <div>
-        <h3>{{ $i.t }}</h3>
+        <h3>{{ $i.t }}{{ if gt (int $i.temp) 1 }} · Temporada {{ $i.temp }}{{ end }}</h3>
         {{ with $i.o }}<p class="orig">{{ . }}</p>{{ end }}
         <p class="meta">
           {{- if $serie }}Serie{{ else }}Película{{ end -}}

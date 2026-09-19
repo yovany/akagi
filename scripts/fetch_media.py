@@ -5,6 +5,9 @@ Lee los títulos de data/videolog.yaml y escribe:
   data/series.json     -> carátula + capítulos con fecha (TVmaze, sin API key)
   data/peliculas.json  -> cartel (Wikipedia, sin API key)
 
+Campos opcionales por título en videolog.yaml: `tvmaze: <id>` (evita la búsqueda) y
+`temp: N` (solo los capítulos de esa temporada; para temporadas nuevas de series ya existentes).
+
 Uso:  python3 scripts/fetch_media.py            # solo lo que falta
       python3 scripts/fetch_media.py --all      # vuelve a bajar todo
 Solo usa la librería estándar.
@@ -63,7 +66,31 @@ def dias(a, b):
 
 
 # ---------- series (TVmaze) ----------
+def clave(item):
+    """Llave en series.json: el título, más " T3" si el registro es de una temporada concreta."""
+    return f"{item['t']} T{item['temp']}" if item.get("temp") else item["t"]
+
+
+def detalle_serie(s, temp=None):
+    eps = get(f"https://api.tvmaze.com/shows/{s['id']}/episodes") or []
+    return {
+        "id": s["id"],
+        "nombre": s["name"],
+        "poster": (s.get("image") or {}).get("medium"),
+        "estado": s.get("status"),
+        "eps": [
+            {"s": e["season"], "n": e["number"], "t": e["name"], "d": e["airdate"]}
+            for e in eps
+            if e.get("airdate") and e.get("number") is not None and (not temp or e["season"] == int(temp))
+        ],
+    }
+
+
 def buscar_serie(item):
+    # Con `tvmaze: <id>` en el yaml no hay búsqueda ni adivinanzas.
+    if item.get("tvmaze"):
+        s = get(f"https://api.tvmaze.com/shows/{item['tvmaze']}")
+        return detalle_serie(s, item.get("temp")) if s else None
     estreno = item.get("estreno")
     mejor = None
     for q in {item["t"], item["t"].split(":")[0]}:
@@ -74,24 +101,10 @@ def buscar_serie(item):
             sim = max(SequenceMatcher(None, norm(s["name"]), norm(x)).ratio() for x in (item["t"], q))
             if sim < 0.4:
                 continue
-            clave = (sim, -dias(s["premiered"], estreno))
-            if not mejor or clave > mejor[0]:
-                mejor = (clave, s)
-    if not mejor:
-        return None
-    s = mejor[1]
-    eps = get(f"https://api.tvmaze.com/shows/{s['id']}/episodes") or []
-    return {
-        "id": s["id"],
-        "nombre": s["name"],
-        "poster": (s.get("image") or {}).get("medium"),
-        "estado": s.get("status"),
-        "eps": [
-            {"s": e["season"], "n": e["number"], "t": e["name"], "d": e["airdate"]}
-            for e in eps
-            if e.get("airdate") and e.get("number") is not None
-        ],
-    }
+            k = (sim, -dias(s["premiered"], estreno))
+            if not mejor or k > mejor[0]:
+                mejor = (k, s)
+    return detalle_serie(mejor[1], item.get("temp")) if mejor else None
 
 
 # ---------- películas (Wikipedia) ----------
@@ -139,7 +152,8 @@ def main():
     faltan = []
     for it in items:
         destino, buscar = (series, buscar_serie) if it["tipo"] == "serie" else (pelis, buscar_pelicula)
-        if it["t"] in destino:
+        k = clave(it) if it["tipo"] == "serie" else it["t"]
+        if k in destino:
             continue
         try:
             r = buscar(it)
@@ -147,11 +161,11 @@ def main():
             print(f"  ! {it['t']}: {e}")
             r = None
         if r:
-            destino[it["t"]] = r
-            print(f"  ok  {it['t']}")
+            destino[k] = r
+            print(f"  ok  {k}")
         else:
-            faltan.append(it["t"])
-            print(f"  --  {it['t']}  (sin resultado)")
+            faltan.append(k)
+            print(f"  --  {k}  (sin resultado)")
     series_p.write_text(json.dumps(series, ensure_ascii=False, indent=1))
     pelis_p.write_text(json.dumps(pelis, ensure_ascii=False, indent=1))
     print(f"\nseries: {len(series)}  películas: {len(pelis)}  sin resultado: {len(faltan)}")
