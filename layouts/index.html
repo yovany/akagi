@@ -27,23 +27,25 @@ h1 { margin: 0 0 12px; font-size: 2rem; letter-spacing: -.02em; }
 .pill b { font-variant-numeric: tabular-nums; }
 .pill i { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
 
-/* filtros: solo CSS (radios ocultos) */
+/* filtros: solo CSS (radios ocultos). Dos grupos: estatus y tipo, combinables. */
 .filtros input { position: absolute; opacity: 0; pointer-events: none; }
-.filtros { display: flex; flex-wrap: wrap; gap: 8px; position: sticky; top: 0; z-index: 5; padding: 10px 0; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(8px); }
-.filtros label { padding: 6px 14px; border-radius: 99px; border: 1px solid var(--line); background: var(--card); cursor: pointer; font-size: .85rem; user-select: none; }
+.barra { position: sticky; top: 0; z-index: 5; padding: 8px 0; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(8px); }
+.filtros { display: flex; flex-wrap: wrap; gap: 8px; padding: 3px 0; align-items: center; }
+.filtros .et { font-size: .72rem; text-transform: uppercase; letter-spacing: .08em; color: var(--mute); width: 52px; }
+.filtros label { padding: 5px 13px; border-radius: 99px; border: 1px solid var(--line); background: var(--card); cursor: pointer; font-size: .85rem; user-select: none; }
 .filtros input:checked + label { background: var(--fg); color: var(--bg); border-color: var(--fg); }
 .filtros input:focus-visible + label { outline: 2px solid var(--acc); outline-offset: 2px; }
-body:has(#f-peli:checked)  .carta:not(.pelicula) { display: none; }
-body:has(#f-serie:checked) .carta:not(.serie)    { display: none; }
-body:has(#f-visto:checked) .carta:not(.visto)    { display: none; }
-body:has(#f-pend:checked)  .carta:not(.pend)     { display: none; }
-body:has(#f-peli:checked)  .mes:not(:has(.pelicula)) { display: none; }
-body:has(#f-serie:checked) .mes:not(:has(.serie))    { display: none; }
-body:has(#f-visto:checked) .mes:not(:has(.visto))    { display: none; }
-body:has(#f-pend:checked)  .mes:not(:has(.pend))     { display: none; }
+body:has(#s-v:checked) .grp:not(.g-v) { display: none; }
+body:has(#s-e:checked) .grp:not(.g-e) { display: none; }
+body:has(#s-a:checked) .grp:not(.g-a) { display: none; }
+body:has(#s-n:checked) .grp:not(.g-n) { display: none; }
+body:has(#t-peli:checked)  .carta:not(.pelicula) { display: none; }
+body:has(#t-serie:checked) .carta:not(.serie)    { display: none; }
+body:has(#t-peli:checked)  .grp:not(:has(.pelicula)) { display: none; }
+body:has(#t-serie:checked) .grp:not(:has(.serie))    { display: none; }
 
-.mes h2 { margin: 32px 0 14px; font-size: 1.05rem; text-transform: uppercase; letter-spacing: .08em; color: var(--mute); display: flex; align-items: center; gap: 12px; }
-.mes h2::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+.grp h2 { margin: 32px 0 14px; font-size: 1.05rem; text-transform: uppercase; letter-spacing: .08em; color: var(--mute); display: flex; align-items: center; gap: 12px; }
+.grp h2::after { content: ""; flex: 1; height: 1px; background: var(--line); }
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(132px, 1fr)); gap: 18px 14px; }
 
 .carta { display: block; transition: transform .18s ease; }
@@ -60,10 +62,11 @@ body:has(#f-pend:checked)  .mes:not(:has(.pend))     { display: none; }
 .poster .caps { bottom: 6px; left: 6px; text-transform: none; }
 .v-cine { background: var(--cine) !important; }
 .v-streaming { background: var(--stream) !important; }
-.v-viendo { background: var(--ok) !important; }
-.carta.visto .poster { outline: 2px solid var(--ok); outline-offset: -2px; }
+.v-espera { background: #d97706 !important; }
+.carta.st-v .poster { outline: 2px solid var(--ok); outline-offset: -2px; }
 .pie { padding: 8px 2px 0; }
 .pie strong { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; font-size: .85rem; line-height: 1.25; }
+.cuenta { font-size: .8rem; font-weight: 600; letter-spacing: 0; color: var(--mute); background: var(--card); border: 1px solid var(--line); border-radius: 99px; padding: 0 9px; }
 .pie small { color: var(--mute); font-size: .76rem; }
 
 /* detalle: solo CSS con :target */
@@ -92,9 +95,10 @@ body:has(#f-pend:checked)  .mes:not(:has(.pend))     { display: none; }
 </style>
 </head>
 <body>
-{{ $viendo := hugo.Data.videolog.viendo | default slice }}
 {{ $vistas := hugo.Data.videolog.vistas | default slice }}
-{{ $pend := hugo.Data.videolog.pendientes | default slice }}
+{{ $esperando := hugo.Data.videolog.esperando | default slice }}
+{{ $algun := hugo.Data.videolog.algun_dia | default slice }}
+{{ $nose := hugo.Data.videolog.no_se | default slice }}
 {{ $series := hugo.Data.series | default dict }}
 {{ $pelis := hugo.Data.peliculas | default dict }}
 {{ $hoy := now.Format "2006-01-02" }}
@@ -102,44 +106,49 @@ body:has(#f-pend:checked)  .mes:not(:has(.pend))     { display: none; }
 <div class="wrap">
   <header>
     <h1>Videolog</h1>
-    <p class="vista"><a href="{{ "lista/" | relURL }}">Ver como lista →</a></p>
     <div class="stats">
       <span class="pill"><i style="background:var(--cine)"></i><b>{{ len (where $vistas "donde" "cine") }}</b> en cine</span>
       <span class="pill"><i style="background:var(--stream)"></i><b>{{ len (where $vistas "donde" "streaming") }}</b> en streaming</span>
-      <span class="pill"><i style="background:var(--ok)"></i><b>{{ len $viendo }}</b> viendo</span>
-      <span class="pill"><i style="background:var(--mute)"></i><b>{{ len $pend }}</b> por ver</span>
+      <span class="pill"><i style="background:#d97706"></i><b>{{ len $esperando }}</b> esperando</span>
+      <span class="pill"><i style="background:var(--mute)"></i><b>{{ len $algun }}</b> algún día</span>
+      <span class="pill"><i style="background:var(--line)"></i><b>{{ len $nose }}</b> no lo sé</span>
     </div>
   </header>
 
-  <div class="filtros" role="radiogroup" aria-label="Filtrar">
-    <input type="radio" name="f" id="f-todo" checked><label for="f-todo">Todo</label>
-    <input type="radio" name="f" id="f-peli"><label for="f-peli">Películas</label>
-    <input type="radio" name="f" id="f-serie"><label for="f-serie">Series</label>
-    <input type="radio" name="f" id="f-visto"><label for="f-visto">Vistas</label>
-    <input type="radio" name="f" id="f-pend"><label for="f-pend">Por ver</label>
+  <div class="barra">
+    <div class="filtros" role="radiogroup" aria-label="Estatus">
+      <span class="et">Estatus</span>
+      <input type="radio" name="s" id="s-todo" checked><label for="s-todo">Todo</label>
+      <input type="radio" name="s" id="s-v"><label for="s-v">Vistas</label>
+      <input type="radio" name="s" id="s-e"><label for="s-e">Esperando</label>
+      <input type="radio" name="s" id="s-a"><label for="s-a">Algún día</label>
+      <input type="radio" name="s" id="s-n"><label for="s-n">No lo sé</label>
+    </div>
+    <div class="filtros" role="radiogroup" aria-label="Tipo">
+      <span class="et">Tipo</span>
+      <input type="radio" name="t" id="t-todo" checked><label for="t-todo">Todo</label>
+      <input type="radio" name="t" id="t-peli"><label for="t-peli">Películas</label>
+      <input type="radio" name="t" id="t-serie"><label for="t-serie">Series</label>
+    </div>
   </div>
 
-  {{ if $viendo }}
-  <section class="mes"><h2>Viendo</h2><div class="grid">
-    {{ range $viendo }}{{ partial "carta.html" (dict "i" . "estado" "viendo" "series" $series "pelis" $pelis "hoy" $hoy) }}{{ end }}
-  </div></section>
-  {{ end }}
-
-  {{ if $vistas }}
-  <section class="mes"><h2>Vistas</h2><div class="grid">
+  {{ $grupos := slice
+    (dict "k" "v" "nombre" "Vistas" "items" $vistas)
+    (dict "k" "e" "nombre" "Esperando" "items" $esperando)
+    (dict "k" "a" "nombre" "Algún día" "items" $algun)
+    (dict "k" "n" "nombre" "No lo sé" "items" $nose) }}
+  {{ range $grupos }}{{ if .items }}
+  {{ $k := .k }}
+  {{ $items := .items }}
+  {{ if eq $k "v" }}
     {{ $orden := slice }}
-    {{ range $vistas }}{{ $orden = $orden | append (merge (dict "k" (.fecha | default .estreno)) .) }}{{ end }}
-    {{ range sort $orden "k" "desc" }}{{ partial "carta.html" (dict "i" . "estado" "visto" "series" $series "pelis" $pelis "hoy" $hoy) }}{{ end }}
-  </div></section>
+    {{ range $items }}{{ $orden = $orden | append (merge (dict "k" (.fecha | default .estreno)) .) }}{{ end }}
+    {{ $items = sort $orden "k" "desc" }}
   {{ end }}
-
-  {{ $meses := slice }}
-  {{ range sort $pend "estreno" "desc" }}{{ $meses = $meses | append (substr .estreno 0 7) }}{{ end }}
-  {{ range $meses | uniq }}{{ $m := . }}
-  <section class="mes"><h2>Por ver · {{ partial "fecha.html" (dict "d" (printf "%s-01" .) "fmt" "mes") }}</h2><div class="grid">
-    {{ range sort $pend "estreno" }}{{ if eq (substr .estreno 0 7) $m }}{{ partial "carta.html" (dict "i" . "estado" "pend" "series" $series "pelis" $pelis "hoy" $hoy) }}{{ end }}{{ end }}
+  <section class="grp g-{{ $k }}"><h2>{{ .nombre }} <span class="cuenta">{{ len .items }}</span></h2><div class="grid">
+    {{ range $items }}{{ partial "carta.html" (dict "i" . "estado" $k "series" $series "pelis" $pelis "hoy" $hoy) }}{{ end }}
   </div></section>
-  {{ end }}
+  {{ end }}{{ end }}
 </div>
 
 <script>

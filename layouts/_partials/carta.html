@@ -1,4 +1,4 @@
-{{- /* Una carátula + su ventana de detalle. Recibe: i (título), estado (viendo|visto|pend), series, pelis, hoy */ -}}
+{{- /* Una carátula + su ventana de detalle. Recibe: i (título), estado (v|e|a|n), series, pelis, hoy */ -}}
 {{- $i := .i -}}
 {{- $serie := eq $i.tipo "serie" -}}
 {{- $k := $i.t -}}
@@ -16,15 +16,15 @@
 {{- end -}}
 {{- /* capítulos vistos: en "vistas" todos los estrenados; con al_dia también; si no, el número indicado */ -}}
 {{- $vistos := $i.vistos | default 0 -}}
-{{- if or $i.al_dia (eq .estado "visto") -}}{{- $vistos = $aired -}}{{- end -}}
+{{- if or $i.al_dia (eq .estado "v") -}}{{- $vistos = $aired -}}{{- end -}}
 
-<a class="carta {{ $i.tipo }} {{ .estado }}" href="#m-{{ $slug }}" title="{{ $i.t }}{{ if gt (int $i.temp) 1 }} T{{ $i.temp }}{{ end }}">
+<a class="carta {{ $i.tipo }} st-{{ .estado }}" href="#m-{{ $slug }}" title="{{ $i.t }}{{ if gt (int $i.temp) 1 }} T{{ $i.temp }}{{ end }}">
   <div class="poster">
     {{- with $d.poster }}<img loading="lazy" src="{{ . }}" alt="Carátula de {{ $i.t }}">
     {{- else }}<div class="sinposter" style="--h: {{ mod (mul (len $i.t) 47) 360 }}"><span>{{ $i.t }}</span></div>{{ end }}
     <span class="tipo">{{ if $serie }}serie{{ else }}peli{{ end }}</span>
-    {{- if eq .estado "visto" }}<span class="estado v-{{ $i.donde }}">✓ {{ $i.donde }}</span>
-    {{- else if eq .estado "viendo" }}<span class="estado v-viendo">▶ viendo</span>{{ end }}
+    {{- if eq .estado "v" }}<span class="estado v-{{ $i.donde }}">✓ {{ $i.donde }}</span>
+    {{- else if eq .estado "e" }}<span class="estado v-espera">esperando</span>{{ end }}
     {{- if and $serie (gt (len $eps) 0) }}<span class="caps">{{ $aired }}/{{ len $eps }} caps</span>{{ end }}
   </div>
   <div class="pie">

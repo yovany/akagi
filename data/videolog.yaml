@@ -1,22 +1,18 @@
-# Videolog — un solo archivo, tres listas. Para registrar algo:
-#   1. Borra la línea de `pendientes`.
-#   2. Pégala en `vistas` (o `viendo`) con los campos de abajo.
+# Videolog — cuatro listas, una por estatus. Se genera desde la hoja de Numbers
+# (scripts/importar_csv.py) y se puede editar a mano: para cambiar el estatus de un título,
+# mueve su línea a otra lista.
 #
-# viendo:    - {t: "Título", tipo: serie, via: "HBO Max", estreno: "2026-08-16", vistos: 3}   # vistos: capítulos vistos, en orden
-#             o  al_dia: true  = ya viste todos los capítulos estrenados hasta hoy
-# vistas:    - {t: "Título", tipo: pelicula|serie, donde: cine|streaming, estreno: "2026-03-08", fecha: "2026-03-10", nota: 9}
-#             (fecha = cuándo la viste y nota son opcionales; en series, "vistas" = todos los capítulos)
-# pendientes: - {t: "Título", o: "Título original", tipo: pelicula|serie, estreno: "2026-03-05", via: "Netflix"}
+#   vistas:    v  · ya la vi. Con  donde: cine | streaming.  En series, se dan por vistos todos
+#                   los capítulos ya estrenados.
+#   esperando: e  · la quiero ver pronto, o la voy siguiendo.  Series: vistos: N (capítulos vistos)
+#                   o al_dia: true (vistos todos los que han salido).
+#   algun_dia: a  · algún día.
+#   no_se:     n  · no lo sé.
 #
-#   Campos extra opcionales en series: tvmaze: <id de TVmaze>  ·  temp: <número de temporada> (solo esa temporada)
-#
-# Fechas de películas: estreno en cines de México (Cinemex/Cinépolis/Excélsior/Milenio).
-# Fechas de series: fecha de la plataforma (global). No verifiqué que cada plataforma tenga
-# el título disponible en México.
+# Campos: t (título) · o (título original) · tipo: pelicula|serie · estreno · via (plataforma)
+#         tvmaze (id) · temp (temporada) · fecha (día que la vi) · nota (mi calificación)
+# Fechas de películas: estreno en cines de México. Series: fecha de la plataforma (global).
 # Estrenos en miércoles pueden ser preestreno; el oficial suele ser el jueves.
-
-viendo:
-  - {t: "Lanterns", tipo: serie, estreno: "2026-08-16", via: "HBO Max", al_dia: true}
 
 vistas:
   - {t: "The Testaments", tipo: serie, estreno: "2026-04-08", via: "Hulu / Disney+", donde: streaming}
@@ -44,58 +40,91 @@ vistas:
   - {t: "Margo's Got Money Troubles", tipo: serie, estreno: "2026-04-15", via: "Apple TV", donde: streaming}
   - {t: "Widow's Bay", tipo: serie, estreno: "2026-04-29", via: "Apple TV", donde: streaming}
   - {t: "Cape Fear", tipo: serie, estreno: "2026-06-05", via: "Apple TV", donde: streaming}
+  - {t: "House of the Dragon", tipo: serie, estreno: "2026-06-21", via: "HBO Max", tvmaze: 44778, temp: 3, donde: streaming}
+  - {t: "Hacks", tipo: serie, estreno: "2026-04-09", via: "HBO Max", tvmaze: 54914, temp: 5, donde: streaming}
+  - {t: "Your Friends & Neighbors", tipo: serie, estreno: "2026-04-03", via: "Apple TV", tvmaze: 73484, temp: 2, donde: streaming}
+  - {t: "The Ghost in the Shell", tipo: serie, estreno: "2026-07-07", via: "Prime Video", tvmaze: 90589, temp: 1, donde: streaming}
+  - {t: "Malcolm in the Middle: Life's Still Unfair", tipo: serie, estreno: "2026-04-10", via: "Hulu / Disney+", tvmaze: 90782, temp: 1, donde: streaming}
+  - {t: "Las Azules", tipo: serie, estreno: "2026-08-12", via: "Apple TV", tvmaze: 62238, temp: 2, donde: streaming}
+  - {t: "Como Agua para Chocolate", tipo: serie, estreno: "2026-02-15", via: "HBO Max", tvmaze: 79842, temp: 2, donde: streaming}
+  - {t: "Betty La Fea, La Historia Continúa", tipo: serie, estreno: "2026-08-28", via: "Prime Video", tvmaze: 76788, temp: 3, donde: streaming}
+  - {t: "Nadie nos va a extrañar", tipo: serie, estreno: "2026-08-07", via: "Prime Video", tvmaze: 78900, temp: 2, donde: streaming}
+  - {t: "La Oficina", tipo: serie, estreno: "2026-03-13", via: "Prime Video", tvmaze: 90738, temp: 1, donde: streaming}
 
-pendientes:
-  # ---- Películas · enero ----
+esperando:
+  - {t: "Lanterns", tipo: serie, estreno: "2026-08-16", via: "HBO Max", al_dia: true}
+  - {t: "Scream 7", tipo: pelicula, estreno: "2026-02-26"}
+  - {t: "Super Mario Galaxy: La película", o: "The Super Mario Galaxy Movie", tipo: pelicula, estreno: "2026-04-01"}
+  - {t: "Star Wars: The Mandalorian and Grogu", tipo: pelicula, estreno: "2026-05-21"}
+  - {t: "El final de la calle Oak", tipo: pelicula, estreno: "2026-08-13"}
+  - {t: "La noche del demonio: Están entre nosotros", o: "Insidious: Out of the Further", tipo: pelicula, estreno: "2026-08-20"}
+  - {t: "Coyote vs Acme", tipo: pelicula, estreno: "2026-08-27"}
+  - {t: "Hechizo de amor 2", o: "Practical Magic 2", tipo: pelicula, estreno: "2026-09-18"}
+  - {t: "The Pitt", tipo: serie, estreno: "2026-01-08", via: "HBO Max", tvmaze: 75632, temp: 2}
+  - {t: "Criminal Minds", tipo: serie, estreno: "2026-05-28", via: "Paramount+", tvmaze: 81, temp: 19}
+  - {t: "American Horror Story", tipo: serie, estreno: "2026-09-24", via: "FX / Disney+", tvmaze: 30, temp: 13}
+  - {t: "For All Mankind", tipo: serie, estreno: "2026-03-27", via: "Apple TV", tvmaze: 41414, temp: 5}
+  - {t: "Monarch: Legacy of Monsters", tipo: serie, estreno: "2026-02-27", via: "Apple TV", tvmaze: 60090, temp: 2}
+  - {t: "The Bear", tipo: serie, estreno: "2026-06-25", via: "Hulu / Disney+", tvmaze: 54198, temp: 5}
+  - {t: "Spider-Noir", tipo: serie, estreno: "2026-05-27", via: "Prime Video"}
+  - {t: "Dutton Ranch", tipo: serie, estreno: "2026-05-15", via: "Paramount+"}
+  - {t: "Avatar: The Last Airbender", tipo: serie, estreno: "2026-06-25", via: "Netflix", tvmaze: 38753, temp: 2}
+  - {t: "Stranger Things: Tales from '85", tipo: serie, estreno: "2026-04-23", via: "Netflix", tvmaze: 85214, temp: 1}
+  - {t: "Stranger Things: Tales from '85", tipo: serie, estreno: "2026-09-17", via: "Netflix", tvmaze: 85214, temp: 2}
+  - {t: "Monster: The Lizzie Borden Story", tipo: serie, estreno: "2026-09-17", via: "Netflix", tvmaze: 87597, temp: 1}
+
+algun_dia:
   - {t: "Primate", tipo: pelicula, estreno: "2026-01-08"}
   - {t: "Marty Supremo", o: "Marty Supreme", tipo: pelicula, estreno: "2026-01-15"}
-  - {t: "Tom y Jerry: La brújula mágica", tipo: pelicula, estreno: "2026-01-15"}
   - {t: "Hamnet", tipo: pelicula, estreno: "2026-01-22"}
   - {t: "Terror en Silent Hill: Regreso al infierno", o: "Return to Silent Hill", tipo: pelicula, estreno: "2026-01-22"}
-  - {t: "Sin piedad", o: "Mercy", tipo: pelicula, estreno: "2026-01-22"}
-  - {t: "Sirat: Trance en el desierto", o: "Sirāt", tipo: pelicula, estreno: "2026-01-29"}
-  # ---- Películas · febrero ----
-  - {t: "La cabra que cambió el juego", o: "Goat", tipo: pelicula, estreno: "2026-02-12"}
-  - {t: "¿Está funcionando esto?", o: "Is This Thing On?", tipo: pelicula, estreno: "2026-02-19"}
-  - {t: "Scream 7", tipo: pelicula, estreno: "2026-02-26"}
   - {t: "Nuremberg: El juicio del siglo", o: "Nuremberg", tipo: pelicula, estreno: "2026-02-26"}
-  - {t: "El agente secreto", o: "The Secret Agent", tipo: pelicula, estreno: "2026-02-26"}
-  # ---- Películas · marzo ----
-  - {t: "Hoppers: Operación Castor", o: "Hoppers", tipo: pelicula, estreno: "2026-03-05"}
-  # ---- Películas · abril ----
-  - {t: "Super Mario Galaxy: La película", o: "The Super Mario Galaxy Movie", tipo: pelicula, estreno: "2026-04-01"}
-  - {t: "Buena suerte, diviértete, no mueras", o: "Good Luck, Have Fun, Don't Die", tipo: pelicula, estreno: "2026-04-09"}
   - {t: "Michael", o: "Michael", tipo: pelicula, estreno: "2026-04-23"}
-  # ---- Películas · mayo ----
   - {t: "Mortal Kombat II", tipo: pelicula, estreno: "2026-05-07"}
-  - {t: "Star Wars: The Mandalorian and Grogu", tipo: pelicula, estreno: "2026-05-21"}
   - {t: "Ballena asesina", o: "Killer Whale", tipo: pelicula, estreno: "2026-05-28"}
-  # ---- Películas · junio ----
   - {t: "Amos del Universo", o: "Masters of the Universe", tipo: pelicula, estreno: "2026-06-04"}
   - {t: "Toy Story 5", tipo: pelicula, estreno: "2026-06-18"}
   - {t: "Supergirl", o: "Supergirl", tipo: pelicula, estreno: "2026-06-25"}
-  - {t: "Jackass: La última y nos vamos", tipo: pelicula, estreno: "2026-06-25"}
-  # ---- Películas · julio ----
-  - {t: "Minions & Monstruos", o: "Minions & Monsters", tipo: pelicula, estreno: "2026-07-01"}
-  - {t: "Moana", o: "Moana (live action)", tipo: pelicula, estreno: "2026-07-08"}
   - {t: "La invitación", o: "The Invite", tipo: pelicula, estreno: "2026-07-08"}
   - {t: "Spider-Man: Un nuevo día", o: "Spider-Man: Brand New Day", tipo: pelicula, estreno: "2026-07-29"}
-  # ---- Películas · agosto ----
   - {t: "El día D: Bajo presión", o: "Pressure", tipo: pelicula, estreno: "2026-08-06"}
-  - {t: "El final de la calle Oak", tipo: pelicula, estreno: "2026-08-13"}
-  - {t: "Paw Patrol: La dino película", o: "PAW Patrol: The Dino Movie", tipo: pelicula, estreno: "2026-08-13"}
-  - {t: "La noche del demonio: Están entre nosotros", o: "Insidious: Out of the Further", tipo: pelicula, estreno: "2026-08-20"}
-  - {t: "Coyote vs Acme", tipo: pelicula, estreno: "2026-08-27"}
-  - {t: "La guerra de los últimos", o: "The Dog Stars", tipo: pelicula, estreno: "2026-08-27"}
-  # ---- Películas · septiembre ----
-  - {t: "One Piece La Película", tipo: pelicula, estreno: "2026-09-17"}
-  - {t: "Hechizo de amor 2", o: "Practical Magic 2", tipo: pelicula, estreno: "2026-09-18"}
-
-  # ---- Series por popularidad (índice de TVmaze; empates por calificación) ----
   - {t: "Futurama", tipo: serie, estreno: "2026-08-03", via: "Hulu / Disney+", tvmaze: 538, temp: 14}
-  - {t: "The Pitt", tipo: serie, estreno: "2026-01-08", via: "HBO Max", tvmaze: 75632, temp: 2}
   - {t: "The Boys", tipo: serie, estreno: "2026-04-08", via: "Prime Video", tvmaze: 15299, temp: 5}
-  - {t: "Criminal Minds", tipo: serie, estreno: "2026-05-28", via: "Paramount+", tvmaze: 81, temp: 19}
+  - {t: "Star Trek: Strange New Worlds", tipo: serie, estreno: "2026-07-23", via: "Paramount+", tvmaze: 48090, temp: 4}
+  - {t: "Lucky", tipo: serie, estreno: "2026-07-15", via: "Apple TV"}
+  - {t: "Star City", tipo: serie, estreno: "2026-05-29", via: "Apple TV"}
+  - {t: "Euphoria", tipo: serie, estreno: "2026-04-12", via: "HBO Max", tvmaze: 28826, temp: 3}
+  - {t: "Star Trek: Starfleet Academy", tipo: serie, estreno: "2026-01-15", via: "Paramount+"}
+  - {t: "Star Wars: Maul - Shadow Lord", tipo: serie, estreno: "2026-04-06", via: "Disney+", tvmaze: 84190, temp: 1}
+  - {t: "X-Men '97", tipo: serie, estreno: "2026-07-01", via: "Disney+", tvmaze: 58951, temp: 2}
+  - {t: "One Piece", tipo: serie, estreno: "2026-03-10", via: "Netflix", tvmaze: 46065, temp: 2}
+  - {t: "Sterling Point", tipo: serie, estreno: "2026-08-05", via: "Prime Video"}
+  - {t: "Bridgerton", tipo: serie, estreno: "2026-01-29", via: "Netflix", tvmaze: 42966, temp: 4}
+  - {t: "Young Sherlock", tipo: serie, estreno: "2026-03-04", via: "Prime Video"}
+  - {t: "Ride or Die", tipo: serie, estreno: "2026-07-15", via: "Prime Video"}
+  - {t: "Industry", tipo: serie, estreno: "2026-01-11", via: "HBO Max", tvmaze: 45501, temp: 4}
+  - {t: "The Last Thing He Told Me", tipo: serie, estreno: "2026-02-20", via: "Apple TV", tvmaze: 52331, temp: 2}
+  - {t: "Cien años de soledad", tipo: serie, estreno: "2026-08-05", via: "Netflix", tvmaze: 41256, temp: 2}
+  - {t: "56 Days", tipo: serie, estreno: "2026-02-18", via: "Prime Video"}
+  - {t: "Adventure Time: Side Quests", tipo: serie, estreno: "2026-06-29", via: "Disney+", tvmaze: 92003, temp: 1}
+  - {t: "La casa de los espíritus", tipo: serie, estreno: "2026-04-29", via: "Prime Video", tvmaze: 78605, temp: 1}
+  - {t: "Dear Killer Nannies: Criado por sicarios", tipo: serie, estreno: "2026-04-01", via: "Disney+", tvmaze: 91107, temp: 1}
+
+no_se:
+  - {t: "Tom y Jerry: La brújula mágica", tipo: pelicula, estreno: "2026-01-15"}
+  - {t: "Sin piedad", o: "Mercy", tipo: pelicula, estreno: "2026-01-22"}
+  - {t: "Sirat: Trance en el desierto", o: "Sirāt", tipo: pelicula, estreno: "2026-01-29"}
+  - {t: "La cabra que cambió el juego", o: "Goat", tipo: pelicula, estreno: "2026-02-12"}
+  - {t: "¿Está funcionando esto?", o: "Is This Thing On?", tipo: pelicula, estreno: "2026-02-19"}
+  - {t: "El agente secreto", o: "The Secret Agent", tipo: pelicula, estreno: "2026-02-26"}
+  - {t: "Hoppers: Operación Castor", o: "Hoppers", tipo: pelicula, estreno: "2026-03-05"}
+  - {t: "Buena suerte, diviértete, no mueras", o: "Good Luck, Have Fun, Don't Die", tipo: pelicula, estreno: "2026-04-09"}
+  - {t: "Jackass: La última y nos vamos", tipo: pelicula, estreno: "2026-06-25"}
+  - {t: "Minions & Monstruos", o: "Minions & Monsters", tipo: pelicula, estreno: "2026-07-01"}
+  - {t: "Moana", o: "Moana (live action)", tipo: pelicula, estreno: "2026-07-08"}
+  - {t: "Paw Patrol: La dino película", o: "PAW Patrol: The Dino Movie", tipo: pelicula, estreno: "2026-08-13"}
+  - {t: "La guerra de los últimos", o: "The Dog Stars", tipo: pelicula, estreno: "2026-08-27"}
+  - {t: "One Piece La Película", tipo: pelicula, estreno: "2026-09-17"}
   - {t: "It's Always Sunny in Philadelphia", tipo: serie, estreno: "2026-08-17", via: "FX / Disney+", tvmaze: 347, temp: 18}
   - {t: "MobLand", tipo: serie, estreno: "2026-09-18", via: "Paramount+", tvmaze: 75026, temp: 2}
   - {t: "Reacher", tipo: serie, estreno: "2026-08-12", via: "Prime Video", tvmaze: 43031, temp: 4}
@@ -103,51 +132,29 @@ pendientes:
   - {t: "Ted Lasso", tipo: serie, estreno: "2026-08-05", via: "Apple TV", tvmaze: 44458, temp: 4}
   - {t: "The Lincoln Lawyer", tipo: serie, estreno: "2026-02-05", via: "Netflix", tvmaze: 52910, temp: 4}
   - {t: "Shrinking", tipo: serie, estreno: "2026-01-28", via: "Apple TV", tvmaze: 58323, temp: 3}
-  - {t: "Star Trek: Strange New Worlds", tipo: serie, estreno: "2026-07-23", via: "Paramount+", tvmaze: 48090, temp: 4}
   - {t: "The Night Agent", tipo: serie, estreno: "2026-02-19", via: "Netflix", tvmaze: 56512, temp: 3}
-  - {t: "House of the Dragon", tipo: serie, estreno: "2026-06-21", via: "HBO Max", tvmaze: 44778, temp: 3}
   - {t: "Lioness", tipo: serie, estreno: "2026-08-02", via: "Paramount+", tvmaze: 50415, temp: 3}
   - {t: "The Gentlemen", tipo: serie, estreno: "2026-09-03", via: "Netflix", tvmaze: 64992, temp: 2}
   - {t: "Daredevil: Born Again", tipo: serie, estreno: "2026-03-24", via: "Disney+", tvmaze: 63234, temp: 2}
   - {t: "Hijack", tipo: serie, estreno: "2026-01-14", via: "Apple TV", tvmaze: 61739, temp: 2}
-  - {t: "American Horror Story", tipo: serie, estreno: "2026-09-24", via: "FX / Disney+", tvmaze: 30, temp: 13}
   - {t: "Dark Matter", tipo: serie, estreno: "2026-08-28", via: "Apple TV", tvmaze: 61315, temp: 2}
-  - {t: "For All Mankind", tipo: serie, estreno: "2026-03-27", via: "Apple TV", tvmaze: 41414, temp: 5}
-  - {t: "Monarch: Legacy of Monsters", tipo: serie, estreno: "2026-02-27", via: "Apple TV", tvmaze: 60090, temp: 2}
   - {t: "Paradise", tipo: serie, estreno: "2026-02-23", via: "Hulu / Disney+", tvmaze: 75030, temp: 2}
   - {t: "Sugar", tipo: serie, estreno: "2026-06-19", via: "Apple TV", tvmaze: 62463, temp: 2}
-  - {t: "The Bear", tipo: serie, estreno: "2026-06-25", via: "Hulu / Disney+", tvmaze: 54198, temp: 5}
   - {t: "Furious", tipo: serie, estreno: "2026-07-27", via: "Hulu / Disney+"}
-  - {t: "Spider-Noir", tipo: serie, estreno: "2026-05-27", via: "Prime Video"}
   - {t: "The Agency", tipo: serie, estreno: "2026-06-21", via: "Paramount+", tvmaze: 66840, temp: 2}
   - {t: "Neagley", tipo: serie, estreno: "2026-09-16", via: "Prime Video"}
   - {t: "Stuart Fails to Save the Universe", tipo: serie, estreno: "2026-07-23", via: "HBO Max"}
-  - {t: "Lucky", tipo: serie, estreno: "2026-07-15", via: "Apple TV"}
-  - {t: "Star City", tipo: serie, estreno: "2026-05-29", via: "Apple TV"}
-  - {t: "Euphoria", tipo: serie, estreno: "2026-04-12", via: "HBO Max", tvmaze: 28826, temp: 3}
   - {t: "Citadel", tipo: serie, estreno: "2026-05-06", via: "Prime Video", tvmaze: 45834, temp: 2}
-  - {t: "Star Trek: Starfleet Academy", tipo: serie, estreno: "2026-01-15", via: "Paramount+"}
-  - {t: "Star Wars: Maul - Shadow Lord", tipo: serie, estreno: "2026-04-06", via: "Disney+", tvmaze: 84190, temp: 1}
-  - {t: "X-Men '97", tipo: serie, estreno: "2026-07-01", via: "Disney+", tvmaze: 58951, temp: 2}
   - {t: "The Madison", tipo: serie, estreno: "2026-03-14", via: "Paramount+"}
   - {t: "Invincible", tipo: serie, estreno: "2026-03-18", via: "Prime Video", tvmaze: 37196, temp: 4}
   - {t: "The Legend of Vox Machina", tipo: serie, estreno: "2026-06-03", via: "Prime Video", tvmaze: 44885, temp: 4}
   - {t: "Good Omens", tipo: serie, estreno: "2026-05-13", via: "Prime Video", tvmaze: 28717, temp: 3}
-  - {t: "Dutton Ranch", tipo: serie, estreno: "2026-05-15", via: "Paramount+"}
-  - {t: "One Piece", tipo: serie, estreno: "2026-03-10", via: "Netflix", tvmaze: 46065, temp: 2}
-  - {t: "Sterling Point", tipo: serie, estreno: "2026-08-05", via: "Prime Video"}
-  - {t: "Avatar: The Last Airbender", tipo: serie, estreno: "2026-06-25", via: "Netflix", tvmaze: 38753, temp: 2}
-  - {t: "Hacks", tipo: serie, estreno: "2026-04-09", via: "HBO Max", tvmaze: 54914, temp: 5}
-  - {t: "Bridgerton", tipo: serie, estreno: "2026-01-29", via: "Netflix", tvmaze: 42966, temp: 4}
-  - {t: "Young Sherlock", tipo: serie, estreno: "2026-03-04", via: "Prime Video"}
   - {t: "Virgin River", tipo: serie, estreno: "2026-03-12", via: "Netflix", tvmaze: 38893, temp: 7}
   - {t: "I Will Find You", tipo: serie, estreno: "2026-06-18", via: "Netflix"}
   - {t: "Ransom Canyon", tipo: serie, estreno: "2026-07-23", via: "Netflix", tvmaze: 73223, temp: 2}
-  - {t: "Ride or Die", tipo: serie, estreno: "2026-07-15", via: "Prime Video"}
   - {t: "The Boroughs", tipo: serie, estreno: "2026-05-21", via: "Netflix"}
   - {t: "BEEF", tipo: serie, estreno: "2026-04-16", via: "Netflix", tvmaze: 54285, temp: 2}
   - {t: "Cross", tipo: serie, estreno: "2026-02-11", via: "Prime Video", tvmaze: 64834, temp: 2}
-  - {t: "Your Friends & Neighbors", tipo: serie, estreno: "2026-04-03", via: "Apple TV", tvmaze: 73484, temp: 2}
   - {t: "Criminal Record", tipo: serie, estreno: "2026-04-22", via: "Apple TV", tvmaze: 62628, temp: 2}
   - {t: "Legends", tipo: serie, estreno: "2026-05-07", via: "Netflix", tvmaze: 91311, temp: 1}
   - {t: "Outer Banks", tipo: serie, estreno: "2026-08-20", via: "Netflix", tvmaze: 42062, temp: 5}
@@ -155,14 +162,10 @@ pendientes:
   - {t: "The Beauty", tipo: serie, estreno: "2026-01-21", via: "FX / Disney+"}
   - {t: "Chad Powers", tipo: serie, estreno: "2026-09-03", via: "Hulu / Disney+", tvmaze: 74865, temp: 2}
   - {t: "Last Seen", tipo: serie, estreno: "2026-09-09", via: "Apple TV"}
-  - {t: "Industry", tipo: serie, estreno: "2026-01-11", via: "HBO Max", tvmaze: 45501, temp: 4}
   - {t: "Running Point", tipo: serie, estreno: "2026-04-23", via: "Netflix", tvmaze: 77064, temp: 2}
-  - {t: "Stranger Things: Tales from '85", tipo: serie, estreno: "2026-04-23", via: "Netflix", tvmaze: 85214, temp: 1}
-  - {t: "Stranger Things: Tales from '85", tipo: serie, estreno: "2026-09-17", via: "Netflix", tvmaze: 85214, temp: 2}
   - {t: "Trying", tipo: serie, estreno: "2026-07-08", via: "Apple TV", tvmaze: 45928, temp: 5}
   - {t: "Maximum Pleasure Guaranteed", tipo: serie, estreno: "2026-05-20", via: "Apple TV"}
   - {t: "Rivals", tipo: serie, estreno: "2026-05-15", via: "Disney+", tvmaze: 64087, temp: 2}
-  - {t: "The Last Thing He Told Me", tipo: serie, estreno: "2026-02-20", via: "Apple TV", tvmaze: 52331, temp: 2}
   - {t: "Wonder Man", tipo: serie, estreno: "2026-01-27", via: "Disney+"}
   - {t: "Man on Fire", tipo: serie, estreno: "2026-04-30", via: "Netflix"}
   - {t: "Tell Me Lies", tipo: serie, estreno: "2026-01-13", via: "Hulu / Disney+", tvmaze: 50062, temp: 3}
@@ -173,7 +176,6 @@ pendientes:
   - {t: "King of the Hill", tipo: serie, estreno: "2026-07-20", via: "Hulu / Disney+", tvmaze: 115, temp: 15}
   - {t: "The Artful Dodger", tipo: serie, estreno: "2026-02-10", via: "Disney+", tvmaze: 62133, temp: 2}
   - {t: "Off Campus", tipo: serie, estreno: "2026-05-13", via: "Prime Video"}
-  - {t: "Cien años de soledad", tipo: serie, estreno: "2026-08-05", via: "Netflix", tvmaze: 41256, temp: 2}
   - {t: "School Spirits", tipo: serie, estreno: "2026-01-28", via: "Paramount+", tvmaze: 62556, temp: 3}
   - {t: "Alice and Steve", tipo: serie, estreno: "2026-06-08", via: "Disney+", tvmaze: 86435, temp: 1}
   - {t: "Elle", tipo: serie, estreno: "2026-07-01", via: "Prime Video"}
@@ -187,7 +189,6 @@ pendientes:
   - {t: "A Thousand Blows", tipo: serie, estreno: "2026-01-09", via: "Disney+", tvmaze: 63786, temp: 2}
   - {t: "SkyMed", tipo: serie, estreno: "2026-05-21", via: "Paramount+", tvmaze: 57682, temp: 4}
   - {t: "Batman: Caped Crusader", tipo: serie, estreno: "2026-07-31", via: "Prime Video", tvmaze: 55415, temp: 2}
-  - {t: "The Ghost in the Shell", tipo: serie, estreno: "2026-07-07", via: "Prime Video", tvmaze: 90589, temp: 1}
   - {t: "The Four Seasons", tipo: serie, estreno: "2026-05-28", via: "Netflix", tvmaze: 73889, temp: 2}
   - {t: "Crew Girl", tipo: serie, estreno: "2026-09-10", via: "Netflix"}
   - {t: "Big Mistakes", tipo: serie, estreno: "2026-04-09", via: "Netflix"}
@@ -199,23 +200,19 @@ pendientes:
   - {t: "The Chi", tipo: serie, estreno: "2026-05-22", via: "Paramount+", tvmaze: 24371, temp: 8}
   - {t: "Nemesis", tipo: serie, estreno: "2026-05-14", via: "Netflix"}
   - {t: "The Drop: A Snowfall Saga", tipo: serie, estreno: "2026-09-08", via: "FX / Disney+"}
-  - {t: "Monster: The Lizzie Borden Story", tipo: serie, estreno: "2026-09-17", via: "Netflix", tvmaze: 87597, temp: 1}
   - {t: "Marvel Television Special Presentation", tipo: serie, estreno: "2026-05-12", via: "Disney+", tvmaze: 64044, temp: 2026}
   - {t: "The Simpsons Specials", tipo: serie, estreno: "2026-06-17", via: "Disney+", tvmaze: 56220, temp: 2026}
   - {t: "How to Get to Heaven From Belfast", tipo: serie, estreno: "2026-02-12", via: "Netflix", tvmaze: 76004, temp: 1}
   - {t: "Deadloch", tipo: serie, estreno: "2026-03-19", via: "Prime Video", tvmaze: 60614, temp: 2}
-  - {t: "Malcolm in the Middle: Life's Still Unfair", tipo: serie, estreno: "2026-04-10", via: "Hulu / Disney+", tvmaze: 90782, temp: 1}
   - {t: "Run Away", tipo: serie, estreno: "2026-01-01", via: "Netflix"}
   - {t: "XO, Kitty", tipo: serie, estreno: "2026-04-02", via: "Netflix", tvmaze: 60509, temp: 3}
   - {t: "Steal", tipo: serie, estreno: "2026-01-21", via: "Prime Video"}
   - {t: "The Comeback", tipo: serie, estreno: "2026-03-22", via: "HBO Max", tvmaze: 144, temp: 3}
   - {t: "Girl Taken", tipo: serie, estreno: "2026-01-08", via: "Paramount+", tvmaze: 85602, temp: 1}
-  - {t: "56 Days", tipo: serie, estreno: "2026-02-18", via: "Prime Video"}
   - {t: "Deli Boys", tipo: serie, estreno: "2026-05-28", via: "Hulu / Disney+", tvmaze: 68689, temp: 2}
   - {t: "Ricky Gervais Alley Cats", tipo: serie, estreno: "2026-08-07", via: "Netflix", tvmaze: 91116, temp: 1}
   - {t: "The Witness", tipo: serie, estreno: "2026-06-04", via: "Netflix", tvmaze: 91633, temp: 1}
   - {t: "My Brilliant Career", tipo: serie, estreno: "2026-08-13", via: "Netflix", tvmaze: 85474, temp: 1}
-  - {t: "Las Azules", tipo: serie, estreno: "2026-08-12", via: "Apple TV", tvmaze: 62238, temp: 2}
   - {t: "Every Year After", tipo: serie, estreno: "2026-06-10", via: "Prime Video"}
   - {t: "It's Not Like That", tipo: serie, estreno: "2026-01-25", via: "Prime Video", tvmaze: 80978, temp: 1}
   - {t: "Bait", tipo: serie, estreno: "2026-03-25", via: "Prime Video"}
@@ -236,7 +233,6 @@ pendientes:
   - {t: "Two Years Later", tipo: serie, estreno: "2026-06-04", via: "Paramount+", tvmaze: 85699, temp: 1}
   - {t: "Diarra from Detroit", tipo: serie, estreno: "2026-07-29", via: "Paramount+", tvmaze: 69170, temp: 2}
   - {t: "The Season", tipo: serie, estreno: "2026-06-17", via: "Hulu / Disney+", tvmaze: 92448, temp: 1}
-  - {t: "Adventure Time: Side Quests", tipo: serie, estreno: "2026-06-29", via: "Disney+", tvmaze: 92003, temp: 1}
   - {t: "Sacrifice", tipo: serie, estreno: "2026-09-30", via: "Paramount+", tvmaze: 50786, temp: 2}
   - {t: "Heartbreak High", tipo: serie, estreno: "2026-03-25", via: "Netflix", tvmaze: 52291, temp: 3}
   - {t: "DANG!", tipo: serie, estreno: "2026-09-08", via: "Netflix", tvmaze: 90434, temp: 1}
@@ -250,7 +246,6 @@ pendientes:
   - {t: "Kevin", tipo: serie, estreno: "2026-04-20", via: "Prime Video", tvmaze: 77459, temp: 1}
   - {t: "El problema final", tipo: serie, estreno: "2026-09-25", via: "Netflix", tvmaze: 92984, temp: 1}
   - {t: "Devil May Cry", tipo: serie, estreno: "2026-05-12", via: "Netflix", tvmaze: 71529, temp: 2}
-  - {t: "Como Agua para Chocolate", tipo: serie, estreno: "2026-02-15", via: "HBO Max", tvmaze: 79842, temp: 2}
   - {t: "The Upshaws", tipo: serie, estreno: "2026-01-15", via: "Netflix", tvmaze: 43458, temp: 7}
   - {t: "Unchosen", tipo: serie, estreno: "2026-04-21", via: "Netflix", tvmaze: 81032, temp: 1}
   - {t: "Everyone Is Doing Great", tipo: serie, estreno: "2026-05-11", via: "Netflix", tvmaze: 52480, temp: 2}
@@ -260,7 +255,6 @@ pendientes:
   - {t: "Mis muertos tristes", tipo: serie, estreno: "2026-09-24", via: "Netflix", tvmaze: 85163, temp: 1}
   - {t: "Perfil falso", tipo: serie, estreno: "2026-04-15", via: "Netflix", tvmaze: 68680, temp: 3}
   - {t: "Envidiosa", tipo: serie, estreno: "2026-04-29", via: "Netflix", tvmaze: 78971, temp: 4}
-  - {t: "La casa de los espíritus", tipo: serie, estreno: "2026-04-29", via: "Prime Video", tvmaze: 78605, temp: 1}
   - {t: "Ninjago: Dragons Rising", tipo: serie, estreno: "2026-04-02", via: "Netflix", tvmaze: 68439, temp: 4}
   - {t: "En el barro", tipo: serie, estreno: "2026-02-13", via: "Netflix", tvmaze: 85817, temp: 2}
   - {t: "Esa noche", tipo: serie, estreno: "2026-03-13", via: "Netflix", tvmaze: 90067, temp: 1}
@@ -276,14 +270,10 @@ pendientes:
   - {t: "Amor de oficina", tipo: serie, estreno: "2026-01-01", via: "Netflix", tvmaze: 89076, temp: 1}
   - {t: "Moria", tipo: serie, estreno: "2026-08-14", via: "Netflix", tvmaze: 93358, temp: 1}
   - {t: "Day One", tipo: serie, estreno: "2026-03-13", via: "Prime Video", tvmaze: 90771, temp: 1}
-  - {t: "Betty La Fea, La Historia Continúa", tipo: serie, estreno: "2026-08-28", via: "Prime Video", tvmaze: 76788, temp: 3}
   - {t: "Margarita", tipo: serie, estreno: "2026-05-04", via: "HBO Max", tvmaze: 79222, temp: 2}
   - {t: "Margarita", tipo: serie, estreno: "2026-08-24", via: "HBO Max", tvmaze: 79222, temp: 3}
-  - {t: "Dear Killer Nannies: Criado por sicarios", tipo: serie, estreno: "2026-04-01", via: "Disney+", tvmaze: 91107, temp: 1}
   - {t: "El otro padre", tipo: serie, estreno: "2026-07-22", via: "Netflix", tvmaze: 93219, temp: 1}
   - {t: "Entre padre e hijo", tipo: serie, estreno: "2026-05-13", via: "Netflix", tvmaze: 91827, temp: 1}
-  - {t: "Nadie nos va a extrañar", tipo: serie, estreno: "2026-08-07", via: "Prime Video", tvmaze: 78900, temp: 2}
-  - {t: "La Oficina", tipo: serie, estreno: "2026-03-13", via: "Prime Video", tvmaze: 90738, temp: 1}
   - {t: "The Proud Family: Louder and Prouder", tipo: serie, estreno: "2026-07-29", via: "Disney+", tvmaze: 46457, temp: 4}
   - {t: "Locker Diaries: Descendants", tipo: serie, estreno: "2026-07-25", via: "Disney+", tvmaze: 93304, temp: 1}
   - {t: "Oasis", tipo: serie, estreno: "2026-06-19", via: "Netflix", tvmaze: 92001, temp: 1}

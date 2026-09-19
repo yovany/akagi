@@ -2,8 +2,8 @@
 """Exporta el videolog a videolog.csv para editarlo en Numbers.
 
 Estatus (columna `estatus`):  v = vista · e = esperando · a = algún día · n = no lo sé
-Orden de las filas: vistas primero, luego las que sigues/esperas y por último el resto
-(películas por fecha, series por popularidad) tal como están en data/videolog.yaml.
+Orden de las filas: v, e, a, n; dentro de cada grupo, como están en data/videolog.yaml.
+La hoja editada se vuelve a cargar con scripts/importar_csv.py.
 
 Uso:  python3 scripts/exportar_csv.py
 """
@@ -34,8 +34,9 @@ def leer_yaml():
 
 def main():
     series = json.loads((ROOT / "data/series.json").read_text())
-    orden = {"vistas": 0, "viendo": 1, "pendientes": 2}
-    filas = leer_yaml()
+    estatus_de = {"vistas": "v", "esperando": "e", "algun_dia": "a", "no_se": "n"}
+    orden = {k: i for i, k in enumerate(estatus_de)}
+    filas = [f for f in leer_yaml() if f[0] in estatus_de]
     filas.sort(key=lambda x: orden[x[0]])          # estable: conserva el orden del yaml dentro de cada grupo
     salida = ROOT / "videolog.csv"
     with salida.open("w", newline="", encoding="utf-8-sig") as f:   # utf-8-sig: Numbers/Excel leen bien los acentos
@@ -45,7 +46,7 @@ def main():
             es_serie = d["tipo"] == "serie"
             k = f"{d['t']} T{d['temp']}" if d.get("temp") else d["t"]
             s = series.get(k, {}) if es_serie else {}
-            estatus = {"vistas": "v", "viendo": "e", "pendientes": ""}[sec]
+            estatus = estatus_de[sec]
             donde = {"cine": "cine", "streaming": "stream"}.get(d.get("donde", ""), "")
             caps = "todos" if (es_serie and sec == "vistas") else ("al dia" if d.get("al_dia") else d.get("vistos", ""))
             w.writerow({
