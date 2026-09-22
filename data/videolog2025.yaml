@@ -1,0 +1,189 @@
+# Videolog — cuatro listas, una por estatus. Se genera desde la hoja de Numbers
+# (scripts/importar_csv.py) y se puede editar a mano: para cambiar el estatus de un título,
+# mueve su línea a otra lista.
+#
+#   vistas:    v  · ya la vi. Con  donde: cine | streaming.  En series, se dan por vistos todos
+#                   los capítulos ya estrenados.
+#   esperando: e  · la quiero ver pronto, o la voy siguiendo.  Series: vistos: N (capítulos vistos)
+#                   o al_dia: true (vistos todos los que han salido).
+#   algun_dia: a  · algún día.
+#   no_se:     n  · no lo sé.
+#
+# Campos: t (título) · o (título original) · tipo: pelicula|serie · estreno · via (plataforma)
+#         tvmaze (id) · temp (temporada) · fecha (día que la vi) · nota (mi calificación)
+# Fechas de películas: estreno en cines de México. Series: fecha de la plataforma (global).
+# Estrenos en miércoles pueden ser preestreno; el oficial suele ser el jueves.
+
+vistas:
+  - {t: "Nosferatu", tipo: pelicula, estreno: "2025-01-02", donde: cine}
+  - {t: "Dog Man", tipo: pelicula, estreno: "2025-01-31", donde: streaming}
+  - {t: "Compañera", o: "Companion", tipo: pelicula, estreno: "2025-01-31", donde: streaming}
+  - {t: "El brutalista", o: "The Brutalist", tipo: pelicula, estreno: "2025-02-06", donde: streaming}
+  - {t: "Bridget Jones: Loca por él", o: "Bridget Jones: Mad About the Boy", tipo: pelicula, estreno: "2025-02-13", donde: streaming}
+  - {t: "El mono", o: "The Monkey", tipo: pelicula, estreno: "2025-02-21", donde: streaming}
+  - {t: "Mickey 17", tipo: pelicula, estreno: "2025-03-07", donde: streaming}
+  - {t: "La muerte de un unicornio", o: "Death of a Unicorn", tipo: pelicula, estreno: "2025-03-28", donde: streaming}
+  - {t: "Pecadores", o: "Sinners", tipo: pelicula, estreno: "2025-04-17", donde: streaming}
+  - {t: "Hasta el amanecer", o: "Until Dawn", tipo: pelicula, estreno: "2025-04-25", donde: streaming}
+  - {t: "Destino final: Lazos de sangre", o: "Final Destination Bloodlines", tipo: pelicula, estreno: "2025-05-16", donde: streaming}
+  - {t: "28 años después", o: "28 Years Later", tipo: pelicula, estreno: "2025-06-20", donde: cine}
+  - {t: "F1", tipo: pelicula, estreno: "2025-06-27", donde: streaming}
+  - {t: "M3GAN 2.0", tipo: pelicula, estreno: "2025-06-27", donde: streaming}
+  - {t: "Armas", o: "Weapons", tipo: pelicula, estreno: "2025-08-08", donde: cine}
+  - {t: "Viernes de locos: más loco", o: "Freakier Friday", tipo: pelicula, estreno: "2025-08-08", donde: streaming}
+  - {t: "El conjuro: Ritos finales", o: "The Conjuring: Last Rites", tipo: pelicula, estreno: "2025-09-05", donde: cine}
+  - {t: "Una batalla tras otra", o: "One Battle After Another", tipo: pelicula, estreno: "2025-09-25", donde: streaming}
+  - {t: "Tron: Ares", tipo: pelicula, estreno: "2025-10-09", donde: cine}
+  - {t: "El teléfono negro 2", o: "Black Phone 2", tipo: pelicula, estreno: "2025-10-17", donde: cine}
+  - {t: "Depredador: Tierras salvajes", o: "Predator: Badlands", tipo: pelicula, estreno: "2025-11-07", donde: streaming}
+  - {t: "Avatar: Fuego y Ceniza", o: "Avatar: Fire and Ash", tipo: pelicula, estreno: "2025-12-18", donde: cine}
+  - {t: "Anaconda", tipo: pelicula, estreno: "2025-12-25", donde: streaming}
+  - {t: "Adolescencia", o: "Adolescence", tipo: serie, estreno: "2025-03-13", via: "Netflix", donde: streaming}
+  - {t: "El Eternauta", tipo: serie, estreno: "2025-04-30", via: "Netflix", donde: streaming}
+  - {t: "El juego del calamar", o: "Squid Game", tipo: serie, estreno: "2025-06-27", via: "Netflix", temp: 3, donde: streaming}
+  - {t: "Andor", tipo: serie, estreno: "2025-04-22", via: "Disney+", temp: 2, donde: streaming}
+  - {t: "The Bear", tipo: serie, estreno: "2025-06-25", via: "FX / Disney+", temp: 4, donde: streaming}
+  - {t: "Only Murders in the Building", tipo: serie, estreno: "2025-09-09", via: "Hulu / Disney+", temp: 5, donde: streaming}
+  - {t: "The Studio", tipo: serie, estreno: "2025-03-26", via: "Apple TV", donde: streaming}
+  - {t: "Your Friends and Neighbors", tipo: serie, estreno: "2025-04-11", via: "Apple TV", donde: streaming}
+  - {t: "Foundation", tipo: serie, estreno: "2025-07-11", via: "Apple TV", temp: 3, donde: streaming}
+  - {t: "Silo", tipo: serie, estreno: "2025-07-03", via: "Apple TV", temp: 3, donde: streaming}
+  - {t: "The White Lotus", tipo: serie, estreno: "2025-02-16", via: "HBO Max", temp: 3, donde: streaming}
+  - {t: "The Last of Us", tipo: serie, estreno: "2025-04-13", via: "HBO Max", temp: 2, donde: streaming}
+  - {t: "The Pitt", tipo: serie, estreno: "2025-01-09", via: "HBO Max", donde: streaming}
+  - {t: "It: Bienvenidos a Derry", o: "It: Welcome to Derry", tipo: serie, estreno: "2025-10-26", via: "HBO Max", donde: streaming}
+  - {t: "The Chair Company", tipo: serie, estreno: "2025-10-12", via: "HBO Max", donde: streaming}
+  - {t: "Hacks", tipo: serie, estreno: "2025-04-10", via: "HBO Max", temp: 4, donde: streaming}
+  - {t: "And Just Like That", tipo: serie, estreno: "2025-05-29", via: "HBO Max", temp: 3, donde: streaming}
+  - {t: "Fallout", tipo: serie, estreno: "2025-12-16", via: "Prime Video", temp: 2, donde: streaming}
+  - {t: "Mentiras, la serie", tipo: serie, estreno: "2025-06-13", via: "Prime Video", donde: streaming}
+  - {t: "Yellowjackets", tipo: serie, estreno: "2025-02-14", via: "Paramount+", temp: 3, donde: streaming}
+
+esperando:
+  - {t: "Jurassic World: Renacimiento", o: "Jurassic World Rebirth", tipo: pelicula, estreno: "2025-07-02"}
+  - {t: "Sé lo que hicieron el verano pasado", o: "I Know What You Did Last Summer", tipo: pelicula, estreno: "2025-07-18"}
+  - {t: "Los 4 Fantásticos: Primeros pasos", o: "The Fantastic Four: First Steps", tipo: pelicula, estreno: "2025-07-25"}
+
+algun_dia:
+  - {t: "Star Trek: Sección 31", o: "Star Trek: Section 31", tipo: pelicula, estreno: "2025-01-24", via: "Paramount+"}
+  - {t: "Better Man", tipo: pelicula, estreno: "2025-01-16"}
+  - {t: "Zootopia 2", tipo: pelicula, estreno: "2025-11-27"}
+
+no_se:
+  - {t: "Wolf Man", tipo: pelicula, estreno: "2025-01-17"}
+  - {t: "Un completo desconocido", o: "A Complete Unknown", tipo: pelicula, estreno: "2025-01-23"}
+  - {t: "Capitán América: Un nuevo mundo", o: "Captain America: Brave New World", tipo: pelicula, estreno: "2025-02-14"}
+  - {t: "Heart Eyes", tipo: pelicula, estreno: "2025-02-07"}
+  - {t: "Blancanieves", o: "Snow White", tipo: pelicula, estreno: "2025-03-21"}
+  - {t: "A Working Man", tipo: pelicula, estreno: "2025-03-28"}
+  - {t: "Una película de Minecraft", o: "A Minecraft Movie", tipo: pelicula, estreno: "2025-04-04"}
+  - {t: "El aficionado", o: "The Amateur", tipo: pelicula, estreno: "2025-04-11"}
+  - {t: "Guerra", o: "Warfare", tipo: pelicula, estreno: "2025-04-11"}
+  - {t: "El contador 2", o: "The Accountant 2", tipo: pelicula, estreno: "2025-04-25"}
+  - {t: "Thunderbolts*", tipo: pelicula, estreno: "2025-05-01"}
+  - {t: "Misión: Imposible - Sentencia final", o: "Mission: Impossible - The Final Reckoning", tipo: pelicula, estreno: "2025-05-23"}
+  - {t: "Lilo & Stitch", tipo: pelicula, estreno: "2025-05-23"}
+  - {t: "Karate Kid: Leyendas", o: "Karate Kid: Legends", tipo: pelicula, estreno: "2025-05-30"}
+  - {t: "Cómo entrenar a tu dragón", o: "How to Train Your Dragon", tipo: pelicula, estreno: "2025-06-13"}
+  - {t: "Elio", tipo: pelicula, estreno: "2025-06-20"}
+  - {t: "Superman", tipo: pelicula, estreno: "2025-07-11"}
+  - {t: "Los Pitufos", o: "Smurfs", tipo: pelicula, estreno: "2025-07-18"}
+  - {t: "Eddington", tipo: pelicula, estreno: "2025-07-25"}
+  - {t: "Una pistola desnuda", o: "The Naked Gun", tipo: pelicula, estreno: "2025-08-01"}
+  - {t: "Nadie 2", o: "Nobody 2", tipo: pelicula, estreno: "2025-08-15"}
+  - {t: "La larga marcha", o: "The Long Walk", tipo: pelicula, estreno: "2025-09-12"}
+  - {t: "Demon Slayer: Kimetsu no Yaiba – Castillo Infinito", tipo: pelicula, estreno: "2025-09-11"}
+  - {t: "Él", o: "Him", tipo: pelicula, estreno: "2025-09-19"}
+  - {t: "Soy Frankelda", tipo: pelicula, estreno: "2025-10-23"}
+  - {t: "Good Fortune", tipo: pelicula, estreno: "2025-10-17"}
+  - {t: "Chainsaw Man la película: Arco de Reze", o: "Chainsaw Man the Movie: Reze Arc", tipo: pelicula, estreno: "2025-11-13"}
+  - {t: "KPop Demon Hunters: Las Guerreras K-pop", o: "KPop Demon Hunters", tipo: pelicula, estreno: "2025-06-20", via: "Netflix"}
+  - {t: "Wicked: Por siempre buena", o: "Wicked: For Good", tipo: pelicula, estreno: "2025-11-21"}
+  - {t: "Ahora me ves: Ahora no me ves", o: "Now You See Me: Now You Don't", tipo: pelicula, estreno: "2025-11-14"}
+  - {t: "Cinco noches en Freddy's 2", o: "Five Nights at Freddy's 2", tipo: pelicula, estreno: "2025-12-05"}
+  - {t: "Zero Day", tipo: serie, estreno: "2025-02-20", via: "Netflix"}
+  - {t: "American Primeval", tipo: serie, estreno: "2025-01-09", via: "Netflix"}
+  - {t: "Missing You", tipo: serie, estreno: "2025-01-01", via: "Netflix"}
+  - {t: "XO, Kitty", tipo: serie, estreno: "2025-01-16", via: "Netflix", temp: 2}
+  - {t: "Apple Cider Vinegar", tipo: serie, estreno: "2025-02-06", via: "Netflix"}
+  - {t: "The Night Agent", tipo: serie, estreno: "2025-01-23", via: "Netflix", temp: 2}
+  - {t: "The Recruit", tipo: serie, estreno: "2025-01-30", via: "Netflix", temp: 2}
+  - {t: "Cobra Kai", tipo: serie, estreno: "2025-02-13", via: "Netflix", temp: 6}
+  - {t: "The Residence", tipo: serie, estreno: "2025-03-20", via: "Netflix"}
+  - {t: "The Life List", tipo: serie, estreno: "2025-03-28", via: "Netflix"}
+  - {t: "Devil May Cry", tipo: serie, estreno: "2025-04-03", via: "Netflix"}
+  - {t: "You", tipo: serie, estreno: "2025-04-24", via: "Netflix", temp: 5}
+  - {t: "Forever", tipo: serie, estreno: "2025-05-08", via: "Netflix"}
+  - {t: "Sirens", tipo: serie, estreno: "2025-05-22", via: "Netflix"}
+  - {t: "Ransom Canyon", tipo: serie, estreno: "2025-04-17", via: "Netflix"}
+  - {t: "The Four Seasons", tipo: serie, estreno: "2025-05-01", via: "Netflix"}
+  - {t: "Ginny & Georgia", tipo: serie, estreno: "2025-06-05", via: "Netflix", temp: 3}
+  - {t: "The Waterfront", tipo: serie, estreno: "2025-06-19", via: "Netflix"}
+  - {t: "Dept. Q", tipo: serie, estreno: "2025-06-19", via: "Netflix"}
+  - {t: "Demasiado", o: "Too Much", tipo: serie, estreno: "2025-07-10", via: "Netflix"}
+  - {t: "Sin domesticar", o: "Untamed", tipo: serie, estreno: "2025-07-17", via: "Netflix"}
+  - {t: "The Sandman", tipo: serie, estreno: "2025-07-03", via: "Netflix", temp: 2}
+  - {t: "Merlina", o: "Wednesday", tipo: serie, estreno: "2025-08-06", via: "Netflix", temp: 2}
+  - {t: "Black Rabbit", tipo: serie, estreno: "2025-09-18", via: "Netflix"}
+  - {t: "Alice in Borderland", tipo: serie, estreno: "2025-09-25", via: "Netflix", temp: 3}
+  - {t: "Monster: La historia de Ed Gein", o: "Monster: The Ed Gein Story", tipo: serie, estreno: "2025-10-03", via: "Netflix"}
+  - {t: "Death by Lightning", tipo: serie, estreno: "2025-11-06", via: "Netflix"}
+  - {t: "The Beast in Me", tipo: serie, estreno: "2025-11-13", via: "Netflix"}
+  - {t: "Stranger Things", tipo: serie, estreno: "2025-11-26", via: "Netflix", temp: 5}
+  - {t: "Pulse", tipo: serie, estreno: "2025-04-03", via: "Netflix"}
+  - {t: "La Palma", tipo: serie, estreno: "2025-05-01", via: "Netflix"}
+  - {t: "Virgin River", tipo: serie, estreno: "2025-09-04", via: "Netflix", temp: 7}
+  - {t: "Beauty in Black", tipo: serie, estreno: "2025-01-02", via: "Netflix"}
+  - {t: "Running Point", tipo: serie, estreno: "2025-02-27", via: "Netflix"}
+  - {t: "Cassandra", tipo: serie, estreno: "2025-02-06", via: "Netflix"}
+  - {t: "El Gatopardo", o: "The Leopard", tipo: serie, estreno: "2025-03-05", via: "Netflix"}
+  - {t: "Long Story Short", tipo: serie, estreno: "2025-08-22", via: "Netflix"}
+  - {t: "Wayward", tipo: serie, estreno: "2025-09-25", via: "Netflix"}
+  - {t: "Boots", tipo: serie, estreno: "2025-10-09", via: "Netflix"}
+  - {t: "Sakamoto Days", tipo: serie, estreno: "2025-01-11", via: "Netflix"}
+  - {t: "Serpientes y Escaleras", tipo: serie, estreno: "2025-05-14", via: "Netflix"}
+  - {t: "Daredevil: Born Again", tipo: serie, estreno: "2025-03-04", via: "Disney+"}
+  - {t: "Win or Lose", tipo: serie, estreno: "2025-02-12", via: "Disney+"}
+  - {t: "Ironheart", tipo: serie, estreno: "2025-06-24", via: "Disney+"}
+  - {t: "Percy Jackson y los dioses del Olimpo", o: "Percy Jackson and the Olympians", tipo: serie, estreno: "2025-12-10", via: "Disney+", temp: 2}
+  - {t: "Paradise", tipo: serie, estreno: "2025-01-28", via: "Hulu / Disney+"}
+  - {t: "It's Always Sunny in Philadelphia", tipo: serie, estreno: "2025-07-16", via: "FX / Disney+", temp: 17}
+  - {t: "Good American Family", tipo: serie, estreno: "2025-03-19", via: "Hulu / Disney+"}
+  - {t: "All's Fair", tipo: serie, estreno: "2025-11-04", via: "Hulu / Disney+"}
+  - {t: "Severance", tipo: serie, estreno: "2025-01-17", via: "Apple TV", temp: 2}
+  - {t: "Murderbot", tipo: serie, estreno: "2025-05-16", via: "Apple TV"}
+  - {t: "Government Cheese", tipo: serie, estreno: "2025-04-16", via: "Apple TV"}
+  - {t: "Stick", tipo: serie, estreno: "2025-06-04", via: "Apple TV"}
+  - {t: "Chief of War", tipo: serie, estreno: "2025-08-01", via: "Apple TV"}
+  - {t: "The Buccaneers", tipo: serie, estreno: "2025-06-18", via: "Apple TV", temp: 2}
+  - {t: "Prime Target", tipo: serie, estreno: "2025-01-22", via: "Apple TV"}
+  - {t: "Smoke", tipo: serie, estreno: "2025-06-27", via: "Apple TV"}
+  - {t: "Task", tipo: serie, estreno: "2025-09-07", via: "HBO Max"}
+  - {t: "Peacemaker", tipo: serie, estreno: "2025-08-21", via: "HBO Max", temp: 2}
+  - {t: "Duster", tipo: serie, estreno: "2025-05-15", via: "HBO Max"}
+  - {t: "The Rehearsal", tipo: serie, estreno: "2025-04-20", via: "HBO Max", temp: 2}
+  - {t: "Vgly", tipo: serie, estreno: "2025-10-09", via: "HBO Max", temp: 2}
+  - {t: "The Righteous Gemstones", tipo: serie, estreno: "2025-03-09", via: "HBO Max", temp: 4}
+  - {t: "Reacher", tipo: serie, estreno: "2025-02-20", via: "Prime Video", temp: 3}
+  - {t: "The Bondsman", tipo: serie, estreno: "2025-03-13", via: "Prime Video"}
+  - {t: "Overcompensating", tipo: serie, estreno: "2025-05-15", via: "Prime Video"}
+  - {t: "Motorheads", tipo: serie, estreno: "2025-06-20", via: "Prime Video"}
+  - {t: "Countdown", tipo: serie, estreno: "2025-06-25", via: "Prime Video"}
+  - {t: "Étoile", tipo: serie, estreno: "2025-04-24", via: "Prime Video"}
+  - {t: "The Legend of Vox Machina", tipo: serie, estreno: "2025-08-01", via: "Prime Video", temp: 3}
+  - {t: "Butterfly", tipo: serie, estreno: "2025-08-13", via: "Prime Video"}
+  - {t: "Beast Games", tipo: serie, estreno: "2025-01-09", via: "Prime Video"}
+  - {t: "MobLand", tipo: serie, estreno: "2025-03-30", via: "Paramount+"}
+  - {t: "Dexter: Resurrection", tipo: serie, estreno: "2025-07-11", via: "Paramount+"}
+  - {t: "Landman", tipo: serie, estreno: "2025-11-16", via: "Paramount+", temp: 2}
+  - {t: "Tulsa King", tipo: serie, estreno: "2025-06-15", via: "Paramount+", temp: 3}
+  - {t: "1923", tipo: serie, estreno: "2025-02-23", via: "Paramount+", temp: 2}
+  - {t: "Con esa misma mirada", tipo: serie, estreno: "2025-03-21", via: "Vix"}
+  - {t: "Solo Leveling", tipo: serie, estreno: "2025-01-04", via: "Crunchyroll", temp: 2}
+  - {t: "Dan Da Dan", tipo: serie, estreno: "2025-07-03", via: "Crunchyroll", temp: 2}
+  - {t: "Ranma ½", tipo: serie, estreno: "2025-10-05", via: "Crunchyroll"}
+  - {t: "Gachiakuta", tipo: serie, estreno: "2025-07-05", via: "Crunchyroll"}
+  - {t: "My Hero Academia", tipo: serie, estreno: "2025-10-04", via: "Crunchyroll", temp: 8}
+  - {t: "Rent-a-Girlfriend", tipo: serie, estreno: "2025-07-05", via: "Crunchyroll", temp: 4}
+  - {t: "Witch Watch", tipo: serie, estreno: "2025-07-05", via: "Crunchyroll"}
+  - {t: "Kaiju No. 8", tipo: serie, estreno: "2025-07-19", via: "Crunchyroll", temp: 2}

@@ -15416,5 +15416,4243 @@
   ],
   "peso": 98,
   "nota": 6.5
+ },
+ "Zero Day": {
+  "id": 65491,
+  "nombre": "Zero Day",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/557/1394491.jpg",
+  "estado": "Ended",
+  "peso": 98,
+  "nota": 7.2,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Episode 1",
+    "d": "2025-02-20"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Episode 2",
+    "d": "2025-02-20"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Episode 3",
+    "d": "2025-02-20"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Episode 4",
+    "d": "2025-02-20"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Episode 5",
+    "d": "2025-02-20"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "Episode 6",
+    "d": "2025-02-20"
+   }
+  ]
+ },
+ "American Primeval": {
+  "id": 65577,
+  "nombre": "American Primeval",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/551/1377953.jpg",
+  "estado": "Ended",
+  "peso": 98,
+  "nota": 7.7,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Episode 1",
+    "d": "2025-01-09"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Episode 2",
+    "d": "2025-01-09"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Episode 3",
+    "d": "2025-01-09"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Episode 4",
+    "d": "2025-01-09"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Episode 5",
+    "d": "2025-01-09"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "Episode 6",
+    "d": "2025-01-09"
+   }
+  ]
+ },
+ "Missing You": {
+  "id": 74209,
+  "nombre": "Harlan Coben's Missing You",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/553/1382649.jpg",
+  "estado": "Ended",
+  "peso": 96,
+  "nota": 6.3,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Every Breath You Take",
+    "d": "2025-01-01"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "With or Without You",
+    "d": "2025-01-01"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Never Too Much",
+    "d": "2025-01-01"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Don't You Forget About Me",
+    "d": "2025-01-01"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Chain Reaction",
+    "d": "2025-01-01"
+   }
+  ]
+ },
+ "Apple Cider Vinegar": {
+  "id": 73425,
+  "nombre": "Apple Cider Vinegar",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/555/1389823.jpg",
+  "estado": "Ended",
+  "peso": 94,
+  "nota": 6.8,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Toxic",
+    "d": "2025-02-06"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Clean Sheets",
+    "d": "2025-02-06"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Pink Dolphins",
+    "d": "2025-02-06"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Mama Aya",
+    "d": "2025-02-06"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Casseroles",
+    "d": "2025-02-06"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "Tapeworm",
+    "d": "2025-02-06"
+   }
+  ]
+ },
+ "Adolescencia": {
+  "id": 78570,
+  "nombre": "Adolescence",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/558/1395109.jpg",
+  "estado": "Ended",
+  "peso": 99,
+  "nota": 7.7,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Episode 1",
+    "d": "2025-03-13"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Episode 2",
+    "d": "2025-03-13"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Episode 3",
+    "d": "2025-03-13"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Episode 4",
+    "d": "2025-03-13"
+   }
+  ]
+ },
+ "The Residence": {
+  "id": 60888,
+  "nombre": "The Residence",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/557/1392804.jpg",
+  "estado": "Ended",
+  "peso": 97,
+  "nota": 7.2,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "The Fall of the House of Usher",
+    "d": "2025-03-20"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Dial M for Murder",
+    "d": "2025-03-20"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Knives Out",
+    "d": "2025-03-20"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "The Last of Sheila",
+    "d": "2025-03-20"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "The Trouble with Harry",
+    "d": "2025-03-20"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "The Third Man",
+    "d": "2025-03-20"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "The Adventure of the Engineer's Thumb",
+    "d": "2025-03-20"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "The Mystery of the Yellow Room",
+    "d": "2025-03-20"
+   }
+  ]
+ },
+ "Devil May Cry": {
+  "id": 71529,
+  "nombre": "Devil May Cry",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/555/1389167.jpg",
+  "estado": "Running",
+  "peso": 96,
+  "nota": 7.4,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Inferno",
+    "d": "2025-04-03"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Our Lady of Sorrows",
+    "d": "2025-04-03"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "The Deep and Savage Way",
+    "d": "2025-04-03"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "All Hope Abandon",
+    "d": "2025-04-03"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Descent",
+    "d": "2025-04-03"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "The First Circle",
+    "d": "2025-04-03"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "At the Gates of Paradise",
+    "d": "2025-04-03"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "A River of Blood and Fire",
+    "d": "2025-04-03"
+   },
+   {
+    "s": 2,
+    "n": 1,
+    "t": "The Fallen",
+    "d": "2026-05-12"
+   },
+   {
+    "s": 2,
+    "n": 2,
+    "t": "Shades",
+    "d": "2026-05-12"
+   },
+   {
+    "s": 2,
+    "n": 3,
+    "t": "The Panther, the Lion, the Wolf",
+    "d": "2026-05-12"
+   },
+   {
+    "s": 2,
+    "n": 4,
+    "t": "A Pit of Serpents",
+    "d": "2026-05-12"
+   },
+   {
+    "s": 2,
+    "n": 5,
+    "t": "The Garden of Deadly Sins",
+    "d": "2026-05-12"
+   },
+   {
+    "s": 2,
+    "n": 6,
+    "t": "Purgatorio",
+    "d": "2026-05-12"
+   },
+   {
+    "s": 2,
+    "n": 7,
+    "t": "Into the City of Woe",
+    "d": "2026-05-12"
+   },
+   {
+    "s": 2,
+    "n": 8,
+    "t": "Vexilla Regis Prodeunt Inferni",
+    "d": "2026-05-12"
+   }
+  ]
+ },
+ "El Eternauta": {
+  "id": 68723,
+  "nombre": "El Eternauta",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/554/1385448.jpg",
+  "estado": "Running",
+  "peso": 99,
+  "nota": 7.3,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Noche de truco",
+    "d": "2025-04-30"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Salgan al sol",
+    "d": "2025-04-30"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "El magnetismo",
+    "d": "2025-04-30"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Credo",
+    "d": "2025-04-30"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Paisaje",
+    "d": "2025-04-30"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "Jugo de tomate frío",
+    "d": "2025-04-30"
+   }
+  ]
+ },
+ "Forever": {
+  "id": 65120,
+  "nombre": "Forever",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/564/1411466.jpg",
+  "estado": "Running",
+  "peso": 94,
+  "nota": 5.8,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Reunion",
+    "d": "2025-05-08"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Ghosted",
+    "d": "2025-05-08"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Fourth Quarter",
+    "d": "2025-05-08"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Run It Back",
+    "d": "2025-05-08"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "The Vineyard",
+    "d": "2025-05-08"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "The Honeymoon",
+    "d": "2025-05-08"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "Deep End",
+    "d": "2025-05-08"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "Forever...",
+    "d": "2025-05-08"
+   }
+  ]
+ },
+ "Sirens": {
+  "id": 78184,
+  "nombre": "Sirens",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/569/1424683.jpg",
+  "estado": "Ended",
+  "peso": 97,
+  "nota": 6,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Exile",
+    "d": "2025-05-22"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Talons",
+    "d": "2025-05-22"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Monster",
+    "d": "2025-05-22"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Persephone",
+    "d": "2025-05-22"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Siren Song",
+    "d": "2025-05-22"
+   }
+  ]
+ },
+ "Ransom Canyon": {
+  "id": 73223,
+  "nombre": "Ransom Canyon",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/633/1583807.jpg",
+  "estado": "Ended",
+  "peso": 99,
+  "nota": 7.1,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Don't Let Me Fall",
+    "d": "2025-04-17"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Sure as the Day Is Long",
+    "d": "2025-04-17"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Trouble Can Be Fun Sometimes",
+    "d": "2025-04-17"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "That Boy Is My Whole Heart",
+    "d": "2025-04-17"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "I Love a Good Secret",
+    "d": "2025-04-17"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "We Need to Talk About Reid",
+    "d": "2025-04-17"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "By the Grace of God",
+    "d": "2025-04-17"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "The Bad Seed",
+    "d": "2025-04-17"
+   },
+   {
+    "s": 1,
+    "n": 9,
+    "t": "About Forever",
+    "d": "2025-04-17"
+   },
+   {
+    "s": 1,
+    "n": 10,
+    "t": "Maybe It's Time Yancy Grey Dies Too",
+    "d": "2025-04-17"
+   },
+   {
+    "s": 2,
+    "n": 1,
+    "t": "Hey There, Cowboy",
+    "d": "2026-07-23"
+   },
+   {
+    "s": 2,
+    "n": 2,
+    "t": "Edge of My Seat Here, Quinn",
+    "d": "2026-07-23"
+   },
+   {
+    "s": 2,
+    "n": 3,
+    "t": "That Dog Won't Hunt",
+    "d": "2026-07-23"
+   },
+   {
+    "s": 2,
+    "n": 4,
+    "t": "Forever and Always",
+    "d": "2026-07-23"
+   },
+   {
+    "s": 2,
+    "n": 5,
+    "t": "That Leaves Two",
+    "d": "2026-07-23"
+   },
+   {
+    "s": 2,
+    "n": 6,
+    "t": "Can't Never Could",
+    "d": "2026-07-23"
+   },
+   {
+    "s": 2,
+    "n": 7,
+    "t": "No Place Like Home",
+    "d": "2026-07-23"
+   },
+   {
+    "s": 2,
+    "n": 8,
+    "t": "Love Is a Canyon",
+    "d": "2026-07-23"
+   }
+  ]
+ },
+ "The Four Seasons": {
+  "id": 73889,
+  "nombre": "The Four Seasons",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/626/1566331.jpg",
+  "estado": "Running",
+  "peso": 98,
+  "nota": 6.3,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Lake House",
+    "d": "2025-05-01"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Garden Party",
+    "d": "2025-05-01"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Eco Resort",
+    "d": "2025-05-01"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Beach Bar",
+    "d": "2025-05-01"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Family Weekend",
+    "d": "2025-05-01"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "Ultimate Frisbee",
+    "d": "2025-05-01"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "Ski Trip",
+    "d": "2025-05-01"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "Fun",
+    "d": "2025-05-01"
+   },
+   {
+    "s": 2,
+    "n": 1,
+    "t": "Hiking",
+    "d": "2026-05-28"
+   },
+   {
+    "s": 2,
+    "n": 2,
+    "t": "Funky Motel",
+    "d": "2026-05-28"
+   },
+   {
+    "s": 2,
+    "n": 3,
+    "t": "Down the Shore",
+    "d": "2026-05-28"
+   },
+   {
+    "s": 2,
+    "n": 4,
+    "t": "On the Boardwalk",
+    "d": "2026-05-28"
+   },
+   {
+    "s": 2,
+    "n": 5,
+    "t": "Big Thanksgiving",
+    "d": "2026-05-28"
+   },
+   {
+    "s": 2,
+    "n": 6,
+    "t": "Little Thanksgiving",
+    "d": "2026-05-28"
+   },
+   {
+    "s": 2,
+    "n": 7,
+    "t": "Trento",
+    "d": "2026-05-28"
+   },
+   {
+    "s": 2,
+    "n": 8,
+    "t": "Maratona",
+    "d": "2026-05-28"
+   }
+  ]
+ },
+ "The Waterfront": {
+  "id": 77065,
+  "nombre": "The Waterfront",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/570/1425195.jpg",
+  "estado": "Ended",
+  "peso": 95,
+  "nota": 6.4,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Almost Okay",
+    "d": "2025-06-19"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Taking Control",
+    "d": "2025-06-19"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Playing with Fire",
+    "d": "2025-06-19"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "You Can't Trust a Buckley",
+    "d": "2025-06-19"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "I'm a Hugger",
+    "d": "2025-06-19"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "Hunting Season",
+    "d": "2025-06-19"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "Nice Try",
+    "d": "2025-06-19"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "Lost at Sea",
+    "d": "2025-06-19"
+   }
+  ]
+ },
+ "Dept. Q": {
+  "id": 68408,
+  "nombre": "Dept. Q",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/571/1427771.jpg",
+  "estado": "Running",
+  "peso": 99,
+  "nota": 8.1,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Episode 1",
+    "d": "2025-05-29"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Episode 2",
+    "d": "2025-05-29"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Episode 3",
+    "d": "2025-05-29"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Episode 4",
+    "d": "2025-05-29"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Episode 5",
+    "d": "2025-05-29"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "Episode 6",
+    "d": "2025-05-29"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "Episode 7",
+    "d": "2025-05-29"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "Episode 8",
+    "d": "2025-05-29"
+   },
+   {
+    "s": 1,
+    "n": 9,
+    "t": "Episode 9",
+    "d": "2025-05-29"
+   }
+  ]
+ },
+ "Black Rabbit": {
+  "id": 64835,
+  "nombre": "Black Rabbit",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/600/1500913.jpg",
+  "estado": "Ended",
+  "peso": 99,
+  "nota": 6.6,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "The Cyclone",
+    "d": "2025-09-18"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "The Black Rabbits",
+    "d": "2025-09-18"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Skin Contact",
+    "d": "2025-09-18"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "No More F**k-Ups",
+    "d": "2025-09-18"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Trailblazer",
+    "d": "2025-09-18"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "Attaf**kinboy",
+    "d": "2025-09-18"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "These Kids Nearly Got Munsoned",
+    "d": "2025-09-18"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "Isle of Joy",
+    "d": "2025-09-18"
+   }
+  ]
+ },
+ "Death by Lightning": {
+  "id": 74416,
+  "nombre": "Death by Lightning",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/596/1491705.jpg",
+  "estado": "Ended",
+  "peso": 98,
+  "nota": 7.7,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "The Man from Ohio",
+    "d": "2025-11-06"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Party Faithful",
+    "d": "2025-11-06"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Casus Belli",
+    "d": "2025-11-06"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Destiny of the Republic",
+    "d": "2025-11-06"
+   }
+  ]
+ },
+ "The Beast in Me": {
+  "id": 75701,
+  "nombre": "The Beast in Me",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/597/1494856.jpg",
+  "estado": "Ended",
+  "peso": 99,
+  "nota": 7.1,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Sick Puppy",
+    "d": "2025-11-13"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Just Don't Want to Be Lonely",
+    "d": "2025-11-13"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Elephant in the Room",
+    "d": "2025-11-13"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Thanatos",
+    "d": "2025-11-13"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Bacchanal",
+    "d": "2025-11-13"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "The Beast and Me",
+    "d": "2025-11-13"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "Ghosts",
+    "d": "2025-11-13"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "The Last Word",
+    "d": "2025-11-13"
+   }
+  ]
+ },
+ "Pulse": {
+  "id": 75053,
+  "nombre": "Pulse",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/558/1397450.jpg",
+  "estado": "Ended",
+  "peso": 97,
+  "nota": 7.1,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Abby",
+    "d": "2025-04-03"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Alone Time",
+    "d": "2025-04-03"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Power",
+    "d": "2025-04-03"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Treat ‘Em and Street ‘Em",
+    "d": "2025-04-03"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Nothing Personal",
+    "d": "2025-04-03"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "Homestead",
+    "d": "2025-04-03"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "Choices",
+    "d": "2025-04-03"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "Retreat",
+    "d": "2025-04-03"
+   },
+   {
+    "s": 1,
+    "n": 9,
+    "t": "The Last Shift",
+    "d": "2025-04-03"
+   },
+   {
+    "s": 1,
+    "n": 10,
+    "t": "Kennedy",
+    "d": "2025-04-03"
+   }
+  ]
+ },
+ "Running Point": {
+  "id": 77064,
+  "nombre": "Running Point",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/622/1556551.jpg",
+  "estado": "Running",
+  "peso": 99,
+  "nota": 6.5,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Pilot",
+    "d": "2025-02-27"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Joe Pesci",
+    "d": "2025-02-27"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "The Travis Bugg Affair",
+    "d": "2025-02-27"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Doljanchi",
+    "d": "2025-02-27"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Beshert",
+    "d": "2025-02-27"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "The Yips",
+    "d": "2025-02-27"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "A Special Place in Hell",
+    "d": "2025-02-27"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "The Streak",
+    "d": "2025-02-27"
+   },
+   {
+    "s": 1,
+    "n": 9,
+    "t": "The Playoffs",
+    "d": "2025-02-27"
+   },
+   {
+    "s": 1,
+    "n": 10,
+    "t": "Game Seven",
+    "d": "2025-02-27"
+   },
+   {
+    "s": 2,
+    "n": 1,
+    "t": "New Coach Who Dis",
+    "d": "2026-04-23"
+   },
+   {
+    "s": 2,
+    "n": 2,
+    "t": "The Poacher",
+    "d": "2026-04-23"
+   },
+   {
+    "s": 2,
+    "n": 3,
+    "t": "Triangle of Badness",
+    "d": "2026-04-23"
+   },
+   {
+    "s": 2,
+    "n": 4,
+    "t": "MVP: Marcus Very Pissed",
+    "d": "2026-04-23"
+   },
+   {
+    "s": 2,
+    "n": 5,
+    "t": "Rehearsal Dinner",
+    "d": "2026-04-23"
+   },
+   {
+    "s": 2,
+    "n": 6,
+    "t": "The Strike",
+    "d": "2026-04-23"
+   },
+   {
+    "s": 2,
+    "n": 7,
+    "t": "We Are Broke",
+    "d": "2026-04-23"
+   },
+   {
+    "s": 2,
+    "n": 8,
+    "t": "Gordons vs. McShays",
+    "d": "2026-04-23"
+   },
+   {
+    "s": 2,
+    "n": 9,
+    "t": "Et tu, Cam?",
+    "d": "2026-04-23"
+   },
+   {
+    "s": 2,
+    "n": 10,
+    "t": "Chicago-Style",
+    "d": "2026-04-23"
+   }
+  ]
+ },
+ "Cassandra": {
+  "id": 75097,
+  "nombre": "Cassandra",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/551/1379319.jpg",
+  "estado": "Ended",
+  "peso": 70,
+  "nota": 6.7,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Ein neuer Anfang",
+    "d": "2025-02-06"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Wer bin ich?",
+    "d": "2025-02-06"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Endspiel",
+    "d": "2025-02-06"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Ein Kinderspiel",
+    "d": "2025-02-06"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Du bist nicht allein",
+    "d": "2025-02-06"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "Frohe Weihnachten",
+    "d": "2025-02-06"
+   }
+  ]
+ },
+ "Long Story Short": {
+  "id": 81766,
+  "nombre": "Long Story Short",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/577/1444561.jpg",
+  "estado": "Running",
+  "peso": 81,
+  "nota": 4.3,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Yoshi's Bar Mitzvah",
+    "d": "2025-08-22"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Hannah's Dance Recital",
+    "d": "2025-08-22"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "There's a Mattress in There",
+    "d": "2025-08-22"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Shira Can't Cook",
+    "d": "2025-08-22"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Yoshi & Baby",
+    "d": "2025-08-22"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "Wolves",
+    "d": "2025-08-22"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "Kendra's Job",
+    "d": "2025-08-22"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "The Intervention",
+    "d": "2025-08-22"
+   },
+   {
+    "s": 1,
+    "n": 9,
+    "t": "Honoring Naomi Schwartz",
+    "d": "2025-08-22"
+   },
+   {
+    "s": 1,
+    "n": 10,
+    "t": "Uncle Barry",
+    "d": "2025-08-22"
+   }
+  ]
+ },
+ "Wayward": {
+  "id": 67919,
+  "nombre": "Wayward",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/589/1472932.jpg",
+  "estado": "Ended",
+  "peso": 93,
+  "nota": 5.7,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Tall Pines",
+    "d": "2025-09-25"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Burrow",
+    "d": "2025-09-25"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Break",
+    "d": "2025-09-25"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Mud",
+    "d": "2025-09-25"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Build",
+    "d": "2025-09-25"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "Mirror",
+    "d": "2025-09-25"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "Ascend",
+    "d": "2025-09-25"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "Leap",
+    "d": "2025-09-25"
+   }
+  ]
+ },
+ "Boots": {
+  "id": 68627,
+  "nombre": "Boots",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/600/1500921.jpg",
+  "estado": "Ended",
+  "peso": 97,
+  "nota": 7.4,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "The Pink Marine",
+    "d": "2025-10-09"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "The Buddy System",
+    "d": "2025-10-09"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "The Confidence Course",
+    "d": "2025-10-09"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Sink or Swim",
+    "d": "2025-10-09"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Bullseye",
+    "d": "2025-10-09"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "The Things We Carry",
+    "d": "2025-10-09"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "Love Is a Battlefield",
+    "d": "2025-10-09"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "The Crucible",
+    "d": "2025-10-09"
+   }
+  ]
+ },
+ "Sakamoto Days": {
+  "id": 77383,
+  "nombre": "Sakamoto Days",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/580/1450303.jpg",
+  "estado": "Running",
+  "peso": 96,
+  "nota": 6.3,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "The Legendary Hit Man",
+    "d": "2025-01-11"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Vs. Son Hee and Bacho",
+    "d": "2025-01-11"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Welcome to Sugar Park",
+    "d": "2025-01-18"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Hard-Boiled",
+    "d": "2025-01-25"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Source of Strength",
+    "d": "2025-02-01"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "Heisuke Mashimo",
+    "d": "2025-02-08"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "Jurassic Bastard",
+    "d": "2025-02-15"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "Sakamoto's vs. the Lab",
+    "d": "2025-02-22"
+   },
+   {
+    "s": 1,
+    "n": 9,
+    "t": "All Aboard",
+    "d": "2025-03-01"
+   },
+   {
+    "s": 1,
+    "n": 10,
+    "t": "Bathhouse Roughhouse",
+    "d": "2025-03-08"
+   },
+   {
+    "s": 1,
+    "n": 11,
+    "t": "Casino Battle",
+    "d": "2025-03-15"
+   },
+   {
+    "s": 1,
+    "n": 12,
+    "t": "Overload",
+    "d": "2025-07-14"
+   },
+   {
+    "s": 1,
+    "n": 13,
+    "t": "Just Desserts",
+    "d": "2025-07-14"
+   },
+   {
+    "s": 1,
+    "n": 14,
+    "t": "Strong Assault",
+    "d": "2025-07-21"
+   },
+   {
+    "s": 1,
+    "n": 15,
+    "t": "Round and Round the Tower",
+    "d": "2025-07-28"
+   },
+   {
+    "s": 1,
+    "n": 16,
+    "t": "Slice Slice Dance",
+    "d": "2025-08-04"
+   },
+   {
+    "s": 1,
+    "n": 17,
+    "t": "Have a nice flight",
+    "d": "2025-08-11"
+   },
+   {
+    "s": 1,
+    "n": 18,
+    "t": "Kanaguri",
+    "d": "2025-08-18"
+   },
+   {
+    "s": 1,
+    "n": 19,
+    "t": "Exam: Stage Three",
+    "d": "2025-08-25"
+   },
+   {
+    "s": 1,
+    "n": 20,
+    "t": "Mutual Fans",
+    "d": "2025-09-01"
+   },
+   {
+    "s": 1,
+    "n": 21,
+    "t": "Hard Mode",
+    "d": "2025-09-08"
+   },
+   {
+    "s": 1,
+    "n": 22,
+    "t": "Each One's Mission",
+    "d": "2025-09-15"
+   }
+  ]
+ },
+ "Serpientes y Escaleras": {
+  "id": 84486,
+  "nombre": "Serpientes y escaleras",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/567/1418278.jpg",
+  "estado": "To Be Determined",
+  "peso": 39,
+  "nota": null,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Ética y moral",
+    "d": "2025-05-14"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Alianza y venganza",
+    "d": "2025-05-14"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Acción y pasión",
+    "d": "2025-05-14"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Anti y tristeza",
+    "d": "2025-05-14"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Familia y tradición",
+    "d": "2025-05-14"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "Fracaso y victoria",
+    "d": "2025-05-14"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "Secreto y discreción",
+    "d": "2025-05-14"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "Cielo e infierno",
+    "d": "2025-05-14"
+   }
+  ]
+ },
+ "Daredevil: Born Again": {
+  "id": 63234,
+  "nombre": "Daredevil: Born Again",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/616/1540605.jpg",
+  "estado": "Running",
+  "peso": 100,
+  "nota": 7.5,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Heaven’s Half Hour",
+    "d": "2025-03-04"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Optics",
+    "d": "2025-03-04"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "The Hollow of His Hand",
+    "d": "2025-03-11"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Sic Semper Systema",
+    "d": "2025-03-18"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "With Interest",
+    "d": "2025-03-25"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "Excessive Force",
+    "d": "2025-03-25"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "Art for Art’s Sake",
+    "d": "2025-04-01"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "Isle of Joy",
+    "d": "2025-04-08"
+   },
+   {
+    "s": 1,
+    "n": 9,
+    "t": "Straight to Hell",
+    "d": "2025-04-15"
+   },
+   {
+    "s": 2,
+    "n": 1,
+    "t": "The Northern Star",
+    "d": "2026-03-24"
+   },
+   {
+    "s": 2,
+    "n": 2,
+    "t": "Shoot the Moon",
+    "d": "2026-03-31"
+   },
+   {
+    "s": 2,
+    "n": 3,
+    "t": "The Scales & the Sword",
+    "d": "2026-03-31"
+   },
+   {
+    "s": 2,
+    "n": 4,
+    "t": "Gloves Off",
+    "d": "2026-04-07"
+   },
+   {
+    "s": 2,
+    "n": 5,
+    "t": "The Grand Design",
+    "d": "2026-04-14"
+   },
+   {
+    "s": 2,
+    "n": 6,
+    "t": "Requiem",
+    "d": "2026-04-21"
+   },
+   {
+    "s": 2,
+    "n": 7,
+    "t": "The Hateful Darkness",
+    "d": "2026-04-28"
+   },
+   {
+    "s": 2,
+    "n": 8,
+    "t": "The Southern Cross",
+    "d": "2026-05-05"
+   }
+  ]
+ },
+ "Win or Lose": {
+  "id": 52363,
+  "nombre": "Win or Lose",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/557/1393426.jpg",
+  "estado": "Ended",
+  "peso": 95,
+  "nota": 6.9,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Coach's Kid",
+    "d": "2025-02-19"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Blue",
+    "d": "2025-02-19"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Raspberry",
+    "d": "2025-02-26"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Pickle",
+    "d": "2025-02-26"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Steal",
+    "d": "2025-03-05"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "Mixed Signals",
+    "d": "2025-03-05"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "I Got It",
+    "d": "2025-03-12"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "Home",
+    "d": "2025-03-12"
+   }
+  ]
+ },
+ "Ironheart": {
+  "id": 47859,
+  "nombre": "Ironheart",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/571/1428213.jpg",
+  "estado": "Ended",
+  "peso": 99,
+  "nota": 5.2,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Take Me Home",
+    "d": "2025-06-24"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Will the Real Natalie Please Stand Up?",
+    "d": "2025-06-24"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "We in Danger, Girl",
+    "d": "2025-06-24"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Bad Magic",
+    "d": "2025-07-01"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Karma's a Glitch",
+    "d": "2025-07-01"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "The Past Is the Past",
+    "d": "2025-07-01"
+   }
+  ]
+ },
+ "Paradise": {
+  "id": 75030,
+  "nombre": "Paradise",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/614/1536865.jpg",
+  "estado": "Running",
+  "peso": 100,
+  "nota": 7.4,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Wildcat is Down",
+    "d": "2025-01-26"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Sinatra",
+    "d": "2025-01-28"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "The Architect of Social Well-Being",
+    "d": "2025-01-28"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Agent Billy Pace",
+    "d": "2025-02-04"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "In the Palaces of Crowned Kings",
+    "d": "2025-02-11"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "You Asked for Miracles",
+    "d": "2025-02-18"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "The Day",
+    "d": "2025-02-25"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "The Man Who Kept the Secrets",
+    "d": "2025-03-04"
+   },
+   {
+    "s": 2,
+    "n": 1,
+    "t": "Graceland",
+    "d": "2026-02-23"
+   },
+   {
+    "s": 2,
+    "n": 2,
+    "t": "Mayday",
+    "d": "2026-02-23"
+   },
+   {
+    "s": 2,
+    "n": 3,
+    "t": "Another Day in Paradise",
+    "d": "2026-02-23"
+   },
+   {
+    "s": 2,
+    "n": 4,
+    "t": "A Holy Charge",
+    "d": "2026-03-02"
+   },
+   {
+    "s": 2,
+    "n": 5,
+    "t": "The Mailman",
+    "d": "2026-03-09"
+   },
+   {
+    "s": 2,
+    "n": 6,
+    "t": "Jane",
+    "d": "2026-03-16"
+   },
+   {
+    "s": 2,
+    "n": 7,
+    "t": "The Final Countdown",
+    "d": "2026-03-23"
+   },
+   {
+    "s": 2,
+    "n": 8,
+    "t": "Exodus",
+    "d": "2026-03-30"
+   }
+  ]
+ },
+ "Good American Family": {
+  "id": 79848,
+  "nombre": "Good American Family",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/559/1399835.jpg",
+  "estado": "Ended",
+  "peso": 97,
+  "nota": 5.3,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Almost Like a Prayer",
+    "d": "2025-03-19"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Jump the Jitters Out",
+    "d": "2025-03-19"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Ghosts Everywhere",
+    "d": "2025-03-26"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Right There in Black and White",
+    "d": "2025-04-02"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Too Hurty Without It",
+    "d": "2025-04-09"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "Not Today Satan",
+    "d": "2025-04-16"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "If You Tell a Story Well Enough",
+    "d": "2025-04-23"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "Blood on Her Hands",
+    "d": "2025-04-30"
+   }
+  ]
+ },
+ "All's Fair": {
+  "id": 78300,
+  "nombre": "All's Fair",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/595/1489981.jpg",
+  "estado": "Running",
+  "peso": 97,
+  "nota": 4.1,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Pilot",
+    "d": "2025-11-04"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "When We Were Young",
+    "d": "2025-11-04"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "I Want Revenge",
+    "d": "2025-11-04"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Everybody Dance Now",
+    "d": "2025-11-11"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "This Is Me Trying",
+    "d": "2025-11-18"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "Divorce Is Like a Death",
+    "d": "2025-11-25"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "Letting Go",
+    "d": "2025-12-02"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "Oh, Jesus!",
+    "d": "2025-12-09"
+   },
+   {
+    "s": 1,
+    "n": 9,
+    "t": "Interior Law Offices",
+    "d": "2025-12-09"
+   }
+  ]
+ },
+ "The Studio": {
+  "id": 75605,
+  "nombre": "The Studio",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/569/1424520.jpg",
+  "estado": "Running",
+  "peso": 99,
+  "nota": 5.9,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "The Promotion",
+    "d": "2025-03-26"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "The Oner",
+    "d": "2025-03-26"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "The Note",
+    "d": "2025-04-02"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "The Missing Reel",
+    "d": "2025-04-09"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "The War",
+    "d": "2025-04-16"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "The Pediatric Oncologist",
+    "d": "2025-04-23"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "Casting",
+    "d": "2025-04-30"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "The Golden Globes",
+    "d": "2025-05-07"
+   },
+   {
+    "s": 1,
+    "n": 9,
+    "t": "CinemaCon",
+    "d": "2025-05-14"
+   },
+   {
+    "s": 1,
+    "n": 10,
+    "t": "The Presentation",
+    "d": "2025-05-21"
+   }
+  ]
+ },
+ "Your Friends and Neighbors": {
+  "id": 73484,
+  "nombre": "Your Friends & Neighbors",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/620/1550778.jpg",
+  "estado": "Running",
+  "peso": 99,
+  "nota": 7,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "This Is What Happens",
+    "d": "2025-04-11"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Deuce",
+    "d": "2025-04-11"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Theoretical Herpes",
+    "d": "2025-04-18"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Literal Dragons",
+    "d": "2025-04-25"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "This Tourist Has Balls",
+    "d": "2025-05-02"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "The Things You Lost Along the Way",
+    "d": "2025-05-09"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "The First Honest Thing",
+    "d": "2025-05-16"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "When Did We Become These People?",
+    "d": "2025-05-23"
+   },
+   {
+    "s": 1,
+    "n": 9,
+    "t": "Everything Becomes Symbol and Irony",
+    "d": "2025-05-30"
+   },
+   {
+    "s": 2,
+    "n": 1,
+    "t": "We're Here Until We're Not",
+    "d": "2026-04-03"
+   },
+   {
+    "s": 2,
+    "n": 2,
+    "t": "Lady Bits",
+    "d": "2026-04-10"
+   },
+   {
+    "s": 2,
+    "n": 3,
+    "t": "We Were Never Supposed to Get This Old",
+    "d": "2026-04-17"
+   },
+   {
+    "s": 2,
+    "n": 4,
+    "t": "The Bread of Affliction",
+    "d": "2026-04-24"
+   },
+   {
+    "s": 2,
+    "n": 5,
+    "t": "Halfway to Invisible",
+    "d": "2026-05-01"
+   },
+   {
+    "s": 2,
+    "n": 6,
+    "t": "For Everything Else, There Was Bowling",
+    "d": "2026-05-08"
+   },
+   {
+    "s": 2,
+    "n": 7,
+    "t": "Out East",
+    "d": "2026-05-15"
+   },
+   {
+    "s": 2,
+    "n": 8,
+    "t": "I Feel Lost Without Me",
+    "d": "2026-05-22"
+   },
+   {
+    "s": 2,
+    "n": 9,
+    "t": "Propaganda from the Cowardly",
+    "d": "2026-05-29"
+   },
+   {
+    "s": 2,
+    "n": 10,
+    "t": "The Night of the Hunter",
+    "d": "2026-06-05"
+   }
+  ]
+ },
+ "Murderbot": {
+  "id": 73453,
+  "nombre": "Murderbot",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/563/1408093.jpg",
+  "estado": "Running",
+  "peso": 100,
+  "nota": 7.4,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "FreeCommerce",
+    "d": "2025-05-16"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Eye Contact",
+    "d": "2025-05-16"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Risk Assessment",
+    "d": "2025-05-23"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Escape Velocity Protocol",
+    "d": "2025-05-30"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Rogue War Tracker Infinite",
+    "d": "2025-06-06"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "Command Feed",
+    "d": "2025-06-13"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "Complementary Species",
+    "d": "2025-06-20"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "Foreign Object",
+    "d": "2025-06-27"
+   },
+   {
+    "s": 1,
+    "n": 9,
+    "t": "All Systems Red",
+    "d": "2025-07-04"
+   },
+   {
+    "s": 1,
+    "n": 10,
+    "t": "The Perimeter",
+    "d": "2025-07-11"
+   }
+  ]
+ },
+ "Government Cheese": {
+  "id": 73454,
+  "nombre": "Government Cheese",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/558/1396797.jpg",
+  "estado": "To Be Determined",
+  "peso": 96,
+  "nota": 6.1,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "The Gospel of Kenny Sharp",
+    "d": "2025-04-16"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Trial and Error",
+    "d": "2025-04-16"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Two Doors",
+    "d": "2025-04-16"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "A Long Road Home",
+    "d": "2025-04-16"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Father Facts, Figures, and Failures",
+    "d": "2025-04-23"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "Parable of Drawing in the Net",
+    "d": "2025-04-30"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "The Woman on the Roof",
+    "d": "2025-05-07"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "An Evening with Abraham Cohen",
+    "d": "2025-05-14"
+   },
+   {
+    "s": 1,
+    "n": 9,
+    "t": "R&D",
+    "d": "2025-05-21"
+   },
+   {
+    "s": 1,
+    "n": 10,
+    "t": "St. Hampton",
+    "d": "2025-05-28"
+   }
+  ]
+ },
+ "Stick": {
+  "id": 82227,
+  "nombre": "Stick",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/598/1496527.jpg",
+  "estado": "Running",
+  "peso": 99,
+  "nota": 6,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Pilot",
+    "d": "2025-06-04"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Grossweiner's Law",
+    "d": "2025-06-04"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Daddy Issues",
+    "d": "2025-06-04"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Zero Sum Game",
+    "d": "2025-06-11"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "The Birdie Machine",
+    "d": "2025-06-18"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "RV Shangri-La",
+    "d": "2025-06-25"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "Dreams Never Remembered",
+    "d": "2025-07-02"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "Clark the Mark",
+    "d": "2025-07-09"
+   },
+   {
+    "s": 1,
+    "n": 9,
+    "t": "Showtime",
+    "d": "2025-07-16"
+   },
+   {
+    "s": 1,
+    "n": 10,
+    "t": "Déjà Vu All Over Again",
+    "d": "2025-07-23"
+   },
+   {
+    "s": 2,
+    "n": 1,
+    "t": "Episode 1",
+    "d": "2026-11-04"
+   },
+   {
+    "s": 2,
+    "n": 2,
+    "t": "Episode 2",
+    "d": "2026-11-04"
+   },
+   {
+    "s": 2,
+    "n": 3,
+    "t": "Episode 3",
+    "d": "2026-11-11"
+   },
+   {
+    "s": 2,
+    "n": 4,
+    "t": "Episode 4",
+    "d": "2026-11-18"
+   },
+   {
+    "s": 2,
+    "n": 5,
+    "t": "Episode 5",
+    "d": "2026-11-25"
+   },
+   {
+    "s": 2,
+    "n": 6,
+    "t": "Episode 6",
+    "d": "2026-12-02"
+   },
+   {
+    "s": 2,
+    "n": 7,
+    "t": "Episode 7",
+    "d": "2026-12-09"
+   },
+   {
+    "s": 2,
+    "n": 8,
+    "t": "Episode 8",
+    "d": "2026-12-16"
+   },
+   {
+    "s": 2,
+    "n": 9,
+    "t": "Episode 9",
+    "d": "2026-12-23"
+   },
+   {
+    "s": 2,
+    "n": 10,
+    "t": "Episode 10",
+    "d": "2026-12-30"
+   }
+  ]
+ },
+ "Chief of War": {
+  "id": 61439,
+  "nombre": "Chief of War",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/581/1454407.jpg",
+  "estado": "To Be Determined",
+  "peso": 99,
+  "nota": 7,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "The Chief of War",
+    "d": "2025-08-01"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Changing Tides",
+    "d": "2025-08-01"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "City of Flowers",
+    "d": "2025-08-08"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "City of Flowers Part II",
+    "d": "2025-08-15"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "The Race of the Gods",
+    "d": "2025-08-22"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "The Splintered Paddle",
+    "d": "2025-08-29"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "Day of Spilled Brains",
+    "d": "2025-09-05"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "The Sacred Niu Grove",
+    "d": "2025-09-12"
+   },
+   {
+    "s": 1,
+    "n": 9,
+    "t": "The Black Desert",
+    "d": "2025-09-19"
+   }
+  ]
+ },
+ "Prime Target": {
+  "id": 74666,
+  "nombre": "Prime Target",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/553/1382698.jpg",
+  "estado": "To Be Determined",
+  "peso": 99,
+  "nota": 6.6,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "A New Pattern",
+    "d": "2025-01-22"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Syracuse",
+    "d": "2025-01-22"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "The Sequence",
+    "d": "2025-01-29"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Kaplar",
+    "d": "2025-02-05"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "House of Wisdom",
+    "d": "2025-02-12"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "The Last Link",
+    "d": "2025-02-19"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "Prime Finder",
+    "d": "2025-02-26"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "The Key",
+    "d": "2025-03-05"
+   }
+  ]
+ },
+ "Smoke": {
+  "id": 65649,
+  "nombre": "Smoke",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/571/1427904.jpg",
+  "estado": "To Be Determined",
+  "peso": 99,
+  "nota": 6.1,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Pilot",
+    "d": "2025-06-27"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Your Happy Makes Me Sad",
+    "d": "2025-06-27"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Weird Milk",
+    "d": "2025-07-04"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Strawberry",
+    "d": "2025-07-11"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Size Matters",
+    "d": "2025-07-18"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "Manhood",
+    "d": "2025-07-25"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "Whitewashed Tombs",
+    "d": "2025-08-01"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "Mercy",
+    "d": "2025-08-08"
+   },
+   {
+    "s": 1,
+    "n": 9,
+    "t": "Mirror Mirror",
+    "d": "2025-08-15"
+   }
+  ]
+ },
+ "The Pitt": {
+  "id": 75632,
+  "nombre": "The Pitt",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/606/1516776.jpg",
+  "estado": "Running",
+  "peso": 100,
+  "nota": 8.5,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "7:00 A.M.",
+    "d": "2025-01-09"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "8:00 A.M.",
+    "d": "2025-01-09"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "9:00 A.M.",
+    "d": "2025-01-16"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "10:00 A.M.",
+    "d": "2025-01-23"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "11:00 A.M.",
+    "d": "2025-01-30"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "12:00 P.M.",
+    "d": "2025-02-06"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "1:00 P.M.",
+    "d": "2025-02-13"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "2:00 P.M.",
+    "d": "2025-02-20"
+   },
+   {
+    "s": 1,
+    "n": 9,
+    "t": "3:00 P.M.",
+    "d": "2025-02-27"
+   },
+   {
+    "s": 1,
+    "n": 10,
+    "t": "4:00 P.M.",
+    "d": "2025-03-06"
+   },
+   {
+    "s": 1,
+    "n": 11,
+    "t": "5:00 P.M.",
+    "d": "2025-03-13"
+   },
+   {
+    "s": 1,
+    "n": 12,
+    "t": "6:00 P.M.",
+    "d": "2025-03-20"
+   },
+   {
+    "s": 1,
+    "n": 13,
+    "t": "7:00 P.M.",
+    "d": "2025-03-27"
+   },
+   {
+    "s": 1,
+    "n": 14,
+    "t": "8:00 P.M.",
+    "d": "2025-04-03"
+   },
+   {
+    "s": 1,
+    "n": 15,
+    "t": "9:00 P.M.",
+    "d": "2025-04-10"
+   },
+   {
+    "s": 2,
+    "n": 1,
+    "t": "7:00 A.M.",
+    "d": "2026-01-08"
+   },
+   {
+    "s": 2,
+    "n": 2,
+    "t": "8:00 A.M.",
+    "d": "2026-01-15"
+   },
+   {
+    "s": 2,
+    "n": 3,
+    "t": "9:00 A.M.",
+    "d": "2026-01-22"
+   },
+   {
+    "s": 2,
+    "n": 4,
+    "t": "10:00 A.M.",
+    "d": "2026-01-29"
+   },
+   {
+    "s": 2,
+    "n": 5,
+    "t": "11:00 A.M.",
+    "d": "2026-02-05"
+   },
+   {
+    "s": 2,
+    "n": 6,
+    "t": "12:00 P.M.",
+    "d": "2026-02-12"
+   },
+   {
+    "s": 2,
+    "n": 7,
+    "t": "1:00 P.M.",
+    "d": "2026-02-19"
+   },
+   {
+    "s": 2,
+    "n": 8,
+    "t": "2:00 P.M.",
+    "d": "2026-02-26"
+   },
+   {
+    "s": 2,
+    "n": 9,
+    "t": "3:00 P.M.",
+    "d": "2026-03-05"
+   },
+   {
+    "s": 2,
+    "n": 10,
+    "t": "4:00 P.M.",
+    "d": "2026-03-12"
+   },
+   {
+    "s": 2,
+    "n": 11,
+    "t": "5:00 P.M.",
+    "d": "2026-03-19"
+   },
+   {
+    "s": 2,
+    "n": 12,
+    "t": "6:00 P.M.",
+    "d": "2026-03-26"
+   },
+   {
+    "s": 2,
+    "n": 13,
+    "t": "7:00 P.M.",
+    "d": "2026-04-02"
+   },
+   {
+    "s": 2,
+    "n": 14,
+    "t": "8:00 P.M.",
+    "d": "2026-04-09"
+   },
+   {
+    "s": 2,
+    "n": 15,
+    "t": "9:00 P.M.",
+    "d": "2026-04-16"
+   }
+  ]
+ },
+ "It: Bienvenidos a Derry": {
+  "id": 61324,
+  "nombre": "IT: Welcome to Derry",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/594/1485959.jpg",
+  "estado": "Running",
+  "peso": 99,
+  "nota": 7.8,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "The Pilot",
+    "d": "2025-10-26"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "The Thing in the Dark",
+    "d": "2025-11-02"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Now You See It",
+    "d": "2025-11-09"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "The Great Swirling Apparatus of Our Planet's Function",
+    "d": "2025-11-16"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "29 Neibolt Street",
+    "d": "2025-11-23"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "In the Name of the Father",
+    "d": "2025-11-30"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "The Black Spot",
+    "d": "2025-12-07"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "Winter Fire",
+    "d": "2025-12-14"
+   }
+  ]
+ },
+ "Task": {
+  "id": 80725,
+  "nombre": "Task",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/586/1466647.jpg",
+  "estado": "Running",
+  "peso": 100,
+  "nota": 7.4,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Crossings",
+    "d": "2025-09-07"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Family Statements",
+    "d": "2025-09-14"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Nobody's Stronger Than Forgiveness",
+    "d": "2025-09-21"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "All Roads",
+    "d": "2025-09-28"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Vagrants",
+    "d": "2025-10-05"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "Out Beyond Ideas of Wrongdoing and Rightdoing, There Is a River",
+    "d": "2025-10-12"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "A Still Small Voice",
+    "d": "2025-10-19"
+   }
+  ]
+ },
+ "Duster": {
+  "id": 47259,
+  "nombre": "Duster",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/568/1420133.jpg",
+  "estado": "Ended",
+  "peso": 95,
+  "nota": 6.4,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Baltimore Changes Everything",
+    "d": "2025-05-15"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Suspicious Minds",
+    "d": "2025-05-22"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "You're No Good",
+    "d": "2025-05-29"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Crimunalus Velocitus Super-Sonicus",
+    "d": "2025-06-05"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Ravishing Light and Glory",
+    "d": "2025-06-12"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "Встречают по одёжке (Meet by the Clothes)",
+    "d": "2025-06-19"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "K-129",
+    "d": "2025-06-26"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "66 Reno Split",
+    "d": "2025-07-03"
+   }
+  ]
+ },
+ "The Chair Company": {
+  "id": 75852,
+  "nombre": "The Chair Company",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/591/1479768.jpg",
+  "estado": "Running",
+  "peso": 98,
+  "nota": 5.8,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Life goes by too f**king fast, it really does.",
+    "d": "2025-10-12"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "New blood. There's 5 Rons now.",
+    "d": "2025-10-19"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "@BrownDerbyHistoricVids Little bit of Hollywood? Okayyy.",
+    "d": "2025-10-26"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Bahld Harmon birthplace (disputed)",
+    "d": "2025-11-02"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "I won. Zoom in.",
+    "d": "2025-11-09"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "Happy Birthday, a friend.",
+    "d": "2025-11-16"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "I said to my dog, \"How do you like my hippie shirt?\"",
+    "d": "2025-11-23"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "Minnie Mouse coming back wasn't on my bingo card.",
+    "d": "2025-11-30"
+   }
+  ]
+ },
+ "The Bondsman": {
+  "id": 69605,
+  "nombre": "The Bondsman",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/560/1400212.jpg",
+  "estado": "Ended",
+  "peso": 90,
+  "nota": 6.9,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Pot O’Gold",
+    "d": "2025-04-03"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Valacor",
+    "d": "2025-04-03"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Marphos",
+    "d": "2025-04-03"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Erdos",
+    "d": "2025-04-03"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Slypharis",
+    "d": "2025-04-03"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "Revelations",
+    "d": "2025-04-03"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "Pyralis",
+    "d": "2025-04-03"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "Lilith",
+    "d": "2025-04-03"
+   }
+  ]
+ },
+ "Overcompensating": {
+  "id": 74993,
+  "nombre": "Overcompensating",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/568/1420131.jpg",
+  "estado": "Running",
+  "peso": 97,
+  "nota": 6.2,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Lucky",
+    "d": "2025-05-15"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Who's That Girl",
+    "d": "2025-05-15"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Black and Yellow",
+    "d": "2025-05-15"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Boom Clap",
+    "d": "2025-05-15"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Scary Monsters and Nice Sprites",
+    "d": "2025-05-15"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "The Edge of Glory",
+    "d": "2025-05-15"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "Welcome to the Black Parade",
+    "d": "2025-05-15"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "Crown on the Ground",
+    "d": "2025-05-15"
+   }
+  ]
+ },
+ "Motorheads": {
+  "id": 72864,
+  "nombre": "Motorheads",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/567/1418402.jpg",
+  "estado": "Ended",
+  "peso": 95,
+  "nota": 7.2,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Pilot",
+    "d": "2025-05-20"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Glow",
+    "d": "2025-05-20"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Assessment",
+    "d": "2025-05-20"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Disassemble",
+    "d": "2025-05-20"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Value",
+    "d": "2025-05-20"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "Reassemble",
+    "d": "2025-05-20"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "Red, Green, Blue",
+    "d": "2025-05-20"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "Wiring",
+    "d": "2025-05-20"
+   },
+   {
+    "s": 1,
+    "n": 9,
+    "t": "Ignition",
+    "d": "2025-05-20"
+   },
+   {
+    "s": 1,
+    "n": 10,
+    "t": "Redbird",
+    "d": "2025-05-20"
+   }
+  ]
+ },
+ "Countdown": {
+  "id": 77625,
+  "nombre": "Countdown",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/571/1427583.jpg",
+  "estado": "Ended",
+  "peso": 98,
+  "nota": 6.7,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Teeth in the Bone",
+    "d": "2025-06-25"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Dead Lots of Times",
+    "d": "2025-06-25"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Happy Birthday Final",
+    "d": "2025-06-25"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Bite 'Em Down",
+    "d": "2025-07-02"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Blurred Edges",
+    "d": "2025-07-09"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "A Needle or a Bullet",
+    "d": "2025-07-16"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "Nothing Else Helps",
+    "d": "2025-07-23"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "The Nail in the Chair",
+    "d": "2025-07-30"
+   },
+   {
+    "s": 1,
+    "n": 9,
+    "t": "10-33",
+    "d": "2025-08-06"
+   },
+   {
+    "s": 1,
+    "n": 10,
+    "t": "The Muzzle Pile",
+    "d": "2025-08-13"
+   },
+   {
+    "s": 1,
+    "n": 11,
+    "t": "Run",
+    "d": "2025-08-20"
+   },
+   {
+    "s": 1,
+    "n": 12,
+    "t": "This Is His Signature",
+    "d": "2025-08-27"
+   },
+   {
+    "s": 1,
+    "n": 13,
+    "t": "Your People Are in Danger",
+    "d": "2025-09-03"
+   }
+  ]
+ },
+ "Étoile": {
+  "id": 68394,
+  "nombre": "Étoile",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/565/1413224.jpg",
+  "estado": "Ended",
+  "peso": 83,
+  "nota": 6.1,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "The Swap",
+    "d": "2025-04-24"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "The Bull",
+    "d": "2025-04-24"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "The Fish",
+    "d": "2025-04-24"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "The Hiccup",
+    "d": "2025-04-24"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "The Rat",
+    "d": "2025-04-24"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "The Disaster",
+    "d": "2025-04-24"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "The Slip",
+    "d": "2025-04-24"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "The Offer",
+    "d": "2025-04-24"
+   }
+  ]
+ },
+ "Butterfly": {
+  "id": 68899,
+  "nombre": "Butterfly",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/579/1449861.jpg",
+  "estado": "Ended",
+  "peso": 97,
+  "nota": 6.4,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Pilot",
+    "d": "2025-08-13"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Daegu",
+    "d": "2025-08-13"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Busan",
+    "d": "2025-08-13"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Pohang",
+    "d": "2025-08-13"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Seoul",
+    "d": "2025-08-13"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "Annyeong",
+    "d": "2025-08-13"
+   }
+  ]
+ },
+ "Mentiras, la serie": {
+  "id": 85435,
+  "nombre": "Mentiras, la serie",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/574/1436964.jpg",
+  "estado": "Ended",
+  "peso": 44,
+  "nota": null,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Mentiras",
+    "d": "2025-06-13"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Chacales, castores y parásitos",
+    "d": "2025-06-13"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Detrás de un gran hombre",
+    "d": "2025-06-13"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Ecuaciones de Segundo Grado",
+    "d": "2025-06-13"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Una Noche de Copas",
+    "d": "2025-06-13"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "Una Noche Loca",
+    "d": "2025-06-13"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "Confesiones",
+    "d": "2025-06-13"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "Verdades",
+    "d": "2025-06-13"
+   }
+  ]
+ },
+ "Beast Games": {
+  "id": 75430,
+  "nombre": "Beast Games",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/607/1517768.jpg",
+  "estado": "Running",
+  "peso": 94,
+  "nota": 6.1,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "1,000 People Fight For $5,000,000",
+    "d": "2024-12-19"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "500 People Trapped In My City",
+    "d": "2024-12-19"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "The Solitary Experiment",
+    "d": "2024-12-26"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "The Golden Ticket",
+    "d": "2025-01-02"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Fight to Win a Private Island",
+    "d": "2025-01-09"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "Physical, Mental, Chance...Your Choice",
+    "d": "2025-01-16"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "The Elimination Train",
+    "d": "2025-01-23"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "Betray Your Friend For $1,000,000",
+    "d": "2025-01-30"
+   },
+   {
+    "s": 1,
+    "n": 9,
+    "t": "Bribe Your Way To The Finale",
+    "d": "2025-02-06"
+   },
+   {
+    "s": 1,
+    "n": 10,
+    "t": "$10,000,000 Coin Flip",
+    "d": "2025-02-13"
+   },
+   {
+    "s": 2,
+    "n": 1,
+    "t": "Strong vs Smart Compete for $5,000,000",
+    "d": "2026-01-07"
+   },
+   {
+    "s": 2,
+    "n": 2,
+    "t": "Choose Your Fate",
+    "d": "2026-01-07"
+   },
+   {
+    "s": 2,
+    "n": 3,
+    "t": "The Obstacle Course",
+    "d": "2026-01-07"
+   },
+   {
+    "s": 2,
+    "n": 4,
+    "t": "The Survivor Takeover",
+    "d": "2026-01-14"
+   },
+   {
+    "s": 2,
+    "n": 5,
+    "t": "Ask For Anything You Want",
+    "d": "2026-01-21"
+   },
+   {
+    "s": 2,
+    "n": 6,
+    "t": "Hearts Will Be Smashed",
+    "d": "2026-01-28"
+   },
+   {
+    "s": 2,
+    "n": 7,
+    "t": "Bury Me Alive",
+    "d": "2026-02-04"
+   },
+   {
+    "s": 2,
+    "n": 8,
+    "t": "Would You Steal $1,000,000?",
+    "d": "2026-02-11"
+   },
+   {
+    "s": 2,
+    "n": 9,
+    "t": "Trust Nobody",
+    "d": "2026-02-18"
+   },
+   {
+    "s": 2,
+    "n": 10,
+    "t": "$5,000,000 Decision",
+    "d": "2026-02-25"
+   }
+  ]
+ },
+ "MobLand": {
+  "id": 75026,
+  "nombre": "MobLand",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/641/1604671.jpg",
+  "estado": "Running",
+  "peso": 100,
+  "nota": 8.1,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Stick or Twist",
+    "d": "2025-03-30"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Jigsaw Puzzle",
+    "d": "2025-04-06"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Plan B",
+    "d": "2025-04-13"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Rat Trap",
+    "d": "2025-04-20"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Funeral for a Friend",
+    "d": "2025-04-27"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "Antwerp Blues",
+    "d": "2025-05-04"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "The Crossroads",
+    "d": "2025-05-11"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "Helter Skelter",
+    "d": "2025-05-18"
+   },
+   {
+    "s": 1,
+    "n": 9,
+    "t": "Beggars Banquet",
+    "d": "2025-05-25"
+   },
+   {
+    "s": 1,
+    "n": 10,
+    "t": "The Beast in Me",
+    "d": "2025-06-01"
+   },
+   {
+    "s": 2,
+    "n": 1,
+    "t": "I Wanna Be Your Dog",
+    "d": "2026-09-18"
+   },
+   {
+    "s": 2,
+    "n": 2,
+    "t": "Song 2",
+    "d": "2026-09-25"
+   },
+   {
+    "s": 2,
+    "n": 3,
+    "t": "Bonzo Goes to Bitburg",
+    "d": "2026-10-02"
+   },
+   {
+    "s": 2,
+    "n": 4,
+    "t": "Blank Curtain",
+    "d": "2026-10-09"
+   },
+   {
+    "s": 2,
+    "n": 5,
+    "t": "Birdland",
+    "d": "2026-10-16"
+   },
+   {
+    "s": 2,
+    "n": 6,
+    "t": "A Different Corner",
+    "d": "2026-10-23"
+   },
+   {
+    "s": 2,
+    "n": 7,
+    "t": "Episode 7",
+    "d": "2026-10-30"
+   },
+   {
+    "s": 2,
+    "n": 8,
+    "t": "Episode 8",
+    "d": "2026-11-06"
+   },
+   {
+    "s": 2,
+    "n": 9,
+    "t": "Episode 9",
+    "d": "2026-11-13"
+   },
+   {
+    "s": 2,
+    "n": 10,
+    "t": "Episode 10",
+    "d": "2026-11-20"
+   }
+  ]
+ },
+ "Dexter: Resurrection": {
+  "id": 78665,
+  "nombre": "Dexter: Resurrection",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/577/1443218.jpg",
+  "estado": "Running",
+  "peso": 100,
+  "nota": 8.4,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "A Beating Heart…",
+    "d": "2025-07-11"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Camera Shy",
+    "d": "2025-07-11"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Backseat Driver",
+    "d": "2025-07-18"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Call Me Red",
+    "d": "2025-07-25"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Murder Horny",
+    "d": "2025-08-01"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "Cats & Mouse",
+    "d": "2025-08-08"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "Course Correction",
+    "d": "2025-08-15"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "The Kill Room Where It Happens",
+    "d": "2025-08-22"
+   },
+   {
+    "s": 1,
+    "n": 9,
+    "t": "Touched By An Ángel",
+    "d": "2025-08-29"
+   },
+   {
+    "s": 1,
+    "n": 10,
+    "t": "And Justice For All...",
+    "d": "2025-09-05"
+   },
+   {
+    "s": 2,
+    "n": 1,
+    "t": "TBA",
+    "d": "2026-10-30"
+   }
+  ]
+ },
+ "Con esa misma mirada": {
+  "id": 83475,
+  "nombre": "Con Esa Misma Mirada",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/560/1401855.jpg",
+  "estado": "To Be Determined",
+  "peso": 53,
+  "nota": null,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "Entre lienzos y engaños",
+    "d": "2025-03-21"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "Mirada de duda",
+    "d": "2025-03-21"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "Sombras de desconfianza",
+    "d": "2025-03-21"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "El despertar de Eloísa",
+    "d": "2025-03-21"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Tras la sombra de Gabriela",
+    "d": "2025-03-21"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "La despedida",
+    "d": "2025-03-21"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "Caída libre",
+    "d": "2025-03-21"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "Frente al espejo",
+    "d": "2025-03-21"
+   },
+   {
+    "s": 2,
+    "n": 1,
+    "t": "La verdad",
+    "d": "2025-06-27"
+   },
+   {
+    "s": 2,
+    "n": 2,
+    "t": "Temictli",
+    "d": "2025-06-27"
+   },
+   {
+    "s": 2,
+    "n": 3,
+    "t": "Información Pública",
+    "d": "2025-06-27"
+   },
+   {
+    "s": 2,
+    "n": 4,
+    "t": "¿Quién es Eloísa Obregón?",
+    "d": "2025-06-27"
+   },
+   {
+    "s": 2,
+    "n": 5,
+    "t": "Limbo",
+    "d": "2025-06-27"
+   },
+   {
+    "s": 2,
+    "n": 6,
+    "t": "Con esa misma mirada",
+    "d": "2025-06-27"
+   },
+   {
+    "s": 2,
+    "n": 7,
+    "t": "¿Cuánto futuro?",
+    "d": "2025-06-27"
+   },
+   {
+    "s": 2,
+    "n": 8,
+    "t": "Callar los miedos",
+    "d": "2025-06-27"
+   },
+   {
+    "s": 3,
+    "n": 1,
+    "t": "Regresar el tiempo",
+    "d": "2025-10-17"
+   },
+   {
+    "s": 3,
+    "n": 2,
+    "t": "La duda",
+    "d": "2025-10-17"
+   },
+   {
+    "s": 3,
+    "n": 3,
+    "t": "Volver a estar juntos",
+    "d": "2025-10-17"
+   },
+   {
+    "s": 3,
+    "n": 4,
+    "t": "Un gran hombre",
+    "d": "2025-10-17"
+   },
+   {
+    "s": 3,
+    "n": 5,
+    "t": "En la orilla",
+    "d": "2025-10-17"
+   },
+   {
+    "s": 3,
+    "n": 6,
+    "t": "Correr el riesgo",
+    "d": "2025-10-17"
+   },
+   {
+    "s": 3,
+    "n": 7,
+    "t": "De corazón a corazón",
+    "d": "2025-10-17"
+   },
+   {
+    "s": 3,
+    "n": 8,
+    "t": "Un sueño",
+    "d": "2025-10-17"
+   }
+  ]
+ },
+ "Gachiakuta": {
+  "id": 81834,
+  "nombre": "Gachiakuta",
+  "poster": "https://static.tvmaze.com/uploads/images/medium_portrait/593/1483989.jpg",
+  "estado": "Running",
+  "peso": 93,
+  "nota": 7,
+  "eps": [
+   {
+    "s": 1,
+    "n": 1,
+    "t": "The Sphere",
+    "d": "2025-07-06"
+   },
+   {
+    "s": 1,
+    "n": 2,
+    "t": "The Inhabited",
+    "d": "2025-07-13"
+   },
+   {
+    "s": 1,
+    "n": 3,
+    "t": "The Ground",
+    "d": "2025-07-27"
+   },
+   {
+    "s": 1,
+    "n": 4,
+    "t": "Cleaner HQ",
+    "d": "2025-08-03"
+   },
+   {
+    "s": 1,
+    "n": 5,
+    "t": "Raiders",
+    "d": "2025-08-10"
+   },
+   {
+    "s": 1,
+    "n": 6,
+    "t": "One Good Strike!!",
+    "d": "2025-08-17"
+   },
+   {
+    "s": 1,
+    "n": 7,
+    "t": "A Score to Settle",
+    "d": "2025-08-24"
+   },
+   {
+    "s": 1,
+    "n": 8,
+    "t": "Moving Forward",
+    "d": "2025-08-31"
+   },
+   {
+    "s": 1,
+    "n": 9,
+    "t": "The City of Graffiti",
+    "d": "2025-09-07"
+   },
+   {
+    "s": 1,
+    "n": 10,
+    "t": "Penta: The Desert No Man's Land",
+    "d": "2025-09-14"
+   },
+   {
+    "s": 1,
+    "n": 11,
+    "t": "Amo's Hospitality",
+    "d": "2025-09-21"
+   },
+   {
+    "s": 1,
+    "n": 12,
+    "t": "Something Like a Curse",
+    "d": "2025-09-28"
+   },
+   {
+    "s": 1,
+    "n": 13,
+    "t": "An Empty Gaze",
+    "d": "2025-10-05"
+   },
+   {
+    "s": 1,
+    "n": 14,
+    "t": "The Storm Before the Storm",
+    "d": "2025-10-12"
+   },
+   {
+    "s": 1,
+    "n": 15,
+    "t": "Clash!",
+    "d": "2025-10-19"
+   },
+   {
+    "s": 1,
+    "n": 16,
+    "t": "Gifted and Not",
+    "d": "2025-10-26"
+   },
+   {
+    "s": 1,
+    "n": 17,
+    "t": "Memories of a Mediocrity",
+    "d": "2025-11-02"
+   },
+   {
+    "s": 1,
+    "n": 18,
+    "t": "Oh Zap, Totes Legit",
+    "d": "2025-11-09"
+   },
+   {
+    "s": 1,
+    "n": 19,
+    "t": "Watchmen Series",
+    "d": "2025-11-16"
+   },
+   {
+    "s": 1,
+    "n": 20,
+    "t": "Ensign",
+    "d": "2025-11-23"
+   },
+   {
+    "s": 1,
+    "n": 21,
+    "t": "TIME ATTACK",
+    "d": "2025-11-30"
+   },
+   {
+    "s": 1,
+    "n": 22,
+    "t": "The Power of Protection",
+    "d": "2025-12-07"
+   },
+   {
+    "s": 1,
+    "n": 23,
+    "t": "The Man Who Will Be Stronger",
+    "d": "2025-12-14"
+   },
+   {
+    "s": 1,
+    "n": 24,
+    "t": "Field Trip",
+    "d": "2025-12-21"
+   }
+  ]
  }
 }

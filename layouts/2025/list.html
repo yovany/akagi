@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ .Site.Title }}</title>
+<title>Videolog 2025 | {{ .Site.Title }}</title>
 <style>
 :root {
   color-scheme: light dark;
@@ -96,17 +96,17 @@ body:has(#t-serie:checked) .grp:not(:has(.serie))    { display: none; }
 </style>
 </head>
 <body>
-{{ $vistas := hugo.Data.videolog.vistas | default slice }}
-{{ $esperando := hugo.Data.videolog.esperando | default slice }}
-{{ $algun := hugo.Data.videolog.algun_dia | default slice }}
-{{ $nose := hugo.Data.videolog.no_se | default slice }}
+{{ $vistas := hugo.Data.videolog2025.vistas | default slice }}
+{{ $esperando := hugo.Data.videolog2025.esperando | default slice }}
+{{ $algun := hugo.Data.videolog2025.algun_dia | default slice }}
+{{ $nose := hugo.Data.videolog2025.no_se | default slice }}
 {{ $series := hugo.Data.series | default dict }}
 {{ $pelis := hugo.Data.peliculas | default dict }}
 {{ $hoy := now.Format "2006-01-02" }}
 
 <div class="wrap">
   <header>
-    <h1>Videolog <a class="volver" href="/2025/">2025 →</a></h1>
+    <h1>Videolog 2025 <a class="volver" href="/">← 2026</a></h1>
     <div class="stats">
       <span class="pill"><i style="background:var(--cine)"></i><b>{{ len (where $vistas "donde" "cine") }}</b> en cine</span>
       <span class="pill"><i style="background:var(--stream)"></i><b>{{ len (where $vistas "donde" "streaming") }}</b> en streaming</span>

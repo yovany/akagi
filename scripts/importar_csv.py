@@ -5,7 +5,9 @@ Estatus (columna `estatus`):  v = vistas · e = esperando · a = algún día · 
 Columnas que se leen: estatus, donde, caps_vistos, fecha_vista, mi_nota, y las de referencia
 (tipo, titulo, temp, original, plataforma, estreno, tvmaze) para reconstruir cada título.
 
-Uso:  python3 scripts/importar_csv.py videolog_editado.csv
+Uso:  python3 scripts/importar_csv.py videolog_editado.csv [nombre_salida]
+      (nombre_salida por defecto: videolog -> data/videolog.yaml; p.ej. "videolog2025"
+      escribe data/videolog2025.yaml, para tener un dataset separado por año)
 """
 import csv, io, re, sys
 from datetime import date
@@ -95,9 +97,10 @@ def linea(x, fila):
 
 
 def main():
-    if len(sys.argv) != 2:
+    if len(sys.argv) not in (2, 3):
         sys.exit(__doc__)
     ruta = Path(sys.argv[1]).expanduser()
+    nombre_salida = sys.argv[2] if len(sys.argv) == 3 else "videolog"
     crudo = ruta.read_text(encoding="utf-8-sig")
     inicio = crudo.find("#,estatus")          # Numbers antepone una línea con el nombre de la tabla
     if inicio < 0:
@@ -115,8 +118,8 @@ def main():
         out.append(f"{nombre}:" + ("" if grupos[e] else " []"))
         out.extend(grupos[e])
         out.append("")
-    (ROOT / "data/videolog.yaml").write_text("\n".join(out))
-    print("videolog.yaml regenerado: " + " · ".join(f"{SECCION[e]} {len(v)}" for e, v in grupos.items()) + f"  (total {len(filas)})")
+    (ROOT / f"data/{nombre_salida}.yaml").write_text("\n".join(out))
+    print(f"{nombre_salida}.yaml regenerado: " + " · ".join(f"{SECCION[e]} {len(v)}" for e, v in grupos.items()) + f"  (total {len(filas)})")
 
 
 if __name__ == "__main__":

@@ -8,9 +8,10 @@ Lee los títulos de data/videolog.yaml y escribe:
 Campos opcionales por título en videolog.yaml: `tvmaze: <id>` (evita la búsqueda) y
 `temp: N` (solo los capítulos de esa temporada; para temporadas nuevas de series ya existentes).
 
-Uso:  python3 scripts/fetch_media.py            # solo lo que falta
-      python3 scripts/fetch_media.py --all      # vuelve a bajar todo
-      python3 scripts/fetch_media.py --pesos    # actualiza popularidad y nota de las series
+Uso:  python3 scripts/fetch_media.py                    # solo lo que falta, de data/videolog.yaml
+      python3 scripts/fetch_media.py --all              # vuelve a bajar todo
+      python3 scripts/fetch_media.py --pesos             # actualiza popularidad y nota de las series
+      python3 scripts/fetch_media.py videolog2025        # usa data/videolog2025.yaml en vez de videolog.yaml
 Solo usa la librería estándar.
 """
 import json, re, sys, time, unicodedata, urllib.error, urllib.parse, urllib.request
@@ -42,10 +43,10 @@ def get(url, intentos=5):
             raise
 
 
-def leer_items():
-    """Cada línea `- {t: "...", o: "...", tipo: ...}` de videolog.yaml (sin PyYAML)."""
+def leer_items(dataset="videolog"):
+    """Cada línea `- {t: "...", o: "...", tipo: ...}` de data/{dataset}.yaml (sin PyYAML)."""
     items = []
-    for linea in (ROOT / "data/videolog.yaml").read_text().splitlines():
+    for linea in (ROOT / f"data/{dataset}.yaml").read_text().splitlines():
         m = re.match(r"^\s*-\s*\{(.*)\}\s*$", linea)
         if not m:
             continue
@@ -166,7 +167,8 @@ def main():
     if "--pesos" in sys.argv:
         return rellenar_pesos()
     todo = "--all" in sys.argv
-    items = leer_items()
+    dataset = next((a for a in sys.argv[1:] if not a.startswith("--")), "videolog")
+    items = leer_items(dataset)
     series_p, pelis_p = ROOT / "data/series.json", ROOT / "data/peliculas.json"
     series = {} if todo or not series_p.exists() else json.loads(series_p.read_text())
     pelis = {} if todo or not pelis_p.exists() else json.loads(pelis_p.read_text())
